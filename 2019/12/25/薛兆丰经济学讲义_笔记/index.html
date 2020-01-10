@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo%2032x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logo16x16.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('https://bug777.github.io').hostname,
+    root: '/',
+    scheme: 'Muse',
+    version: '7.6.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta name="description" content="C6 耐心 | 想象力决定生产力不确定性 | 时间偏好带来的回报058 易耗品与耐用品每个人在面临四种比较基本的约束：东西不够，时间有限，互相依赖，需要协调。欧文·费雪(Irving Fisher)在《利息理论》(The Theory of Internet,1930)一书中说“Investment is the balance of consumption over time .投资是时间维度上">
+<meta property="og:type" content="article">
+<meta property="og:title" content="薛兆丰经济学讲义_笔记">
+<meta property="og:url" content="https://bug777.github.io/2019/12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:site_name" content="克己">
+<meta property="og:description" content="C6 耐心 | 想象力决定生产力不确定性 | 时间偏好带来的回报058 易耗品与耐用品每个人在面临四种比较基本的约束：东西不够，时间有限，互相依赖，需要协调。欧文·费雪(Irving Fisher)在《利息理论》(The Theory of Internet,1930)一书中说“Investment is the balance of consumption over time .投资是时间维度上">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://bug777.github.io/.io//%E6%94%BE%E8%B4%B7%E8%80%85%E5%92%8C%E4%BB%96%E7%9A%84%E5%A6%BB%E5%AD%90.PNG">
+<meta property="og:image" content="https://bug777.github.io/.io//%E3%80%8A%E7%BE%8E%E4%B8%BD%E5%BF%83%E7%81%B5%E3%80%8B%E6%88%AA%E5%9B%BE.PNG">
+<meta property="og:image" content="https://bug777.github.io/.io//12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/example.jpg">
+<meta property="og:image" content="https://bug777.github.io/.io//%E7%AB%9E%E4%BA%89%E7%9A%84%E5%90%AB%E4%B9%89.JPG">
+<meta property="og:image" content="https://bug777.github.io/.io//12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/example.jpg">
+<meta property="og:image" content="https://bug777.github.io/.io//12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/%E3%80%8A%E7%BE%8E%E4%B8%BD%E5%BF%83%E7%81%B5%E3%80%8B%E6%88%AA%E5%9B%BE.PNG">
+<meta property="og:image" content="https://bug777.github.io/.io//12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/example.jpg">
+<meta property="og:image" content="https://bug777.github.io/.io//12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/example.jpg">
+<meta property="article:published_time" content="2019-12-25T12:33:33.728Z">
+<meta property="article:modified_time" content="2020-01-09T06:56:34.872Z">
+<meta property="article:author" content="？">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://bug777.github.io/.io//%E6%94%BE%E8%B4%B7%E8%80%85%E5%92%8C%E4%BB%96%E7%9A%84%E5%A6%BB%E5%AD%90.PNG">
+
+<link rel="canonical" href="https://bug777.github.io/2019/12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title>薛兆丰经济学讲义_笔记 | 克己</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">克己</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">骑吾马 携吾刀</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://bug777.github.io/2019/12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="？">
+      <meta itemprop="description" content="一个集知识与经历的博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="克己">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          薛兆丰经济学讲义_笔记
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-12-25 20:33:33" itemprop="dateCreated datePublished" datetime="2019-12-25T20:33:33+08:00">2019-12-25</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-01-09 14:56:34" itemprop="dateModified" datetime="2020-01-09T14:56:34+08:00">2020-01-09</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="C6-耐心-想象力决定生产力"><a href="#C6-耐心-想象力决定生产力" class="headerlink" title="C6 耐心 | 想象力决定生产力"></a>C6 耐心 | 想象力决定生产力</h1><h2 id="不确定性-时间偏好带来的回报"><a href="#不确定性-时间偏好带来的回报" class="headerlink" title="不确定性 | 时间偏好带来的回报"></a>不确定性 | 时间偏好带来的回报</h2><h3 id="058-易耗品与耐用品"><a href="#058-易耗品与耐用品" class="headerlink" title="058 易耗品与耐用品"></a>058 易耗品与耐用品</h3><p>每个人在面临四种比较<strong>基本的约束</strong>：东西不够，时间有限，互相依赖，需要协调。<br><a href="https://wiki.mbalib.com/wiki/%E6%AC%A7%E6%96%87%C2%B7%E8%B4%B9%E9%9B%AA" target="_blank" rel="noopener">欧文·费雪(Irving Fisher)</a>在<a href="https://book.douban.com/subject/24878119/" target="_blank" rel="noopener">《利息理论》(The Theory of Internet,1930)</a>一书中说“Investment is the balance of consumption over time .投资是时间维度上的平衡消费。”他认为，利息是人类社会最古老的现象之一，它起源于时间，起源于人们的耐心。<br><strong>易耗品</strong>:一次性消费完毕的物品，如苹果<br><strong>耐用品</strong>:耐用品在长时间的维度上体现价值，如苹果树，油画，学位，儿童，人力资本</p>
+<h3 id="059-不耐产生交易"><a href="#059-不耐产生交易" class="headerlink" title="059 不耐产生交易"></a>059 不耐产生交易</h3><p>耐心与<strong>自律</strong>，<strong>时局</strong>，<strong>文化背景</strong>有关<br>社会环境的<strong>不确定性</strong>会作用在利率上，以作为对推迟消费的补偿。</p>
+<h3 id="060-利率管制及其后果"><a href="#060-利率管制及其后果" class="headerlink" title="060 利率管制及其后果"></a>060 利率管制及其后果</h3><p>在人类历史上大多数国家，收取利息被认为是一种不道德的行为，甚至被禁止。。<br>在美国，直到1980年颁布《<strong>储蓄机构放松管制和货币控制法</strong>》以后，才完全解除对利息的控制。<br>在中国，根据<a href="http://www.court.gov.cn/zixun-xiangqing-15146.html" target="_blank" rel="noopener">《<strong>最高人民法院关于审理民间借贷适用于法律若干问题的规定</strong>》</a>,民间借贷不得超过年利率36%，超过部分不受法律保护。</p>
+<p>在宗教和文学作品中都有对“利息”抵触的表现，比如在<strong>莎士比亚的《威尼斯商人》</strong> 中，向基督徒安东尼奥放贷的犹太人夏洛克经常被人们认为是一个唯利是图的小人，这与在文学作品中，很容易忽略对<strong>时间维度</strong>的感知。<br>这里存在一个<strong>固有印象</strong>，需要借钱的一般是急用钱的或低收入人群，放贷者借出钱，但收取利息，则会被认为是趁火打劫，且在过去医疗等水平低，不确定因素较多，民间利息较高，一旦还不清本金，会发生卖身等丧失自由的情况，因此导致某种<strong>仇富</strong>的情绪。<br>屏幕对面的你，是否认为只有工人、农民才是真正创造财富的人，而那些放贷者收利息是坐享其成？是否认为“等待、承担风险、推迟消费、提供流动性”不属于对社会的贡献？</p>
+<h1 id="C6-耐心-想象力决定生产力-1"><a href="#C6-耐心-想象力决定生产力-1" class="headerlink" title="C6 耐心 | 想象力决定生产力"></a>C6 耐心 | 想象力决定生产力</h1><h2 id="不确定性-时间偏好带来的回报-1"><a href="#不确定性-时间偏好带来的回报-1" class="headerlink" title="不确定性 | 时间偏好带来的回报"></a>不确定性 | 时间偏好带来的回报</h2><h3 id="058-易耗品与耐用品-1"><a href="#058-易耗品与耐用品-1" class="headerlink" title="058 易耗品与耐用品"></a>058 易耗品与耐用品</h3><p>每个人在面临四种比较<strong>基本的约束</strong>：东西不够，时间有限，互相依赖，需要协调。<br><a href="https://wiki.mbalib.com/wiki/%E6%AC%A7%E6%96%87%C2%B7%E8%B4%B9%E9%9B%AA" target="_blank" rel="noopener">欧文·费雪(Irving Fisher)</a>在<a href="https://book.douban.com/subject/24878119/" target="_blank" rel="noopener">《利息理论》(The Theory of Internet,1930)</a>一书中说“Investment is the balance of consumption over time .投资是时间维度上的平衡消费。”他认为，利息是人类社会最古老的现象之一，它起源于时间，起源于人们的耐心。<br><strong>易耗品</strong>:一次性消费完毕的物品，如苹果<br><strong>耐用品</strong>:耐用品在长时间的维度上体现价值，如苹果树，油画，学位，儿童，人力资本</p>
+<h3 id="059-不耐产生交易-1"><a href="#059-不耐产生交易-1" class="headerlink" title="059 不耐产生交易"></a>059 不耐产生交易</h3><p>耐心与<strong>自律</strong>，<strong>时局</strong>，<strong>文化背景</strong>有关<br>社会环境的<strong>不确定性</strong>会作用在利率上，以作为对推迟消费的补偿。</p>
+<h3 id="060-利率管制及其后果-1"><a href="#060-利率管制及其后果-1" class="headerlink" title="060 利率管制及其后果"></a>060 利率管制及其后果</h3><p>在人类历史上大多数国家，收取利息被认为是一种不道德的行为，甚至被禁止。。<br>在美国，直到1980年颁布《<strong>储蓄机构放松管制和货币控制法</strong>》以后，才完全解除对利息的控制。<br>在中国，根据<a href="http://www.court.gov.cn/zixun-xiangqing-15146.html" target="_blank" rel="noopener">《<strong>最高人民法院关于审理民间借贷适用于法律若干问题的规定</strong>》</a>,民间借贷不得超过年利率36%，超过部分不受法律保护。</p>
+<p>在宗教和文学作品中都有对“利息”抵触的表现，比如在<strong>莎士比亚的《威尼斯商人》</strong> 中，向基督徒安东尼奥放贷的犹太人夏洛克经常被人们认为是一个唯利是图的小人，这与在文学作品中，很容易忽略对<strong>时间维度</strong>的感知。<br>这里存在一个<strong>固有印象</strong>，需要借钱的一般是急用钱的或低收入人群，放贷者借出钱，但收取利息，则会被认为是趁火打劫，且在过去医疗等水平低，不确定因素较多，民间利息较高，一旦还不清本金，会发生卖身等丧失自由的情况，因此导致某种<strong>仇富</strong>的情绪。<br>屏幕对面的你，是否认为只有工人、农民才是真正创造财富的人，而那些放贷者收利息是坐享其成？是否认为“等待、承担风险、推迟消费、提供流动性”不属于对社会的贡献？</p>
+<p><img src="/.io//%E6%94%BE%E8%B4%B7%E8%80%85%E5%92%8C%E4%BB%96%E7%9A%84%E5%A6%BB%E5%AD%90.PNG" alt="放贷者和他的妻"></p>
+<p>油画《放贷者和他的妻子》 Quentin Matsys于1514年所作  现藏于卢浮宫</p>
+<p><strong>利率管制</strong>过当的情况下，有可能出现<strong>有钱人不愿意借钱，黑社会放贷，迂回支付利息</strong>等情况。</p>
+<p>在某些地区，当地的政府会拨一种<strong>零利息小额贷款</strong>，如果审批不严格，会出现下面这种情况，钱被贷了，但是并不是由政策上希望用的人来使用，而是由有权钱有关系的人使用，那么制订之初的意愿就被违背了。</p>
+<h3 id="061利率变化支配资本现值"><a href="#061利率变化支配资本现值" class="headerlink" title="061利率变化支配资本现值"></a>061利率变化支配资本现值</h3><p><strong>贴现率</strong>:未来价值(期值)转换为当前价值(现值)的打折程度。<br><strong>贴现率影响个人自律程度</strong>:某些政商干部在早年没考虑到未来,只想到当下,造成一些”老寒腿问题”。<br><strong>贴现率公式</strong> pv现值 fv期值 r利率 n期数  pv = fv/(1+r)**n</p>
+<h2 id="有效市场假说-时间维度上的平衡消费"><a href="#有效市场假说-时间维度上的平衡消费" class="headerlink" title="有效市场假说 | 时间维度上的平衡消费"></a>有效市场假说 | 时间维度上的平衡消费</h2><h3 id="062投资就是时间维度上的平衡消费"><a href="#062投资就是时间维度上的平衡消费" class="headerlink" title="062投资就是时间维度上的平衡消费"></a>062投资就是时间维度上的平衡消费</h3><p>某石油老总打光石油，牺牲未来更高收益，没有考虑到机会成本。</p>
+<h3 id="063股价是否能预测"><a href="#063股价是否能预测" class="headerlink" title="063股价是否能预测"></a>063股价是否能预测</h3><p>两个分离世界：我们看得见，摸得着的<strong>物理世界</strong>；我们看不见，摸不着的<strong>观念世界</strong>，人们在那里时刻形成、比较、交换和修正对未来的预期。<br>1815年6月18日滑铁卢战役的胜败，1815年6月19日伦敦股票交易所里英国公债的买卖。罗斯柴尔德家族对战况的高效率情报左右了英国公债的价值。</p>
+<h3 id="064股市是否有泡沫"><a href="#064股市是否有泡沫" class="headerlink" title="064股市是否有泡沫"></a>064股市是否有泡沫</h3><p><a href="https://wiki.mbalib.com/wiki/%E5%B0%A4%E9%87%91%C2%B7%E6%B3%95%E7%8E%9B" target="_blank" rel="noopener">尤金·法玛(Eugene F. Fame)</a>提出<a href="https://wiki.mbalib.com/wiki/%E6%9C%89%E6%95%88%E5%B8%82%E5%9C%BA%E5%81%87%E8%AF%B4" target="_blank" rel="noopener">有效市场假说(efficient market hypothesis)</a>，核心内容即资产的价格已经反应了关于资产内在价值的所有可得信息，所以它们的价格就是最有效的价格。<br><a href="https://wiki.mbalib.com/wiki/%E7%BD%97%E4%BC%AF%E7%89%B9%C2%B7%E5%B8%8C%E5%8B%92" target="_blank" rel="noopener">罗伯特·席勒(Robert J.Shiller)</a>认为市场是存在泡沫的，在他的<a href="https://book.douban.com/subject/26803982/" target="_blank" rel="noopener">《非理性繁荣》(Irrational Exuberance,2000)</a>中，通过对一次又一次的股市泡沫的描述，他认为市场并不是十分有效，资产的定价有时过于高低不定，人的反应有时迟钝有时过敏。<br><a href="https://wiki.mbalib.com/wiki/%E5%87%AF%E6%81%A9%E6%96%AF" target="_blank" rel="noopener">凯恩斯·梅耶(John Maynard Keynes)</a>在<a href="https://book.douban.com/subject/1137246/" target="_blank" rel="noopener">《就业、利息和货币通论》(The General Theory of Employment、Interest and Money,1936)</a>提出下面的观点：一个模特最终能否赢得选美大赛，不是取决于她<strong>本身</strong>是否美丽，而是取决于<strong>别人</strong>觉得她是否能赢得选美大赛。</p>
+<p>自BTC之后，市场上出现了上千种数字货币，以BEAM为例，最高单价达到过￥20左右，最低单价达到过￥3左右，￥10入手的，想着有人炒起来后，￥20能卖出去，结果跌倒了￥3，割新韭菜一波，但没想到被老韭菜给割了。————<strong>博傻</strong></p>
+<h3 id="065所有资产的回报率都会趋向于相等"><a href="#065所有资产的回报率都会趋向于相等" class="headerlink" title="065所有资产的回报率都会趋向于相等"></a>065所有资产的回报率都会趋向于相等</h3><p>回报增加的同时，回报率不会增加。</p>
+<h2 id="预测未来-债券、保险与期货"><a href="#预测未来-债券、保险与期货" class="headerlink" title="预测未来 | 债券、保险与期货"></a>预测未来 | 债券、保险与期货</h2><h3 id="066未雨绸缪，储蓄？保险？"><a href="#066未雨绸缪，储蓄？保险？" class="headerlink" title="066未雨绸缪，储蓄？保险？"></a>066未雨绸缪，储蓄？保险？</h3><p>对待风险的三种态度：风险厌恶，风险偏好，风险中性<br>通过买保险使得未来生活的恶性变动不会大幅度影响生活，即花钱换取一种<strong>稳定性</strong><br>保险服务的三个前提条件：投保事项具有一定<strong>概率性</strong>，每一个投保人所具有的风险概率<strong>互不相关</strong>，概率事件<strong>独立</strong>于投保人意愿。</p>
+<h3 id="067保险的运作原理"><a href="#067保险的运作原理" class="headerlink" title="067保险的运作原理"></a>067保险的运作原理</h3><p>细分(segregation):把不同人的风险做精确的划分。<br>加总(aggregation):在每一个细分的组里，增加每一个细分组成员的人数。</p>
+<h3 id="068不是保险的保险"><a href="#068不是保险的保险" class="headerlink" title="068不是保险的保险"></a>068不是保险的保险</h3><p>失业保险是一种社会补贴。<br>失业保险金越高，失业率越高。<br>养老保险不是储值而是转移支付。</p>
+<h3 id="069当商品不被当作商品"><a href="#069当商品不被当作商品" class="headerlink" title="069当商品不被当作商品"></a>069当商品不被当作商品</h3><p>“我是市场经济的坚定支持者，但是医疗很特殊，不能用市场化的办法来解决”<br><strong>追求绝对</strong>公平不如实行双轨制。在<strong>时间和钱</strong>上作出选择。<br>政府提供廉价医疗，将产生庞大管制和管理费用。</p>
+<h3 id="070用期货合约来重新分配不可避免的风险"><a href="#070用期货合约来重新分配不可避免的风险" class="headerlink" title="070用期货合约来重新分配不可避免的风险"></a>070用期货合约来重新分配不可避免的风险</h3><p>期货市场满足人们对<strong>确定性</strong>的需求，其本质是为了<strong>分配风险</strong><br>期货市场鼓励人们对未来作出更精准的预测，如期货市场的相关当事人，对某些气候的了解比气象台要准，因为会影响其利益。<br><strong>零和，正和，负和</strong></p>
+<h1 id="C7供应-好钢用在刀刃上"><a href="#C7供应-好钢用在刀刃上" class="headerlink" title="C7供应 | 好钢用在刀刃上"></a>C7供应 | 好钢用在刀刃上</h1><h2 id="比较优势-天生我才必有用"><a href="#比较优势-天生我才必有用" class="headerlink" title="比较优势 | 天生我才必有用"></a>比较优势 | 天生我才必有用</h2><h3 id="071比较优势原理"><a href="#071比较优势原理" class="headerlink" title="071比较优势原理"></a>071比较优势原理</h3><p><a href="https://wiki.mbalib.com/wiki/%E6%9D%8E%E5%98%89%E5%9B%BE%E7%9A%84%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF%E7%90%86%E8%AE%BA" target="_blank" rel="noopener">比较优势原理(the principle of comparative advantage)</a>，最早是<a href="https://wiki.mbalib.com/wiki/%E5%A4%A7%E5%8D%AB%C2%B7%E6%9D%8E%E5%98%89%E5%9B%BE" target="_blank" rel="noopener">大卫·李嘉图(David Ricardo)</a>，在<a href="https://book.douban.com/subject/24745940/" target="_blank" rel="noopener">《政治经济学及赋税原理》(On the Principle of Political Economy and Taxation,1817)</a>中提出来的。<br>具体含义如下:在一个环境中，每个<strong>个体</strong>如果把<strong>有限的资源</strong>包括时间和精力，只用来生产对他们来说<strong>机会成本比较低</strong>的产品，然后跟别人<strong>交换</strong>，如此，整个社会产品的总价值就能达到最大，而且每个个体的境遇都会改变，而不论他们的绝对生产能力是高还是低。<br>比较优势原理的要点：个体(个人、国家、地区)，资源有限，比较优势来自个体内部比较，通过交换。</p>
+<p>类似的观点，在电影[《美丽心灵》]<br>(<a href="https://movie.douban.com/subject/1306029/)中，约翰·纳什也做出来类似的判断。" target="_blank" rel="noopener">https://movie.douban.com/subject/1306029/)中，约翰·纳什也做出来类似的判断。</a></p>
+<p><img src="/.io//%E3%80%8A%E7%BE%8E%E4%B8%BD%E5%BF%83%E7%81%B5%E3%80%8B%E6%88%AA%E5%9B%BE.PNG" alt="《美丽心灵》截图"></p>
+<img src="/.io//12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/example.jpg" class title="This is an example image">
+
+<p>比较优势在两个人完全一样的情况，随机选择一种工作，只要全力以赴做下去，然后进行交换，也会比他们两种工作都做会更好。</p>
+<p>亚当·斯密对此的解释有三点：<strong>A</strong>分工可以减少工作间的往返成本 <strong>B</strong>分工促进“熟能生巧” <strong>C</strong> <strong>分工</strong>使机器替代成为可能</p>
+<h3 id="072顺差逆差，孰优孰劣"><a href="#072顺差逆差，孰优孰劣" class="headerlink" title="072顺差逆差，孰优孰劣"></a>072顺差逆差，孰优孰劣</h3><p>A国从B国进口的产品多于A国向B国出口的产品，货币<strong>净流出</strong>的A国会出现<strong>贸易逆差</strong>，货币<strong>净流入</strong>的B国会出现<strong>贸易顺差</strong>。<br>国际贸易涉及到四方人士：<strong>本国的消费者</strong>，<strong>本国的生产者</strong>，<strong>国外的生产者</strong>，<strong>国外的消费者</strong>。落后者抵制“攻玉之石”。</p>
+<h3 id="073贸易对等和贸易报复"><a href="#073贸易对等和贸易报复" class="headerlink" title="073贸易对等和贸易报复"></a>073贸易对等和贸易报复</h3><p><strong>贸易报复将伤害国内消费者</strong></p>
+<p><strong>解除贸易壁垒不是让步</strong>：贸易双方总是得益的，受损的只是落后的第三方。薛兆丰老师在中国加入<strong>世界贸易组织</strong>之前，写了一篇<a href="http://xuezhaofeng.com/blog/?p=126" target="_blank" rel="noopener">《愈让步，愈进步》</a><br><strong>中国加入WTO的好处</strong>是通过一个国际协议来逼迫国内的保守势力进行<strong>改革</strong>。比较优势原理理论很强，但打开国门进行自由贸易，一旦涉及具体行业，就会有侵犯该行业的既得利益者。<br>某些国际贸易组织，要求国家和国家之间有平等的交换条件，各国劳动者的工作条件必须相同，这些条件其实是限制条件。</p>
+<p><strong>反思</strong>在弱国时期，打开国门，会产生企业倒闭和工人失业，是要等到国家强盛吗？</p>
+<h3 id="074贸易保护里有辨析"><a href="#074贸易保护里有辨析" class="headerlink" title="074贸易保护里有辨析"></a>074贸易保护里有辨析</h3><p>一个清晰的理论在现实生活中，经常会遭遇各种挑战。<br><strong>国家安全</strong><br><strong>扶持幼年工业(infant industry )</strong><br><strong>把钱留在本地</strong><br><strong>长期不练会生疏</strong>  有些需要经验积累，有些上手极快<br><strong>工作流失</strong>   工作不是有形物资，是一种机会，人们只会选择有价值的。<br>在新的国际分工和合作的格局中，工人应找到自己的<strong>位置</strong>，不断<strong>学习</strong>，进一步突破劳动力市场的各种限制，这才是他们提高竞争力的正确方向。<br><strong>贫富分化</strong>   先进国家的资本与落后国家的廉价劳动力相结合。<br>唯有不断进步，活水不腐，而非陷入桎梏。</p>
+<h2 id="价格歧视-定价和竞争的策略"><a href="#价格歧视-定价和竞争的策略" class="headerlink" title="价格歧视 | 定价和竞争的策略"></a>价格歧视 | 定价和竞争的策略</h2><h3 id="075受价者和觅价者"><a href="#075受价者和觅价者" class="headerlink" title="075受价者和觅价者"></a>075受价者和觅价者</h3><p>关于定价：经济学里有两个概念————<a href="https://wiki.mbalib.com/wiki/%E5%AE%8C%E5%85%A8%E7%AB%9E%E4%BA%89" target="_blank" rel="noopener"><strong>完全竞争状态(perfect competition)</strong></a>和<a href="https://wiki.mbalib.com/wiki/%E4%B8%8D%E5%AE%8C%E5%85%A8%E7%AB%9E%E4%BA%89" target="_blank" rel="noopener"><strong>不完全竞争状态(imperfect competition)</strong></a>。</p>
+<p><strong>完全竞争状态与受价者</strong>:在现实生活中，小农经济体中的农产品市场。由于农产品市场市场上农民数量相当多，而农产品的质量差距非常小，农民自己的产量跟整个市场的产量相比微不足道，所以只能被动地接受市场的价格，此时，农民即为<a href="https://wiki.mbalib.com/wiki/%E5%8F%97%E4%BB%B7%E8%80%85" target="_blank" rel="noopener"><strong>受价者(price taker)</strong></a><br><strong>不完全竞争状态与觅价者</strong>:市场上每一位卖家卖的产品，在品质上都不一样，信息不完全流通，不完全对称，交易费用为证，存在讨价还价，尔虞我诈地情况。卖家调控价格，不会对买家数量产生巨大波动。在这种市场，卖家具备一个最重要的特征，就是他们对价格和产量具有操控权。觅价者(price searcher)不断摸索合适的价格和产量来选择利益最大化。</p>
+<p>12月下旬，老母亲给我说，咱家那边的鸡蛋一下子一斤跌了五毛钱。过去一年，鸡和鸡蛋的行情一直不错，导致很多<strong>散户入场</strong>，按照鸡的生产周期，最前面跟风的那几波散户的鸡，现在大概到了产蛋高峰期，后面的散户的鸡也能零星地见蛋了，这严重影响到当地大户的利益。几家拥有5万以上规模的大户，有能力造成短期的<strong>价格剧跌</strong>，吓跑要入场的、拖垮被套牢的、打击上下不能自已的，最后让当地市场中鸡的数量回归到一个符合自己最大利益的程度，甚至“善良地”为散户减负。我个人认为，在这个过程中，大户就是“觅价者”，而散户和消费者就是“受价者”。</p>
+<p><strong>不完全竞争才是市场常态</strong><br>理想的状态并不理想，在完全竞争状态中，所有的厂家生产同样的产品，是一个静止、僵化、落后的状态，阁下向往吗？<br>哈耶克在<a href="https://mises.org/library/meaning-competition-2" target="_blank" rel="noopener">《竞争的含义》(The Meaning of Competition,1948)</a>中有如下观点。<br><img src="/.io//%E7%AB%9E%E4%BA%89%E7%9A%84%E5%90%AB%E4%B9%89.JPG" alt="竞争的含义"></p>
+<h3 id="076价格歧视能给觅价者脱罪"><a href="#076价格歧视能给觅价者脱罪" class="headerlink" title="076价格歧视能给觅价者脱罪"></a>076价格歧视能给觅价者脱罪</h3><p><a href="https://wiki.mbalib.com/wiki/%E4%BB%B7%E6%A0%BC%E6%AD%A7%E8%A7%86" target="_blank" rel="noopener"><strong>价格歧视(Price Discrimination)</strong></a>，就是区别定价,卖家根据用户不同的身份、位置、购买量、购买时间等，收取不同的价格。<br>觅价者若是追求个人利益最大化，不惜使得产量降低，使价格变得过低，这个过程中，没有发挥出来的生产力即为<strong>无所谓损失(deadweight loss)</strong>。<br>举个例子：小偷偷了东西，造成财富的转移，而已，但换个角度看，为了东西不被偷，这就需要锁了，而经济学家责难小偷的地方，是在于，为造锁而消耗的<strong>真实资源</strong>，即<strong>无所谓损失</strong>，哈哈，这不还造成了就业嘛。</p>
+<p><strong>价格歧视可消除无谓损失</strong>：商家是知道有这部分损失的，然后区别收取价格，经济学家假定的“本来要被生产但并没被生产出来的产品”，即被生产出来，但这其中的产品，是被间接生产的。</p>
+<h3 id="077价格歧视的策略"><a href="#077价格歧视的策略" class="headerlink" title="077价格歧视的策略"></a>077价格歧视的策略</h3><p><strong>一级价格歧视</strong>：每一单位产品都有不同的价格，即垄断者知道每一个消费者对任何数量的产品所要支付的最大货币量，所确定的价格正好等于对产品的需求价格，因而获得每个消费者的全部消费剩余，换句话说，<strong>消费者一点便宜都占不到</strong>。</p>
+<p><strong>二级价格歧视</strong>：即垄断厂商了解消费者的需求曲线，把这种<strong>需求曲线分为不同段</strong>，根据不同购买量，确定不同价格，垄断者获得一部分而不是全部买主的消费剩余。公用事业中的差别价格就是典型的二级价格歧视。</p>
+<p><strong>三级价格歧视</strong>：垄断厂商对<strong>不同</strong>市场的不同消费者实行不同的价格，在实行高价格的市场上获得超额利润。</p>
+<p>要成功实施价格歧视，最重要的是防止消费者同样产品在消费者之间<strong>转售</strong>。比如用户在使用Windows系统时，需要用注册码激活，教育版、家庭版等不同的版本会有不同的价格，但是使用某些 Crack Tools，不花钱，尤其是在某些习惯使用免费产品的地区。</p>
+<p><strong>不同行业的价格歧视</strong>，如航空公司、教育机构、旅游景点、图书、演唱会，航空公司通过对乘客的细分，收取不同的价格，但大家都坐同一航班。</p>
+<h3 id="078行业竞争程度不看企业个数"><a href="#078行业竞争程度不看企业个数" class="headerlink" title="078行业竞争程度不看企业个数"></a>078行业竞争程度不看企业个数</h3><p>企业<strong>合并</strong>是为了应对更激烈的市场<strong>竞争</strong>，竞争激烈程度不在于企业<strong>数量</strong>，看看<strong>市场准入</strong>是否存在<strong>行政设置障碍</strong>。</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">开放市场(放开准入)</th>
+<th align="center">封闭市场(限制准入)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>受价者(面对几乎水平的需求曲线)</strong></td>
+<td align="center">完全竞争(如个体农产品销售者)</td>
+<td align="center">卡特尔</td>
+</tr>
+<tr>
+<td align="center"><strong>觅价者(面对倾斜的需求曲线)</strong></td>
+<td align="center">垄断者 不完全的竞争者 有市场支配地位的卖家(如苹果、微软)</td>
+<td align="center">受政府保护的专营者或垄断者(如中石油等) 专利权人   版权所有人</td>
+</tr>
+</tbody></table>
+<h1 id="C8-信息不对称-谁的话语权更大"><a href="#C8-信息不对称-谁的话语权更大" class="headerlink" title="C8 信息不对称 | 谁的话语权更大"></a>C8 信息不对称 | 谁的话语权更大</h1><h2 id="信任的建立-直面信息不对称"><a href="#信任的建立-直面信息不对称" class="headerlink" title="信任的建立 | 直面信息不对称"></a>信任的建立 | 直面信息不对称</h2><h3 id="079🍋市场的故事"><a href="#079🍋市场的故事" class="headerlink" title="079🍋市场的故事"></a>079🍋市场的故事</h3><p><strong>信息不对称的表现</strong>：欺骗(cheating)、偷懒(shirking)、逆向选择(adverse seletion)、道德风险(moral hazed)、敲竹杠(hold-up)</p>
+<p><a href="https://wiki.mbalib.com/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E9%98%BF%E5%85%8B%E5%B0%94%E6%B4%9B%E5%A4%AB" target="_blank" rel="noopener">经济学家乔治·阿克洛夫(George A. Akerlof)</a>在文章————<a href="https://wenku.baidu.com/view/3d7c1dd484254b35eefd3472.html" target="_blank" rel="noopener">《“柠檬”市场：质量不确定与市场机制》(The Market for “Lemons”:Quality Uncertainty and the Market Mechanism，1970)</a>有一个关于<a href="https://wiki.mbalib.com/wiki/%E6%9F%A0%E6%AA%AC%E5%B8%82%E5%9C%BA" target="_blank" rel="noopener">柠檬市场</a>的研究，柠檬在美国有个俚语，是指那些成交以后买家才发现有问题的汽车。<br>在市场中有低端产品不要紧，低端产品也有它的用户需要，市场奔溃的根本原因，在于买家<strong>不知道</strong>每一件商品的具体品质，买家降低自己的期望值，导致原本商品质量高于买家期望值的商品离开市场。短期来看，二手车卖家能获取巨大利益，但这是一种<strong>竭泽而渔</strong>的行为。</p>
+<p>阿克洛夫在发表这篇文章31年后的2001年，获得了诺贝尔经济学奖，在这篇文章中，他揭示了一个重要的道理：人和人之间本来是没有互信的，高品质的产品要把自己彰显出来，与低品质产品区分开来，选哟很大的成本。如果这个问题不解决，就会出现<strong>劣币驱逐良币</strong>的现象。当消费者无法判断那件产品品质高低的时候，他们就会离场，市场就会奔溃。</p>
+<p>因此，一个卖假冒伪劣产品的商人，不仅伤害了购买其产品的消费者，同时也伤害了原本在卖优质产品的商人，更严重的是破坏了社会的和谐以及群众对该行业的印象，如卖假稻种的、卖假疫苗的、卖假羊肉的等。因此在政府和民间组织<strong>打击假冒伪劣</strong>的同时，让消费者知晓如何<strong>判断商品本身的品质</strong>也十分重要，甚至这有可能才是解决信息不对称问题的核心。<br>民智不开，愚弄百姓，赚这样的钱是黑心商人留着死后给自己花吗？这岂是单单一个<strong>扫盲</strong>能解决的。</p>
+<h3 id="080何谓优质"><a href="#080何谓优质" class="headerlink" title="080何谓优质"></a>080何谓优质</h3><p><strong>品质稳定才是优质</strong><br>我们平时所认为的优质产品就是质量上乘的产品，拿手机来说，同一款手机，为适应不同层次的消费者会出若干版本，青春版、限量版、旗舰版、尊享版等，常规来想最贵的那个就是最好的那个。<br>在经济学里，优质的第一层含义是指<strong>匀质</strong>，即不是厂商把产品做到多好，而是说要把产品的品质维持在一个<strong>稳定</strong>的水平。同一批产品中，一件产品的品质跟另一件产品品质之间的差距不能大，而且差距距越小越好。<br>在我读中学的时候，学校不远处有个商城，在那里能体会到有一种感觉，用文艺点的话来讲，叫做“人间烟火气”。那里并不是吃饭的高档地方，但基本上很多店家这些年，无论原材料价格怎么起落，顾客吃到嘴里的味道一直<strong>没怎么变</strong>。拍一张火车站照片、一张高庙、一张在商城吃饭的照片，就知道快到家了。若说变化，那就是一个桌上吃饭的人换了又换。</p>
+<p><strong>性价比才是优质</strong><br>优质的第二层含义是指，为了<strong>提高产品的质量</strong>所要付出的<strong>边际成本</strong>应该跟它所得到的<strong>边际收益</strong>相等。换句话来说，这里指的是，这里指的是性价比越高越好，一分钱一分货对消费者来讲是划算的。<br>驾驶汽车时追求安全固然重要，但如果一昧地追求安全，马路上泡的都将是坦克，坦克的成本最终还是要由消费者来承担。<br>如果政府规定所有牛奶的蛋白质含量都必须达到一个最低标准，那么以前买低于最低标准牛奶的人，只能花更多的钱去购买更贵的标准牛奶，他们有能力花这笔钱吗？商家失去了这种群体的消费者，消费者失去了原本可以用来发展自己的一部分钱，消费者仍然想消费奶，自己养头奶牛，还是从违规的渠道购买，前者导致机会成本提高和后者导致安全保障降低。</p>
+<h2 id="制度的对策-缔约自由比自由更重要"><a href="#制度的对策-缔约自由比自由更重要" class="headerlink" title="制度的对策 | 缔约自由比自由更重要"></a>制度的对策 | 缔约自由比自由更重要</h2><h3 id="081重复交易与第三方背书"><a href="#081重复交易与第三方背书" class="headerlink" title="081重复交易与第三方背书"></a>081重复交易与第三方背书</h3><p><strong>重复交易</strong>:在古代中国，祖祖辈辈在没有重大变故的情况下 ，可能一直居住在同一个地方，周围的邻居也是如此，甚至可能是同一个宗族。重复交易的概率增加，一旦有人做了不诚信的事情，基本上很容易定位到是谁做的，同时不诚信的人在这块地也没法继续混下去。<br><strong>第三方背书</strong>:当我们打开外卖平台下单的时候，能把钱能那么放心地交给一个未曾谋面的人，是因为中间有一个类似于支付宝或微信之类的，大家均认可的第三方在作信用背书。没拿到外卖，第三方就把钱推给消费者，反之亦然。这一点与古人打赌时，找一位有声望不偏袒任何一方的公证人相似，只是今天这些公证人有高科技作支撑。<br><strong>通过增加附加成本发信号</strong><br>在需求第三定律————<strong>“好东西运到远方去定律”</strong><br>在某些直销见面会，老板们衣着高档，会餐也能看得过去，参加的销售员就信了，随后给钱，接着取货，最后货砸在自己手里。<br>之前听某位老师讲，美国医学院毕业生去医院面试，一身行头就要几万美元，这是在向HR发信号，我的能力配得上这身行头。</p>
+<h3 id="083担保、延保与共享合同"><a href="#083担保、延保与共享合同" class="headerlink" title="083担保、延保与共享合同"></a>083担保、延保与共享合同</h3><p><strong>以品质三包替代品质检验</strong>，通过质保，可以让消费者帮助发现质量题，有效降低质检成本；<br><strong>以延保合约甄别用户</strong>，通过延保，商家将对产品质量要求比较高的消费者甄别出来，让他们承担更高的费用，从而让产品得生产成本与收益更加接近；<br><strong>以共享合约保障品质</strong>，通过收入共享合同，鼓励合作各方尽力保证自己所提供产品或服务得质量。</p>
+<h3 id="083沉没成本、人质与抵押"><a href="#083沉没成本、人质与抵押" class="headerlink" title="083沉没成本、人质与抵押"></a>083沉没成本、人质与抵押</h3><p><strong>以<a href="https://wiki.mbalib.com/wiki/%E6%B2%89%E6%B2%A1%E6%88%90%E6%9C%AC" target="_blank" rel="noopener">沉没成本(sunk cost)</a>取信于人</strong><br>沉没成本是基本上不能够回收的成本。读中学的时候，有些同学为了表达对某个人的爱意之深，认为从此能与TA共度余生，就把那个同学的姓名或符号纹在身上，那么问题来了，如果这两位分手了，身上有与别人有关纹身的那位同学再和其他人谈恋爱，纹身的事情就比较难解释了。毕竟纹上时痛，洗掉时更痛。<br>三年前，在我的家乡出现了一些民间<a href="http://www.court.gov.cn/fabu-xiangqing-141312.html" target="_blank" rel="noopener">非法集资</a>组织，他们以高利息来诱骗储户将钱存到他们公司里。储户看上的民间非法集资组织画出的高额利息“大饼”，而“画饼的”看上的是储户的本金。这些组织的店面大多是在一个镇子的两头临时租的。</p>
+<h3 id="084广告代言与形象打扮"><a href="#084广告代言与形象打扮" class="headerlink" title="084广告代言与形象打扮"></a>084广告代言与形象打扮</h3><p><a href="http://gkml.samr.gov.cn/nsjg/fgs/201906/t20190625_302791.html" target="_blank" rel="noopener">《中华人民共和国广告法》</a>规定代言人需要承担一定的连带责任,而美国相关部门则要求代言人使用相关产品,但代言人并非专家无法迫于代言的责任，改进产品的质量。广告主花大价钱请代言人和投放广告，难道仅仅是为了通过大明星、大平台扩大知名度吗？厂商和消费者之间有着严重的信息不对称，如果消费者不能分辨哪家矿泉水,整个矿泉水市场就会萎缩。厂商敢花大价钱作广告，就是为了证明自己有不会欺骗消费者，会在未来把这些钱挣回来，至少是在回本的这段时间，但这钱还得消费者来还，但他们买来了厂商的信誉和厂商做好产品的积极性，买来了消费者的安心。同时，是利用公众人物和公共媒体的公信力,他们的公信力是日久天长积累起的，厂商用可计量的钱买来。<br>餐厅、学校、医院等各行各业都在使用着各种形式的技巧来<strong>取信</strong>自己的消费者，用自身的历史、用群体中个体的历史、向消费者示弱等等。</p>
+<h3 id="085特许经营合同中的强者和弱者"><a href="#085特许经营合同中的强者和弱者" class="headerlink" title="085特许经营合同中的强者和弱者"></a>085特许经营合同中的强者和弱者</h3><p>用经济学的术语讲，每一家违规的加盟店都对其他的加盟店具有很强的“负的外部性”。也就是说，这家加盟店作错事,其他的加盟店也要一起背这个锅，毕竟他们用的是同一个品牌。<br>总部通过“不平等合约”加强自己的地位，约束加盟店的行为：任何时候，只要总店不满意，总店就有权“随意终止合同”(termination at will)。<br>每当我们看到一种合约形式不公平，但是它却<strong>持续了很久</strong>，<strong>存在的很广</strong>，<strong>克制抱怨</strong>,尝试着思考一下，表面的不公平很可能是要去纠正现实社会中的另一种不公平。</p>
+<h3 id="086如何保障食品、药品和化妆品的质量"><a href="#086如何保障食品、药品和化妆品的质量" class="headerlink" title="086如何保障食品、药品和化妆品的质量"></a>086如何保障食品、药品和化妆品的质量</h3><p><strong>零部件产品</strong>：可以<strong>追溯</strong>产品生产的每一个环节，如Iphone、联想电脑、格力空调等，正因为生产的人知道自己会被追溯到，所以他们会尽力保证质量。<br><strong>管道产品</strong>：这类产品的生产具有<strong>不可追溯性</strong>，提高了<strong>质检</strong>的难度、降低了<strong>品质</strong>的可靠性。吃的猪肉和喝的牛奶，如果出现问题，比较难找到原因，是生产之初的问题，还是运输的问题、还是加工的问题、还是储藏的问题？<br><strong>管道产品质量控制的难度</strong><br>2008年的“三鹿奶粉含有三聚氰胺”事件，通过往奶制品里加三聚氰胺可以增加奶制品的蛋白质含量。单位牛奶中蛋白质的含量会提高奶农的收入。奶制品加工厂建立全封闭自动化生产的现代化工厂，这是个沉没成本。在运输过程中，开奶罐车的人会去非指定地点收集牛奶，奶厂甚至给奶罐车装上定位系统来跟踪车的行踪。常见的奶罐车可以装4吨到12吨牛奶，这一次能能装好几家的牛奶,出了问题，无法找到是那个奶农加的三聚氰胺。<br><strong>以垂直整合保障管道产品的品质</strong><br>工厂想出了一个克服信息不对称的方法，办托牛所，奶农把他们的牛送到统一的地方挤奶，每次挤完奶后，用试管留下样本，等待<strong>检验</strong>方检查通过后，试管清洗，以备后用。如果加工厂自己养奶牛，品质管理就更方便了。这种方法现在在我们的食堂饭菜监管上同样在使用。除此以外，饲料、饲养等均会影响牛奶的品质。如果整个饲养、加工等能形成<strong>闭环</strong>，中间环节越少，品质检验的成本就越低，品质就越有保障，这中间需要整个产品的<strong>垂直链条</strong>建立起来，这是一个很庞大的规模。<br>斯密和李嘉图都认为<strong>分工能够提高生产效率</strong>，那么问题来了，什么时候选择<strong>垂直管理</strong>？选择分工？在<strong>品质检验</strong>的成本比较低的时候，选择分工，反之亦然。<strong>生产链条</strong>的整合和拆分，不是没有原因的，背后包含了对解决<strong>信息不对称</strong>问题的解决和设计。<br><strong>以“多样性损失”换取“产品可靠性”</strong><br>货架上琳琅满目的商品，是由几家大企业提供的。只有大企业才有足够的财力和研发能力，他们的<strong>沉没成本</strong>足够大，万一真的出事了，他们也赔得起。<br>药品和化妆品品质比较高，药厂造一种新药得用十年左右的时间，商品<strong>质检成本</strong>的高，<strong>不确定性</strong>大，<strong>信息不确定性的障碍</strong>多，人们最会放弃<strong>厂家的多样性</strong>，而在为数不多的大企业生产的产品中作选择。损失掉一部分<strong>品牌的多样性</strong>，换来的是<strong>稳定性和可靠性</strong>，这么做，可能是<strong>现代社会产品质量可靠性</strong>的一种趋势。<br>有点像谈恋爱和结婚的不同。</p>
+<h3 id="087婚姻经济学"><a href="#087婚姻经济学" class="headerlink" title="087婚姻经济学"></a>087婚姻经济学</h3><p><strong>婚姻</strong>是人类一个非常古老的合约现象。<br>世界上两个唯一真爱的人相遇的的概率接近于<strong>零</strong>。<br>劳埃德·科恩(Lloyd Cohen)，他写了一篇有意思的文章<a href="https://www.journals.uchicago.edu/doi/pdfplus/10.1086/467831" target="_blank" rel="noopener">《我把最好的年华给了他》(“Marriage,Divorce,and Quasi Rents；Or,”I Gave Him the Best of My Life”,1987)</a>。科恩在这篇文章中解释说，男性跟女性的价值高峰不一样。我们称赞男性和女性所使用的形容词也不同，稳重的男人，美丽的女人，而这两种品质在不同性别的人身上，显现的时间不同，或早或晚。</p>
+<p>某个女同学两年换了三四个男朋友，有几个男同学为了某个女生打架甚至拔刀伤人，颇像森林、草原里的动物，这些事情在中学的时候并不罕见。某位中年富豪娶了一个比自己小很多的姑娘，搁在那个历史阶段和地区也不罕见。<br>然而，<a href="https://so.gushiwen.org/guwen/bookv_211.aspx" target="_blank" rel="noopener">“人貌荣名，岂有既乎”</a>。婚姻关系不是血缘关系，增加其中的<strong>稳定性</strong>显得很重要，现在男女双方的价值早就不再单靠生理条件来体现，教育、修养、见识等都是男人和女人越来越重要的<strong>品质</strong>。</p>
+<p><strong>一夫一妻制 一夫多妻制 一妻多夫制</strong><br>我个人认为这三种婚姻制度在一定程度上都是有考虑到保障当地<strong>生产力</strong>。</p>
+<p><a href="http://www.gov.cn/banshi/2005-05/25/content_847.htm" target="_blank" rel="noopener">《中华人民共和国婚姻法》</a>规定了一夫一妻的制度。<br>在一妻多夫制下，子女的<strong>产权不明确</strong>，只其母不知其父，抚养的义务很容易不落实，养育的效果就会大打折扣。我国未解放时，<a href="https://baike.baidu.com/item/%E8%B0%AD%E8%8B%B1%E5%8D%8E/9450400" target="_blank" rel="noopener">谭英华</a>教授在<a href="https://baike.baidu.com/item/%E5%BA%B7%E5%B7%B4%E8%97%8F%E5%8C%BA/7684783?fromtitle=%E5%BA%B7%E5%8C%BA&fromid=1637745" target="_blank" rel="noopener">康巴藏区</a>的<a href="https://baike.baidu.com/item/%E7%94%98%E5%AD%9C%E8%97%8F%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E/591673" target="_blank" rel="noopener">甘孜地区</a>调查45户一妻多夫家庭，兄弟共妻44户，平均每户2.3个丈夫。在西藏有句俗语“<strong>一家分开，乞丐一堆</strong>”，由于生存环境的恶劣，生产力低下，为使家产和劳动力不分散，形成了一妻多夫的婚姻现象。截至到现在，在印度南部等地区仍旧存在这种现象。<br>赞成一夫多妻制的普通男人，并不会成为一夫多妻制的受益者。但多数女性进入一夫多妻的范围，对剩下的女性来讲，她们的选择范围是增加了的。<br><a href="https://baike.baidu.com/item/%E7%90%86%E6%9F%A5%E5%BE%B7%C2%B7A%C2%B7%E6%B3%A2%E6%96%AF%E7%BA%B3/683722" target="_blank" rel="noopener">理查德·波斯纳法官(Richard Allen Posner)</a>在他的著作<a href="https://book.douban.com/subject/7154073/" target="_blank" rel="noopener">《法律的经济学分析》(Economic Analysis of Law,2014)</a>中指出，一夫一妻制度是一种对成功男人的<strong>限购</strong>，它的效果是财富转移，它让女人的选择范围减少，让成功的男人的选择减少，而让那些比较年轻、收入较低的男人处境变好。</p>
+<h2 id="责任的分担-让防范的成本最小"><a href="#责任的分担-让防范的成本最小" class="headerlink" title="责任的分担 | 让防范的成本最小"></a>责任的分担 | 让防范的成本最小</h2><h3 id="088汉德公式"><a href="#088汉德公式" class="headerlink" title="088汉德公式"></a>088汉德公式</h3><p><a href>勒尼德·汉德(Leamed Hand)</a>是美国一位著名的中级法院的法官，他在政府监管中提到了一个重要的公式————<a href="https://wiki.mbalib.com/wiki/%E6%B1%89%E5%BE%B7%E5%85%AC%E5%BC%8F" target="_blank" rel="noopener">汉德公式</a>，它来源于1947年的“美国诉卡罗尔拖船公司事件”(United States v. Carroll Towing Co.，1947)。</p>
+<p>避免意外的成本为B，产生意外的概率为P，意外产生的损失为L，那么当<code>B&lt;P*L</code>时，船主承担责任，诸位应为自己的财富负有一定的“<strong>注意义务</strong>”，不要觉得托付给别人了，自己就悠哉游哉了，要为避免潜在的损失采取适当的预防措施。<br>A同学丢了B同学的iPad，此种情况下，A赔给B一个iPad，但iPad里有B拍的要去参赛的照片，这块B并不知道，所以A需要对此负责任。</p>
+<h3 id="089-监管要看边际效应"><a href="#089-监管要看边际效应" class="headerlink" title="089 监管要看边际效应"></a>089 监管要看边际效应</h3><p><strong>协同/并存意见 concurring opinion</strong> ：指赞成某派意见，但对 形成该意见的理由有不同看法的意见。<br><strong><a href="https://wiki.mbalib.com/wiki/%E4%B8%A5%E6%A0%BC%E8%B4%A3%E4%BB%BB%E5%8E%9F%E5%88%99" target="_blank" rel="noopener">严格责任 strict liability</a></strong>：又称无过错责任，是指违约责任发生以后，确定违约当事人的责任，应主要考虑违约的结果是否因违约的行为造成，而不考虑违约方的故意和过失。<br>我们需要注na意的是边际收益和边际成本等多个指标之间的<strong>平衡</strong>，而非某一个指标的<strong>最大化</strong>，注意物极必反。<br>当法律分配给生产者一定责任后，他们会依次做如下事情：首先，根据他们的学识和才能，看能否避免意外，而且是否值得这么做；如果行不通，那就买保险；如果还不行，那就提着脑袋继续干或者退出市场。<br><strong>政府监管产品安全的理由与成本</strong><br>与销售利润没有任何牵连的审批官员，他们不会像商家那样追求<strong>利润</strong>，但他们追求产品的<strong>极致安全</strong>，而追求的过程本身就是有<strong>成本</strong>的，而且他们与病人的能<strong>治好就行</strong>的追求<strong>目标并非一致</strong>，由审批繁琐导致的<strong>药物滞后</strong>(drug lag)使某些患者错过了最佳治疗时间。不过的确存在一种新药在患者身上临床试验，并且会付给患者一部分钱，这对于没钱买质量已得到官方认定药品的患者来讲，也是一种机会。</p>
+<h3 id="090监管本身也要引入竞争机制"><a href="#090监管本身也要引入竞争机制" class="headerlink" title="090监管本身也要引入竞争机制"></a>090监管本身也要引入竞争机制</h3><p><strong>强制披露</strong>(mandated disclosure)：政府命令厂家把产品的所有副作用都列清楚，让消费者自己来做决定。<br>但是即使作出“强制披露令”，仍旧会产生很多问题：第一，<strong>对文字和数字的不敏感</strong>，对专业术语的不理解，如某些新闻稿，写的让受众看不懂，把受众带到一个不熟悉的语境里，“字都认识，就是不明白啥意思”；第二，<strong>信息负担过重</strong>，我们在使用某些软件时候，会出现几十页的密密麻麻的《用户须知》和《隐私条款》，制作的本意就没有想过要读者去看，而是在法庭上使用；<strong>决策厌恶症</strong>，面对过多的决策，决策者会产生懈怠。<br>芝加哥大学教授<a href>欧姆瑞·本·沙哈尔(Omri Ben Shahar)</a>与其他人合合著了一本书<a href="https://book.douban.com/subject/26657303/" target="_blank" rel="noopener">《过犹不及:强制披露的失败》(More Than You Wanted to Know:The Failure of Mandated Disclosure,2014)</a>，这本书列举了一些强制披露失败的例子。</p>
+<p>披露的信息过多会对消费者产生意想不到的误导作用，把自己的缺点说得越多却显得越可信。</p>
+<p>薛兆丰老师对此的看法是：垄断性的监管机构很难在信息高度复杂的社会里，为情况多样的消费者作出正确的选择。解决信息不对称的问题，不是要每一个人都能成为专家，而是通过分工、交易的办法，让那些专家提供信息收集、整理、分析服务。<br>解决的办法：<strong>为监管引入竞争</strong>。让“专业知识”和“选择自由”得到协调的好办法。</p>
+<h1 id="C9合作-为何同工不同酬"><a href="#C9合作-为何同工不同酬" class="headerlink" title="C9合作 | 为何同工不同酬"></a>C9合作 | 为何同工不同酬</h1><h2 id="决策权-谁来当老板"><a href="#决策权-谁来当老板" class="headerlink" title="决策权 | 谁来当老板"></a>决策权 | 谁来当老板</h2><h3 id="091企业的团队本质"><a href="#091企业的团队本质" class="headerlink" title="091企业的团队本质"></a>091企业的团队本质</h3><p><strong>解释一：企业存在是因为有交易费用</strong><br>经济学家<a href="https://wiki.mbalib.com/wiki/%E7%A7%91%E6%96%AF" target="_blank" rel="noopener">罗纳德·哈里·科斯（Ronald H. Coase）</a>在本科论文<a href="https://wiki.mbalib.com/wiki/%E3%80%8A%E4%BC%81%E4%B8%9A%E7%9A%84%E6%80%A7%E8%B4%A8%E3%80%8B" target="_blank" rel="noopener">《企业的本质》（The Nature of the Firm，1937）</a>中，提出了这个看似有些天真的问题，然后又给出了深刻的回答。员工单干市场<strong>交易费用</strong>高，需要和陌生人打交道，讨价还价，应对不靠谱行为，但进入企业这些成本将缩减，与熟悉的人工作，劳动力一次性批发给企业，不用时刻去议价，企业内部的经理协调内部矛盾并作出奖惩。放弃一部分的<strong>自由和权益</strong>来避免市场上存在的巨大交易费用，对某些不敏感的人来讲也是划算的。<br>企业没有选择无限做大，<strong>企业内部管理成本</strong>是一个原因，管理成本会随着企业内部员工人数的增加而急剧增加，管理不当就会出现一系列问题，如老总身边有坏人，把身边对企业有用的人才给排挤走。</p>
+<p><strong>解释二:企业存在是因为团队效应</strong><br>阿尔钦和德穆塞茨在《美国经济评论》上发表了一篇文章<a href="https://www.douban.com/note/11574601/?type=like" target="_blank" rel="noopener">《生产、信息成本和经济组织》(Production、Information Cost,and Economic Organization，1972)</a>，团队中的每个因素一起构成的影响大于，每个因素挨个构成的影响的和或每个因素自身构成的影响。某个男团或女团一起演出的效应或门票大于他们中的一个人演出。</p>
+<p><strong>边际贡献决定单个成员在团队中的贡献率</strong><br>同样是拍一部电影，黑泽明作导演和一个导演系刚毕业的拍同一部戏，看看票房就晓得了。企业中人力资源部的工作人员，通过各种线索来判断每一位员工对企业的<strong>边际贡献</strong>，从而给他们厘定工资。</p>
+<h3 id="092-谁来当老板：资本和劳动力"><a href="#092-谁来当老板：资本和劳动力" class="headerlink" title="092 谁来当老板：资本和劳动力"></a>092 谁来当老板：资本和劳动力</h3><p><strong>资本与劳力：孰强孰弱</strong><br>资本家把资金投入开工厂、铺管线，基本上就没了退路，但员工投入的是劳动，随时可以付出随时可以收回。<br><strong>企业管理的本质：防止劳动力滥用</strong><br>关于企业文化建设、企业管理的经验，目的就是让劳动力的利益向资本的利益看齐。</p>
+<h3 id="093-谁来当老板：专用资源和通用资源"><a href="#093-谁来当老板：专用资源和通用资源" class="headerlink" title="093 谁来当老板：专用资源和通用资源"></a>093 谁来当老板：专用资源和通用资源</h3><p>高度依赖所在企业平台的资源，称为<strong>企业的专用资源(firm specific assets)</strong>，如车辆工程师。<br>放在任何企业平台都发挥差不多的功能和收益的资源，成为<strong>企业的通用资源(firm independent assets)</strong>，如行政秘书。<br>让高度依赖企业的人即FSP更在乎企业的成败，他们就会成为<strong>更好的掌舵者</strong>。</p>
+<h3 id="094-谁来当老板：固定收入和剩余索取"><a href="#094-谁来当老板：固定收入和剩余索取" class="headerlink" title="094 谁来当老板：固定收入和剩余索取"></a>094 谁来当老板：固定收入和剩余索取</h3><p>A与B一起生产某个产品，两人负责两道不同的工序：A在阳光下工作，B在黑屋里工作。A做了什么，大家都能看到，但B做了什么，A监督不了。<br>张维迎老师讲了这样一个案例：产品最后卖了是10元，两人对半分，公平吗？A的行动大家都知道，但B是否偷懒没人知道，或许他只作了价值3元的事情呢。轮岗吗？专业分工不能改变。通过KPI的办法也不行，这个得知道他的最大工作能力度。<br>通过<strong>固定收入(fixed income)</strong>和<strong>剩余索取权(residual claimant)</strong>的区分来支付报酬。最后卖了8元，先付给A5元，这笔钱是固定工资，剩下的多少就给B了。剩余索取者的收入不根据他们的投入来计算，而根据企业的产出————剩余的利润，这样的话，B得监督自己了。</p>
+<p>以上三讲，在经济学里被统称为<a href="https://wiki.mbalib.com/wiki/%E6%96%B0%E5%88%B6%E5%BA%A6%E7%BB%8F%E6%B5%8E%E5%AD%A6" target="_blank" rel="noopener">“制度经济学”</a>。</p>
+<h2 id="收入分配-政府是否应该劫富济贫"><a href="#收入分配-政府是否应该劫富济贫" class="headerlink" title="收入分配 | 政府是否应该劫富济贫"></a>收入分配 | 政府是否应该劫富济贫</h2><h3 id="095-收入的高低和节奏由什么决定"><a href="#095-收入的高低和节奏由什么决定" class="headerlink" title="095 收入的高低和节奏由什么决定"></a>095 收入的高低和节奏由什么决定</h3><p><strong>员工的议价能力取决于他在别处的机会</strong>，一个某同学在小组里的待遇与他是否仍然受待见。<br><strong><a href="https://wiki.mbalib.com/wiki/%E8%BE%B9%E9%99%85%E8%B4%A1%E7%8C%AE" target="_blank" rel="noopener">边际贡献</a>决定团队成员的收入水平</strong><br><strong>出租车司机收入和份子钱高低无关</strong>，份子钱是由出租车的专营权决定的，它是垄断权带来的收入，硬性修改两者间的合同导致出租车的收入，会吸引其他行业的劳动力竞争出租车岗位。一个团队里谁拿多少，是由他们的<a href="https://wiki.mbalib.com/wiki/%E8%BE%B9%E9%99%85%E6%94%B6%E5%85%A5" target="_blank" rel="noopener">边际收入</a>决定的<br><strong>信息费用高低影响收入分配方式</strong>：固定收入和剩余索取者<br><strong>时薪、月薪、年薪的区别</strong>：外卖配送员和教授，见效快慢的反应<br><strong>以投入与产出划分收入节奏</strong>：收营员、歌手大赛的冠军<br><strong>工作品质鉴别难度决定收入节奏</strong>：用时间来见证，演员拍戏的收入，学者的论文<br><strong>产权保护需要觉得收入节奏</strong>：工匠中的师徒关系，多年媳妇熬成婆</p>
+<h3 id="096-事与愿违之同工同酬法"><a href="#096-事与愿违之同工同酬法" class="headerlink" title="096 事与愿违之同工同酬法"></a>096 事与愿违之同工同酬法</h3><p><strong>竞争之下同工不同酬的现象趋于消失</strong><br>哪里存在同工不同酬现象，哪里就存在优质的廉价员工。市场竞争的压力越大，雇主寻找廉价优质员工的积极性就越足，结果会使得不同工不同酬得现象趋于减少和消失。<br>男员工和女员工以同样的质量做同样的事情，但男员工比女员工多挣20元，这种现象在建筑工地、者农忙时的田里或在企业比较普遍，老板克制重男轻女思想的同时，为自己多赚了钱。</p>
+<p><strong>岗位相同不等于工作相同</strong><br>从持续工作的角度看，男性和女性提供的工作质量并不完全一样，他们不同工。<br>一个家庭里，妻子如果生了一个小孩，至少在一年内是很难正常工作的。工程师等高收入的工作放下容易捡起来难，相反秘书等低回报的工作再返回去做比较容易。出于家庭的原因，女性做出了巨大牺牲。但随着医学的进步、公共设施的完善，生育带来的干扰和风险也有所下降，加上现在精英女性推迟生育时间，这解释了这些年女性在职场中地位的提升。</p>
+<p><strong>同工同酬让弱者失去竞争武器</strong><br>绝对竞争能力较低的人（佣金80元的女性）要求一份合理的工资（80元），甚至要求一份比市场价低的工资（79元），是她与绝对竞争能力比较高的人（佣金100元的男性）展开竞争时的强有力武器，当女性说79元就可以时，那个男性基本就被秒杀了。<br>如果某个地区规定实施所谓“同工同酬法”，老板必须无论给男性还是女性都是100元，那么老板就会选用能力配得上这个工资的人。同工同酬法<strong>用意善良</strong>，但它<strong>剥夺</strong>了那些竞争力比较弱的人跟竞争力比较强的人展开竞争的强有力武器。</p>
+<p>薛兆丰老师对同工同酬法的三点评论：1.<strong>市场竞争</strong>能尽量消除由于性别歧视导致的同工不同酬现象 2.男女绩效是否相同，必须从多角度进行评估 3.硬性的同工同酬会剥夺弱者与强者展开竞争的最强武器，从而导致事与愿违的结果。</p>
+<h3 id="097-事与愿违之最低工资法"><a href="#097-事与愿违之最低工资法" class="headerlink" title="097 事与愿违之最低工资法"></a>097 事与愿违之最低工资法</h3><p><strong>最低工资法会导致失业</strong><br>在岗的人又通过最低工资，获得更高的收入，迫于法律的压力，资本家会付一段时间，但随后可能会增加机器的投入，减少对劳动力的需求，甚至资本家迁厂到海外导致当地失业人数增加。<br><strong>最低工资法被用来提高竞争对手的成本</strong><br>小工厂和小商城会受到冲击，他们的工人工资本身就比较低，为了达到新的法定最低工资，不得不加薪，而工资成本的上身可能会威胁到类似小工厂的机构和他们工人的生存。<br>南非由白人组成的工会里，章程中有一条纲领：致力于支持政府针对黑人的最低工资法，因为这是让工会会员保有工作的有效手段。这出自黑人经济学家<a href="https://en.wikipedia.org/wiki/Walter_E._Williams" target="_blank" rel="noopener">沃特·威廉姆斯(Walter Williams)</a>在《南非的反资本主义之战》一书中的介绍。<br><strong>最低工资法剥夺穷人自立自强的机会</strong><br>美国黑人由于积蓄少，家庭情况差，见到工作就做；而白人比较有钱、继续比较多、家境较好，失得起业。法定最低工资出现后，雇主更倾向于雇佣经验更丰富的工人，变挑剔了，黑人从而有可能失业增加，难以继续发展。</p>
+<h3 id="098-基尼系数与收入分配"><a href="#098-基尼系数与收入分配" class="headerlink" title="098 基尼系数与收入分配"></a>098 基尼系数与收入分配</h3><p><a href="https://wiki.mbalib.com/wiki/%E5%9F%BA%E5%B0%BC%E7%B3%BB%E6%95%B0" target="_blank" rel="noopener">基尼系数</a>的重要缺陷，它算的是<strong>瞬间</strong>人与人之间收入的差距，终身收入才是更好衡量人们收入差距的指标。<br><a href="https://wiki.mbalib.com/wiki/%E6%94%B6%E5%85%A5%E4%B8%8D%E5%85%AC" target="_blank" rel="noopener"><strong>收入不公</strong></a>与<strong>收入不平均</strong>不同，造成后者的原因由年龄、职业、天赋、贪腐等。如果看见基尼系数上升、人与人之间收入差距增大，就执行所谓的<strong>收入再分配政策</strong>，那就不仅不能准确打击不公的行为，反而会使得那些造成<strong>合理收入差距</strong>的因素，受到<strong>不正确的抑制</strong>。</p>
+<h2 id="脱贫致富-最富裕的穷人在今天"><a href="#脱贫致富-最富裕的穷人在今天" class="headerlink" title="脱贫致富 | 最富裕的穷人在今天"></a>脱贫致富 | 最富裕的穷人在今天</h2><h3 id="099-工人违约是否应该成为权力"><a href="#099-工人违约是否应该成为权力" class="headerlink" title="099 工人违约是否应该成为权力"></a>099 工人违约是否应该成为权力</h3><p>“春种一粒粟，秋收万颗子”。农业生产遵循严格的节气，一旦错过，就会造成农作物不能按时发育、抵抗力差，最终甚至导致当年收成减产。</p>
+<p>一户人家播种，通常要请另外一些人帮忙，否则就不能按时完工。雇工到田边坐地起价的事时有发生，雇主遇到这种敲竹杠的，妥协是一种办法，预留一支雇工队伍也是一种办法，或者在约定中“雇工保证不罢工，但多给一点钱”，这都是为了<strong>稳定的生产</strong>。除了上述办法，在我的家乡，人们还采用一种变工的方法避免违约，A给B今天栽了水稻，B给A过段时间摘枸杞，在一个熟人环境下，大家都是“<strong>人情来人情往</strong>”，破坏了约定，以后再合作就很难了，但这只适用于小<strong>农经济环境</strong>下。</p>
+<h3 id="100-罢工的性质"><a href="#100-罢工的性质" class="headerlink" title="100 罢工的性质"></a>100 罢工的性质</h3><p>罢工的<strong>特点</strong>：在关键时刻提出不干活；自己不干活的同时阻止别人不干活。<br><a href="https://www.econlib.org/cee/" target="_blank" rel="noopener">《简明经济学百科全书》(The Concise Encyclopedia of Economics)</a><code>大陆目前没有出版，但可以在此搜索相应词条</code>中，工会组织被描述称一种<a href="https://wiki.mbalib.com/wiki/%E5%8D%A1%E7%89%B9%E5%B0%94%E6%A8%A1%E5%9E%8B" target="_blank" rel="noopener"><strong>卡特尔</strong>(cartel)</a>即垄断组织，<a href="https://www.econlib.org/library/Enc/LaborUnions.html" target="_blank" rel="noopener">他们通过限制公司和企业的劳动力供给，来获得高于竞争市场的工资水平。</a></p>
+<h3 id="101-工作权力遇到的障碍"><a href="#101-工作权力遇到的障碍" class="headerlink" title="101 工作权力遇到的障碍"></a>101 工作权力遇到的障碍</h3><p><strong>竞争者利用法律提高对手的竞争成本</strong></p>
+<p>大面包作坊有条件保证三班倒或两班倒的做法，他们支持“每天工作低于十小时”，这会提高小作坊的人力<strong>竞争成本</strong>，对大作坊来讲有利。<br><strong>竞争者通过就业许可制度提高对手的进入门槛</strong><br>对就业者的身份，要求有正规学校的培训，执业许可通常要求有经验，考试内容<br>某些研究称，美国各州死于点击的人数与电工资格证难考的程度具有相关性。<br>电工证越难考，考过的人越少，市场中提供服务的人就越少，收费就越高，导致请得起电工维修的家庭更倾向于自己动手，结果触电身亡的人数也越多。但同时需要考虑电工证易考不代表电工从业者<strong>能力有水分</strong>，这会导致初级电工死亡人数上升。</p>
+<h3 id="102-最富裕的穷人在今天"><a href="#102-最富裕的穷人在今天" class="headerlink" title="102 最富裕的穷人在今天"></a>102 最富裕的穷人在今天</h3><p><strong>穷人怎么办：寻求个人进步</strong><br>通过<strong>比较优势</strong>原理，哪怕一个人在<strong>绝对优势</strong>上比所有人差，但自身所有能力中仍有脱颖而出的能力，他仍会在分工合作中改善自己的生活。<br><a href="https://baike.baidu.com/item/%E6%89%98%E9%A9%AC%E6%96%AF%C2%B7%E7%B4%A2%E7%BB%B4%E5%B0%94/14768256" target="_blank" rel="noopener">托马斯·索威尔(Thomas Sowell)</a>在<a href="https://book.douban.com/subject/6892579/" target="_blank" rel="noopener">《美国种族简史》(Ethnic America ：A History，1981)</a>,中提到，犹太人特别重视教育投资，他们喜欢学习与他们颠沛流离的命运有关，走到哪跟到哪的只有脑子里的知识，在纽约的犹太人白天不管有多忙，在晚上还会去听讲座。向身边的berg们学习。</p>
+<p>美国家庭收入指数(部分)<code>资料来源于托马斯·索威尔《美国种族简史》</code></p>
+<p>|种族群|收入指数|种族群|收入指数|<br>|:–:|:–:|:–:|:–:|:–:|<br>|犹太人|172|中国人|112|<br>|日本人|132|法国人|107|<br>|波兰人|115|菲律宾人|99|<br>黑人|62|<strong>全体美国人</strong>|<strong>100</strong>|</p>
+<p>前面提到黑人经济学家沃特·威廉姆斯写过一本书《种族与经济学：有多少可以归咎于歧视》(Race and Economics：How Much Can Be Blamed On Discrimination，2011)，他在这本书中提出一个观点：<strong>一个种族经济条件的改善，不需要以政治权利的提升为前提</strong>。</p>
+<p><strong>穷人怎么办：打社会的顺风车</strong><br>有人吃肉，有人喝汤</p>
+<p><strong>最富裕的穷人在今天</strong><br>只要整个社会在进步，科技不断创新，社会的蛋糕在做大，哪怕是穷人也能得到物志享受，虽说是过时的。<br>2018年诺贝尔经济学奖获得者<a href="https://wiki.mbalib.com/wiki/%E5%A8%81%E5%BB%89%C2%B7%E8%AF%BA%E5%BE%B7%E8%B1%AA%E6%96%AF" target="_blank" rel="noopener">威廉·诺德豪斯</a>在2004年做测算，发现发明家和企业家的收入，仅占他们的发明给社会带来总价值的2%左右。</p>
+<h1 id="10-协调-众人如何彼此影响"><a href="#10-协调-众人如何彼此影响" class="headerlink" title="10 协调 | 众人如何彼此影响"></a>10 协调 | 众人如何彼此影响</h1><h2 id="货币规律-货币像水又像蜜"><a href="#货币规律-货币像水又像蜜" class="headerlink" title="货币规律 | 货币像水又像蜜"></a>货币规律 | 货币像水又像蜜</h2><h3 id="103-货币的起源"><a href="#103-货币的起源" class="headerlink" title="103 货币的起源"></a>103 货币的起源</h3><p><strong>货币为什么有用</strong><br>奥地利学派的鼻祖<a href="https://wiki.mbalib.com/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E9%97%A8%E6%A0%BC%E5%B0%94" target="_blank" rel="noopener">卡尔·门格尔(Carl Menger)</a>写的<a href="http://monadnock.net/menger/money.html" target="_blank" rel="noopener">《货币的起源》(On the Origins of Money,1892)</a>是回答这个问题的经典文章。</p>
+<p><a href="https://wiki.mbalib.com/wiki/%E5%A5%A5%E5%9C%B0%E5%88%A9%E5%AD%A6%E6%B4%BE" target="_blank" rel="noopener">奥地利学派</a>的<a href="https://wiki.mbalib.com/wiki/%E5%93%88%E8%80%B6%E5%85%8B" target="_blank" rel="noopener">哈耶克</a>提出<a href="https://wiki.mbalib.com/wiki/%E8%87%AA%E5%8F%91%E7%A7%A9%E5%BA%8F%E5%8E%9F%E7%90%86" target="_blank" rel="noopener"><strong>自发秩序(spontaneous order</strong>)</a>：非某人或某个机构设计出来的，而是由无数人的行动汇合演化而成，如我们的语言。</p>
+<p><strong>货币作用一：避免交易中双重偶然性的要求</strong><br><strong>双重偶然性(double-coincidence)</strong>:德国社会传播家<a href="https://baike.baidu.com/item/%E5%B0%BC%E5%8F%A4%E6%8B%89%E6%96%AF%C2%B7%E5%8D%A2%E6%9B%BC/12587038" target="_blank" rel="noopener">尼可拉斯·鲁曼</a>提出，是指传播的双方都存在着不确定性，因此，通过传播作出的选择有受到拒绝的可能性。</p>
+<p><strong>货币作用二：降低质量检验成本</strong><br>不用检验所交换商品的品质，只需检验货币的真伪，货币数量体现着商品品质。</p>
+<p><strong>增加市场交易量</strong><br>有了货币，交易更加便捷，交易量上升，像今天信息的传递。</p>
+<h3 id="104-商业银行创造货币"><a href="#104-商业银行创造货币" class="headerlink" title="104 商业银行创造货币"></a>104 商业银行创造货币</h3><p><strong>劣币驱逐良币符合经济效率</strong><br>16世纪，英国的财政大臣托马斯·格雷欣(Thomas Gresham)提出“劣币驱逐良币(Good money is driven out by cheap money.)”，一旦一个社会确定了用某种商品作为货币，这种商品在流通当中的质量就会发生变化。质量较高的品种会被人们保存下来，较低的会留在流通当中，质量不高的货币会把质量较低的货币驱逐出流通领域。<br>货币之所以有用，就在于人们相信它有用；而只要人们相信它有用，就不会使用高质量的来充当。因此，劣币驱逐良币是对的，但应该补充一句“劣币就是有效货币(But cheap money is efficient money.)”</p>
+<p>商业银行如何创造货币<br>一个封闭的社会里有1000元钱在流通，社会里的商业银行系统，帮助人们把钱存起来再贷出去，从赚取利息差。</p>
+<table>
+<thead>
+<tr>
+<th align="center">时期</th>
+<th align="center">新通货存款</th>
+<th align="center">法定准备金(20%)</th>
+<th align="center">新增活期存款</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">第一天</td>
+<td align="center">1000</td>
+<td align="center">200</td>
+<td align="center">800</td>
+</tr>
+<tr>
+<td align="center">第二天</td>
+<td align="center">800</td>
+<td align="center">160</td>
+<td align="center">640</td>
+</tr>
+<tr>
+<td align="center">第三天</td>
+<td align="center">640</td>
+<td align="center">102.4</td>
+<td align="center">409.6</td>
+</tr>
+<tr>
+<td align="center">···</td>
+<td align="center">···</td>
+<td align="center">···</td>
+<td align="center">···</td>
+</tr>
+<tr>
+<td align="center">总计</td>
+<td align="center">5000</td>
+<td align="center">1000</td>
+<td align="center">4000</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>商业货币创造货币原理：每增加1元的基础货币，商业银行系统就能创造出超过1元的活期存款，造币能力与法定准备金率成反比，法定准备金率越高，它能够创造货币的倍数就越低。</p>
+</blockquote>
+<p>银行在20%的法定准备金限制下，只能创造4000元的新生货币，再加上称之为基础货币的1000元，就导致整个社会有5000元货币在流通。</p>
+<p>商业银行无法满足所有储户体现要求的现象，称之为<strong>流动性困难</strong>(convertibility problem)。<br>某些机构虽有<a href="https://wiki.mbalib.com/wiki/%E8%B5%84%E4%B8%8D%E6%8A%B5%E5%80%BA" target="_blank" rel="noopener">资不抵债困难(insolvency problem)</a>，但通过政府干预产生“大而不能倒”情况。</p>
+<h3 id="105通货膨胀的根源"><a href="#105通货膨胀的根源" class="headerlink" title="105通货膨胀的根源"></a>105通货膨胀的根源</h3><p><a href="https://wiki.mbalib.com/wiki/%E9%80%9A%E8%B4%A7%E8%86%A8%E8%83%80" target="_blank" rel="noopener">通货膨胀</a>是指<strong>总物价</strong>的<strong>持续增长</strong>。<br>衡量通货膨胀的指标之一，消费者物价指数(consumer price index,CPI)。<br><strong>恶性通货膨胀(hyperinflation)</strong>，是指每个月的通货膨胀率超过了50%的情况，如二战后的匈牙利经历过每天19%的恶性通货膨胀率，德国经历过每个月恶行通货膨胀率达到322%。<br><strong>理解通货膨胀的基本视角————货币数量论</strong></p>
+<blockquote>
+<p>MV = PV<br>M为货币流通量 V为货币流通的速度 P平均物价 Y社会的货物总量<br>由公式可得，货币的流通量和速度以及货物总量都会影响平均物价，但某些群体的直观感受就是在货币流通量。</p>
+</blockquote>
+<h3 id="106-通货膨胀的过程"><a href="#106-通货膨胀的过程" class="headerlink" title="106 通货膨胀的过程"></a>106 通货膨胀的过程</h3><p><strong>通货膨胀的坎蒂隆效应</strong><br>现实生活中，新增的货币总是通过某个出口逐渐流向社会，这个流动需要一定的时间，因此对整个经济生活的影响是不均匀的，有早晚轻重之分，这种现象被称为<a href="https://wiki.mbalib.com/wiki/%E5%9D%8E%E8%92%82%E9%9A%86%E6%95%88%E5%BA%94" target="_blank" rel="noopener">坎蒂隆效应(Cantillon Effect)</a>。周其仁老师曾写过<a href="http://zhouqiren.blog.sohu.com/119540223.html" target="_blank" rel="noopener">一篇文章</a>解释这种现象。我自身的感受是，小时候守在稻田边的埂上，水从埂的缺口处流入田里，在离缺口最近的水稻最先被滋润，反之亦然，但遇到下雨天，那片稻子基本上同时受到滋润。</p>
+<p><strong>通货膨胀让人做出错误决策</strong><br>在经济生活中，每个个体很难分辨物价的上涨是<strong>相对价格的变化</strong>还是<strong>物价整体水平的变化</strong>。<br>一家餐厅的客流量增加，顾客来了之后越来越愿意花钱。这有两种可能：这家餐厅的饭菜可口、服务好，它所提供的产品和服务具有更高的<a href="https://wiki.mbalib.com/wiki/%E7%9B%B8%E5%AF%B9%E4%BC%98%E5%8A%BF" target="_blank" rel="noopener">相对优势</a>；政府多发行了货币，整个社会都变得有钱了。<br>如果原因是前者，那就应该扩大生产；如果原因是后者，那就应该按兵不动。通货膨胀的发生、扩散、和人们采取的对策并<strong>不是瞬间完成</strong>的，它是一个<strong>渐进</strong>的过程，在这个过程中，有人相对得益，有人相对受损。</p>
+<p><strong>通货膨胀具有转移社会财富的效果</strong><br>通货膨胀的一个表现就是货币相对于物来说不值钱了。在这个过程中，财富以钱的形式保存的人会受损，而那些靠不断出售他们的资产兑现现金的人会得益。</p>
+<p><strong>通货膨胀与商家涨价无关</strong><br>一个错误的印象：急着提高工资的企业，把房价抬高的房地产商，争着买房的消费者，如果不是这些人，通货膨胀就不会发生。通货膨胀并不是这些人造成的，他们之时率先做出反应，但某些群众需要一个“泄压阀”要求惩罚这些人限制他们采取的行动，但这并不不能改变正在发生的事实。有句英文谚语“<strong>不要枪毙信使</strong>(Don’t shoot the messenger)。”</p>
+<p><strong>通货膨胀是一种无形的税收</strong><br>政府通过多印钞票，政府的购买力增加，而民众的购买力就会下降，这实际上是政府向民众征收的一种<strong>无形的税</strong>。</p>
+<h3 id="107通货膨胀与失业"><a href="#107通货膨胀与失业" class="headerlink" title="107通货膨胀与失业"></a>107通货膨胀与失业</h3><p><a href="https://wiki.mbalib.com/wiki/%E8%8F%B2%E5%88%A9%E6%99%AE%E6%96%AF%E6%9B%B2%E7%BA%BF" target="_blank" rel="noopener">菲利普斯曲线(Phillips Curve)</a>:<strong>货币工资变动率与失业率成反比</strong>。如果一个社会的货币工资变动率比较高，人们就愿意出来就业，失业率就比较低；相反，货币工资变动率比较低时，人们更愿意停下来寻找更好的工作机会，就业水平就比较低，换句话说就是失业率比较高。<br>如果人们对通货膨胀的预测能力在提高，如不会对自己的餐厅效益产生误判，那么通过制造通货膨胀来减少失业率的努力，就将不再不管用。</p>
+<p><strong>以通胀对付失业可能出现滞涨</strong><br>高中历史老师在讲到“美国经济的滞涨现象”，那天没有预习的同学哈哈大笑————“智障现象。”<br>政府反复使用通货膨胀来对付失业，失业率就降不下去了，到时候有可能会出现<strong>通货膨胀</strong>和<strong>高失业率</strong>一起出现，并存在<strong>经济停滞</strong>的现象。<br>1968年<a href="https://baike.baidu.com/item/%E7%B1%B3%E5%B0%94%E9%A1%BF%C2%B7%E5%BC%97%E9%87%8C%E5%BE%B7%E6%9B%BC/8665021?fromtitle=%E5%BC%97%E9%87%8C%E5%BE%B7%E6%9B%BC&fromid=3709895" target="_blank" rel="noopener">米尔顿·弗里德曼(Milton Friedman)</a>和<a href="https://baike.baidu.com/item/%E5%9F%83%E5%BE%B7%E8%92%99%E5%BE%B7%C2%B7%E8%8F%B2%E5%B0%94%E6%99%AE%E6%96%AF/4278033#2_3" target="_blank" rel="noopener">埃德蒙德·菲利普斯(Edmund S Phelps)</a>分别发表了论文，他们认为，从长期看，不存在通货膨胀率和失业率之间的反向关系。<br>目前，经济学家有一个共识，那就是从长期看，菲利普斯曲线是垂直的，也就是说，不论通货膨胀率多高多低，失业率或者就业率都是一个<strong>比较固定的常数</strong>。</p>
+<h2 id="经济周期-聪明人彼此不同意"><a href="#经济周期-聪明人彼此不同意" class="headerlink" title="经济周期 |聪明人彼此不同意"></a>经济周期 |聪明人彼此不同意</h2><h3 id="108-奥地利学派看经济周期"><a href="#108-奥地利学派看经济周期" class="headerlink" title="108 奥地利学派看经济周期"></a>108 奥地利学派看经济周期</h3><p>自从1929年美国的大萧条后，世界各国都经历了大大小小的经济周期。各种经济学派希望通过宏观经济调节达到以下几个目的：</p>
+<blockquote>
+<p>1&gt;消除经济周期，实现生产、就业、财富的稳步增长；<br>2&gt;实现低的或平稳的通货膨胀率；<br>3&gt;实现高的就业率，所有的资源，尤其是人力资源能被充分地调用起来；<br>4&gt;实现生产力和GDP的高速增长。</p>
+</blockquote>
+<p>对于实现这些目标，不同的学派提拆了不同的理论。</p>
+<p><strong>奥地利学派的兴起</strong><br>奥地利学派最早由经济学家门格尔和他的学生<a href="https://baike.baidu.com/item/%E6%AC%A7%E6%A0%B9%C2%B7%E5%86%AF%C2%B7%E5%BA%9E%E5%B7%B4%E7%BB%B4%E5%85%8B/9128001?fromtitle=%E5%BA%9E%E5%B7%B4%E7%BB%B4%E5%85%8B&fromid=10401631" target="_blank" rel="noopener">欧根·冯·庞巴维克(Eugen Bohm-Bawerk)</a>共同创立，而这个名称则是由他们的理论对手————当时德国的历史学派————嘲讽他们离开了德语世界的学术主流，事实上他们之后就没在奥地利继续发展。历史学派认为经济现象中不存在普世的规律，每一个经济事件都有它发生的<strong>历史独特环境</strong>。但门格尔和庞巴维克却认为，纷繁复杂的经济现象背后有<strong>一般性的规律</strong>，比如由门格尔总结的边际效用的概念，具有很强的普世性。<br>我们现在所提到的奥地利学派时所指的经济学家，不仅包括奥地利的哈耶克，米塞斯，还有英国的亚当·斯密，<a href="https://baike.baidu.com/item/%E5%A4%A7%E5%8D%AB%C2%B7%E4%BC%91%E8%B0%9F" target="_blank" rel="noopener">大卫·休谟(David Hume)</a>,美国的欧文·费雪，科斯等，奥地利学派不再单指学者的国籍，而是<strong>一种特有的研究方法和思路</strong>。<br><strong>奥地利学派的基本主张</strong></p>
+<blockquote>
+<p>1&gt;只有个人才能做出选择<br>2&gt;研究交易所在的市场是研究经济学的焦点所在<br>3&gt;研究经济现象要研究人的动机，要了解<strong>相应的人文背景</strong>。</p>
+</blockquote>
+<p><strong>奥地利学派关于经济周期的基本观点</strong></p>
+<blockquote>
+<p>1&gt;货币不是中性的<br>如果政府发行货币的数量和过程不得当，就会对人们的行为产生误导<br>2&gt;资本是异质的，不是同质的<br>错误的投资决策一旦做出，不能轻易地转换到别的用途上，要修改就得花费很大的工夫，就要付出代价<br>3&gt;各种社会机构和安排是人们共同行为的结果，而不是计划的结果</p>
+</blockquote>
+<p><strong>奥地利学派看经济周期的起源</strong><br>奥地利学派认为，经济周期的起源是<strong>政府过度发钞</strong>。<br>政府大量发钞导致利率暂时性降低，是名义上的，并不是真实的，但它会误导人们增加对未来的投资，当增发的货币像蜂蜜一样向整个经济体渗透后，人们开始感觉到<strong>物价在飞涨</strong>，钱即使挣到了，也买不到原来能买到的那么多东西，<strong>后知后觉</strong>，通货膨胀来了。<br>此时，政府的选择要么继续增发货币，对通货膨胀袖手旁观；要么顺应民意，放缓发币步伐，甚至停止增发。此时，长远规划找不到足够的资金来维持，资金链断裂、泡沫破灭。</p>
+<p>奥地利学派认为，要避免经济周期最根本的方法是<strong>政府抑制随意印刷钞票的冲动</strong>。如何抑制？他们提出了两个主张:第一<strong>回到金本位</strong>；第二<strong>实施自由发钞制度</strong>。<br>金本位不能解决问题的两个原因：经济体在发展，用金子所衡量的货物和服务本身在变化，因此物价不可能稳定；金子的数量也在变化，如果将黄金作为货币本位，将吸引人们发现、开采甚至人工成黄金。</p>
+<p>货币若由世界上唯一的一家银行发行，没有权力来制约它，那这家银行就会比较傲娇，滥用发币权力使得自己的利益达到最大化。<br>如果允许多家银行同时发行自己的钞票，那就会形成一种竞争关系，有的可能会贬值，有的可能会不被人接受，结果就是被淘汰。我国最早出现在北宋年间的<strong>银票</strong>就是自由银行的一种表现，如今的<strong>数字货币</strong>也是一种尝试。</p>
+<h3 id="109-凯恩斯主义学派看经济周期"><a href="#109-凯恩斯主义学派看经济周期" class="headerlink" title="109 凯恩斯主义学派看经济周期"></a>109 凯恩斯主义学派看经济周期</h3><p><strong>师出名门的凯恩斯</strong><br><a href="https://baike.baidu.com/item/%E7%BA%A6%E7%BF%B0%C2%B7%E6%A2%85%E7%BA%B3%E5%BE%B7%C2%B7%E5%87%AF%E6%81%A9%E6%96%AF/4525330?fromtitle=%E5%87%AF%E6%81%A9%E6%96%AF&fromid=811916" target="_blank" rel="noopener">凯恩斯</a>两位著名的老师，<a href="https://baike.baidu.com/item/%E9%98%BF%E5%B0%94%E5%BC%97%E9%9B%B7%E5%BE%B7%C2%B7%E9%A9%AC%E6%AD%87%E5%B0%94/49526" target="_blank" rel="noopener">阿尔弗雷德·马歇尔(Alfred Marshall)</a><code>确定需求曲线纵坐标是价格，横坐标是需求量</code>和<a href="https://baike.baidu.com/item/%E5%BA%87%E5%8F%A4" target="_blank" rel="noopener">阿瑟·塞西尔庇古(Arthur Cecil Pigou)</a><code>福利经济学提出者</code>。<br><strong>凯恩斯主义学派</strong>认为社会的<strong>总需求降低</strong>、<strong>总消费下降</strong>，对<strong>就业、产量和价格</strong>这三者的影响是不对等的。由于每当出现需求不足的冲击时，价格的调整总是迟钝和缓慢的，因此直接受到冲击的是产量和就业，这是经济周期产生的原因。</p>
+<p><strong>凯恩斯主义学派的基本主张：加大政府开支</strong><br>凯恩斯主义学派认为：政府应该逆经济周期而行，人们都在消费时政府就少采取动作，反之亦然。由此看出，凯恩斯是信市场可以自动调节的，当某种<strong>动物精神(animal spirit)</strong>消失后，政府应该停止干预。凯恩斯主义者关心的是解决短期内出现的问题，尤其是短期内出现的失业问题，这时创造需求、制造就业机会就是政府的责任。<br>做到这一点,有两个基本办法“货币政策”和“财政政策”。货币政策的做法在前面已经提到过，<strong>财政政策</strong>就是通过<strong>收税或者借债而非印钱</strong>的方式花钱办事业。这笔债务会让未来的年轻人去偿还。今天的责任推给后人，凯恩斯的经典回答是“从长远来看，我们都将一命呜呼。”意思是，情况特殊，这次不一样，管不了那么远的事。<strong>这次不一样</strong>成了人们随时违背原则的理由。</p>
+<h3 id="110-货币主义学派和理性预期学派"><a href="#110-货币主义学派和理性预期学派" class="headerlink" title="110 货币主义学派和理性预期学派"></a>110 货币主义学派和理性预期学派</h3><p><strong>货币主义学派见解一：通货膨胀就是因为货币超发</strong><br>米尔顿·弗里德曼和<a href="https://wiki.mbalib.com/wiki/%E5%AE%89%E5%A8%9C%C2%B7%E9%9B%85%E5%90%84%E5%B8%83%E6%A3%AE%C2%B7%E6%96%BD%E7%93%A6%E8%8C%A8" target="_blank" rel="noopener">安娜·施瓦茨(Anna Schwartz)</a>合作出版一部经典巨著《美国货币史》(A Monetary History of the United States，1963)，他们通过研究1867年到1960年长达93年的美国货币史，得出一个结论，那就是货币流通的速度这些年基本没变，年度经济增长总量也基本没变，因此造成物价水平上升的决定因素就是货币流通量。通货膨胀是多发钞票造成的。弗里德曼有句名言：“通货膨胀到哪以及永远都是一种货币现象。(Inflation is everywhere and always a monetary phenomenon.)”</p>
+<p><strong>货币主义学派见解二：货币长期中性</strong><br>奥地利学派认为<strong>货币短期内是蜜</strong>，但货币主义学派说<strong>货币长期内是水</strong>,新增的货币流动到社会的每一个角落，除了导致物价水平上涨，其他任何事情都不会改变，政府通过货币政策干预经济是无效的。</p>
+<p><strong>货币主义学派见解三：制造通货膨胀不能降低失业率</strong><br>他们认为<strong>长期的菲利普斯曲线</strong>应该是垂直的，制造通货膨胀最终不能降低失业率，由此他们也预言了滞涨这种现象的产生。</p>
+<p><strong>货币主义学派见解四：<a href="https://wiki.mbalib.com/wiki/%E6%8C%81%E4%B9%85%E6%94%B6%E5%85%A5%E5%81%87%E8%AF%B4" target="_blank" rel="noopener">永久收入假说(permanent income hypothesis)</a></strong><br>人会将钱放在<strong>时间维度</strong>上作<strong>平衡消费</strong>，如此提升幸福感，而非一下花光。<br><strong>弗里德曼主张将货币增长比例写入宪法</strong>，如此，人们就能有一个明确的预期。</p>
+<p><strong>理性预期学派：政府管得越多，经济波动越大</strong><br>上有政策下有对策，群众会对政策进行进行解读。“当看到社会上消费不足时，政府发钱让人们消费，人们会知道这钱不是白给的，会通过增加税收的形式收上去，所以拿了也不能乱花。”这时，政策就失效了，不是政策制订的不好，而是它被人们得预期抵消了。<br>经济模型相对于群众预期的改变还是有些滞后。</p>
+<h3 id="111-真是经济周期理论"><a href="#111-真是经济周期理论" class="headerlink" title="111 真是经济周期理论"></a>111 真是经济周期理论</h3><p>两位2004年的诺贝尔经济学奖获得者<a href="https://wiki.mbalib.com/wiki/%E8%8A%AC%E6%81%A9%C2%B7%E5%9F%BA%E5%BE%B7%E5%85%B0%E5%BE%B7" target="_blank" rel="noopener">芬恩·基德兰德(Finn E.Kydland)</a>和<a href="https://wiki.mbalib.com/wiki/%E7%88%B1%E5%BE%B7%E5%8D%8E%C2%B7%E6%99%AE%E9%9B%B7%E6%96%AF%E7%A7%91%E7%89%B9" target="_blank" rel="noopener">爱德华·普雷斯科特(Edward Prescott)</a>提出<a href="https://wiki.mbalib.com/wiki/%E7%9C%9F%E5%AE%9E%E7%BB%8F%E6%B5%8E%E5%91%A8%E6%9C%9F%E7%90%86%E8%AE%BA" target="_blank" rel="noopener">真实经济周期理论(Real Business Cycle Theory)</a>，认为</p>
+<blockquote>
+<p>1&gt;冲击无处不在，经济周期是很自然的事<br>2&gt;市场出现一定程度的库存，积压是合理现象<br>3&gt;有些失业现象是生产力提高的结果<br>4&gt;错误的商业决策也是经济衰退的成因</p>
+</blockquote>
+<h3 id="112-聪明人为什么会彼此不同意"><a href="#112-聪明人为什么会彼此不同意" class="headerlink" title="112 聪明人为什么会彼此不同意"></a>112 聪明人为什么会彼此不同意</h3><p>那些各个学派的代表人物无论先后，都获得过诺贝尔经济学奖。<br><strong>宏观经济学家争论不休的四大原因</strong></p>
+<blockquote>
+<p>1&gt;宏观经济涉及的变量太多，而研究宏观经济现象本身，数量又是有限的<br>2&gt;宏观变量本身是一些加总的变量，这些变量之间未必具有必然的因果关系<br>3&gt;人们会形成预期，会产生对策<br>4&gt;人类无法用科学的方法来应对不确定性</p>
+</blockquote>
+<p>凯恩斯并不是职业经济学家，他在1936年出版的<a href="https://book.douban.com/subject/1137246/" target="_blank" rel="noopener">《就业、利息和货币通论》</a>，从此开创了宏观经济学这个学术分支。<br>世界上不仅存在风险(risk)还存在<strong>不确定性</strong>(uncertainty)。当人们面对不确定性的冲击，当他们发现用精准的数学根本无力招架、无法应对的时候，他们只能诉诸直觉、比喻、经验、自信以及勇气。这是宏观经济学真正深不可测的原因。</p>
+<p><strong>不同学派对宏观经济学问题的看法</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">学派</th>
+<th align="center">震动来源</th>
+<th align="center">预期</th>
+<th align="center">价格调整</th>
+<th align="center">市场调整</th>
+<th align="center">均衡观</th>
+<th align="center">影响时长</th>
+<th align="center">规则/相机</th>
+<th align="center">收入政策</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">正统凯恩斯主义</td>
+<td align="center">消费需求独立波动</td>
+<td align="center">自适应的</td>
+<td align="center">相对僵化</td>
+<td align="center">能力弱</td>
+<td align="center">无法达到充分就业</td>
+<td align="center">短期</td>
+<td align="center">相机</td>
+<td align="center">局部赞成</td>
+</tr>
+<tr>
+<td align="center">正统货币主义学派</td>
+<td align="center">货币供给的干扰</td>
+<td align="center">自适应的</td>
+<td align="center">灵活的</td>
+<td align="center">能力强</td>
+<td align="center">总能达到自然失业率</td>
+<td align="center">有时短期、有时长期</td>
+<td align="center">规则</td>
+<td align="center">无关且骚扰、会扭曲复苏进程</td>
+</tr>
+<tr>
+<td align="center">新古典学派</td>
+<td align="center">货币供给的干扰</td>
+<td align="center">理性的</td>
+<td align="center">极端灵活的</td>
+<td align="center">非常强的</td>
+<td align="center">总能达到自然失业率</td>
+<td align="center">长期与短期无区别</td>
+<td align="center">规则</td>
+<td align="center">无关且骚扰、会扭曲复苏进程</td>
+</tr>
+<tr>
+<td align="center">真实经济周期</td>
+<td align="center">来自供应方(技术层面)的冲击</td>
+<td align="center">理性的</td>
+<td align="center">极端灵活的</td>
+<td align="center">非常强的</td>
+<td align="center">总能达到动态的自然失业率</td>
+<td align="center">长期与短期无区别</td>
+<td align="center">规则</td>
+<td align="center">无关且骚扰、会扭曲复苏进程</td>
+</tr>
+<tr>
+<td align="center">新凯恩斯主义学派</td>
+<td align="center">在供给和需求中间折中</td>
+<td align="center">理性的</td>
+<td align="center">强调价格刚性(如菜单成本)</td>
+<td align="center">缓慢</td>
+<td align="center">存在非自愿失业</td>
+<td align="center">总的来说是短期的</td>
+<td align="center">众说纷纭</td>
+<td align="center">总体而言是持否定态度的</td>
+</tr>
+<tr>
+<td align="center">奥地利学派</td>
+<td align="center">货币供给的干扰系统</td>
+<td align="center">理性的</td>
+<td align="center">灵活的</td>
+<td align="center">能力强</td>
+<td align="center">趋于均衡</td>
+<td align="center">有时短期、有时长期</td>
+<td align="center">规则</td>
+<td align="center">有害且会扭曲复苏进程</td>
+</tr>
+<tr>
+<td align="center">后凯恩斯主义学派</td>
+<td align="center">消费需求独立波动</td>
+<td align="center">理性的</td>
+<td align="center">黏性的</td>
+<td align="center">非常弱</td>
+<td align="center">无法达到的充分就业</td>
+<td align="center">短期</td>
+<td align="center">相机</td>
+<td align="center">必需且是有益的</td>
+</tr>
+<tr>
+<td align="center"><strong>宏观经济学家的六大共识</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>1经济增长的长期趋势主要依靠供应方面的因素，长期发展还得看生产力<br>2短期的经济波动，往往来自需求方面<br>3长期来讲不能通过制造通货膨胀来降低失业率<br>4长期来讲货币增长决定了通货膨胀率<br>5政府微调经济周期是做不到的<br>6大家普遍接受“人是有对策”这一观点</p>
+</blockquote>
+<h2 id="公共选择-选举未必反应大多数人的意愿"><a href="#公共选择-选举未必反应大多数人的意愿" class="headerlink" title="公共选择 选举未必反应大多数人的意愿"></a>公共选择 选举未必反应大多数人的意愿</h2><h3 id="113-选举由中间派说了算"><a href="#113-选举由中间派说了算" class="headerlink" title="113 选举由中间派说了算"></a>113 选举由中间派说了算</h3><p><strong>市场与投票在公共选择中的区别</strong><br>每一个人都有一个所谓的<a href="https://wiki.mbalib.com/wiki/%E5%8D%95%E5%B3%B0%E5%81%8F%E5%A5%BD%E7%90%86%E8%AE%BA" target="_blank" rel="noopener">单峰偏好(Singer Peak Preference Theory)</a>,也就是一个理想的点，公共选择的结果越是接近这个点，他就越满意，无论高低，越远离他就越不满意。<br>在<strong>投票的情况</strong>下，公共选择的结果相当于<strong>中位数</strong>，由中位数决定；而<strong>在市场里</strong>，公共选择的结果由<strong>平均数</strong>的位置决定。<br>A、B、C三人一起吃饭，A想吃5块钱的煎饼果子，B想吃10块钱的螺狮粉，C想吃50块钱的烤鱼，不能偏离这个喜好点，低了不愿意吃，高了有些贵。在讲科斯定理的时候，提到过<strong>谁使用的价值最高权力归谁</strong>，C的烤鱼最贵，他可以把吃饭的权利买下来。</p>
+<p><strong>赢得中间投票人的支持，就能获得选举成功</strong><br>经济学家<a href="https://en.wikipedia.org/wiki/Duncan_Black" target="_blank" rel="noopener">邓肯·布莱克(Duncan Black)</a>在1948年重新发现“中位数人投票原理”，因为16世界法国有数学家就已经发现这个原理，1957年，经济学者<a href="https://en.wikipedia.org/wiki/Anthony_Downs" target="_blank" rel="noopener">安东尼·唐斯(Anthony Downs)</a>把它写到了对民主进行经济分析的经典著作<a href="https://book.douban.com/subject/4909255/" target="_blank" rel="noopener">《民主的经济理论》(An Economics Theory of Democracy，1957)</a>。在这本书以前，人们相信政治家攀比的是他们的政治理想。过去人们以为，政治家为了实现他们的远大理想而参加竞选；现在人们明白，政治家为了赢得选举刻意裁剪他们的理想。</p>
+<h3 id="114-阿罗不可能定律"><a href="#114-阿罗不可能定律" class="headerlink" title="114 阿罗不可能定律"></a>114 阿罗不可能定律</h3><p><strong>选举不一定反映大多数人的意愿</strong><br><a href="https://baike.baidu.com/item/%E8%82%AF%E5%B0%BC%E6%96%AF%C2%B7%E7%BA%A6%E7%91%9F%E5%A4%AB%C2%B7%E9%98%BF%E7%BD%97" target="_blank" rel="noopener">肯尼斯·阿罗(Kenneth Arrow)</a>重新提出提出<a href="https://wiki.mbalib.com/wiki/%E9%98%BF%E7%BD%97%E7%9A%84%E4%B8%8D%E5%8F%AF%E8%83%BD%E5%AE%9A%E7%90%86" target="_blank" rel="noopener"><strong>阿罗不可能定律</strong></a><code>18世纪的数学家孔多塞和波尔达曾经提出过，但著作被湮没了</code>，指在人们有多种不同选择的情况下，选举不一定能反映出大多人的意愿。<br>在现实生活中，“<strong>选举反映了大多数人的意愿</strong>”本身就有可能是个<strong>谬误</strong>。阿罗不可能定律指出，在特定的情况下，要选择真正能够代表大多数人意愿的选项是不可能的，选择的结果其实是循环的。实际上不同的问法就决定了不同的答案，并不存在什么大多数人的意愿这一说。</p>
+<p><strong>已经被暗中决定了的投票结果</strong><br><a href="https://wiki.mbalib.com/wiki/%E5%85%AC%E5%85%B1%E9%80%89%E6%8B%A9%E5%AD%A6%E6%B4%BE" target="_blank" rel="noopener">公共选择学派</a>的创始人<a href="https://wiki.mbalib.com/wiki/%E6%88%88%E7%99%BB%C2%B7%E5%A1%94%E6%B4%9B%E5%85%8B" target="_blank" rel="noopener">戈登·图洛克(Gordon Tullock)</a><code>熟悉的寻租理论就是他提出来的</code>，写过一篇文章<a href="https://link.springer.com/article/10.1007/BF00138239" target="_blank" rel="noopener">《为什么这么稳定》(Why So Much Stability，1981)</a>。它的意思是说阿罗不可能定律预测的是一个动态结果，但现实中没有这样的结果，是在于每次人们投票决定一件事时，都有一个会议召集人或<strong>议程设计者</strong>，他设计了怎么问别人，甚至在起主导作用，其他人所代表的那个可能只是个<strong>橡皮图章</strong>。</p>
+<p><strong>投钞票可对偏好轻重作出排序</strong><br>用选票投，只能反映出对不同选项的<strong>偏好顺序</strong>，却没法反映出<strong>偏好之间的轻重</strong>，而投钞票或豆子可以体现。</p>
+<h3 id="115-民主为何会产生不良经济效应"><a href="#115-民主为何会产生不良经济效应" class="headerlink" title="115 民主为何会产生不良经济效应"></a>115 民主为何会产生不良经济效应</h3><p>那么问题来了：既然这么多经济政策都是低效或者无效的，甚至是在起反作用，那为什么这些经济政策还反复被采纳、被执行？而且执行者往往还是某些民主国家？</p>
+<h4 id="传统公共选择学派的理由"><a href="#传统公共选择学派的理由" class="headerlink" title="传统公共选择学派的理由"></a>传统公共选择学派的理由</h4><p>对于民主为何会产生不良经济政策这个问题，他们提出两个可能的理由：<strong>选民是无知的</strong>，<strong>选举机制有问题</strong>。</p>
+<p>人们对民主的基本信念：<strong>大多数人在大多数时候是正确的</strong>。为了让大众尽快地接近真理，那些掌握了更多信、更多社会运行规律地人应该尽量给大众<strong>普及教育</strong>。<br>首位诺贝尔经济学奖获得者保罗·萨缪尔森，有这样一句名言“只要由我来写经济学教科书，我就不在乎谁来制定国家法律，谁来起草缜密的条约。”<br>弥尔顿·弗里德曼1976年获得诺贝尔经济学奖，此后在公众媒体上做节目、写专栏，用简洁的语言、生动的例子向大众普及经济学地基本原理，直到2006年去世。弗里德曼晚年反思，与三十年前相比，人们只是在口头上更接受市场，在实际政策上并没有什么改进。<code>想起来《道德经》中的一句话“天之道，损有余，补不足；人之道，损不足，补有余。”在《圣经》中也有类似的语句。</code></p>
+<p>假设：我每月可以从每张手机卡偷1角钱，几十亿张手机卡，一个月到手几个亿。那些丢了这些钱的人会对对我群起而攻之吗？不会，很多举动，打个电话、寄一份举报信成本就已经大于1角钱了，除非是为了所谓的<strong>公正</strong>。<strong>(工业和信息化部电信投诉电话：12300)</strong><br>利益团体相对于群众而言，人数较少，互相可见，得益很高，他们利用公共政策赚到的钱是全体公民付出的。而群众，高度分散，互相不可见，一个人受到的损失也很小，联合起来反抗的成本也非常高。在这种格局下，那些有巨大利益的少数派就会有积极性去操纵选举的结果，让大部分分散的选民来承担代价。</p>
+<h4 id="唐纳德·魏特曼的反驳"><a href="#唐纳德·魏特曼的反驳" class="headerlink" title="唐纳德·魏特曼的反驳"></a>唐纳德·魏特曼的反驳</h4><p><a href="https://campusdirectory.ucsc.edu/cd_detail?uid=wittman" target="_blank" rel="noopener">唐纳德·魏特曼(Donal Wittman)</a>认为，市场机制能帮助人们做出明智的选择，政治竞赛至少和市场竞争一样有力，民主制产生的经济政策就是选民想要的。</p>
+<h4 id="布莱恩·卡普兰的“理性胡闹-rational-irrationality-”理论"><a href="#布莱恩·卡普兰的“理性胡闹-rational-irrationality-”理论" class="headerlink" title="布莱恩·卡普兰的“理性胡闹(rational irrationality)”理论"></a>布莱恩·卡普兰的“理性胡闹(rational irrationality)”理论</h4><p><a href="https://en.wikipedia.org/wiki/Bryan_Caplan" target="_blank" rel="noopener">布莱恩·卡普兰(Bryan Caplan)</a>认为：</p>
+<blockquote>
+<p>1&gt;大众的经济学认识有<strong>系统性偏差</strong>，大众容易产生排外偏见、职位偏见、反市场偏见、悲观偏见；<br>2&gt;任何个人的选票都无法改变选举的结果，参选人赢得之间赢得大选的概率与成为中间选民的概率成正相关；而基本上一面倒的选举，谁都不大可能通过自己的一票力挽狂澜；美联邦最高法的九位大法官成为中间投票人的概率远大于上亿人成为中间选民的概率。在一个巨大的分母上，放那个“1”其结果都是接近于“0”；<br>3&gt;市场决策与民主决策的根本区别，是否需要为自己的主张<strong>负直接的责任</strong>，比如在市场中买车和为免费医疗投票。<br>幸亏人的生命只有一次，不想在游戏里，死了投个币重开就行，即使这样大部分才能理性对待事物，而非放纵自己的感情和偏见，从而产生巨大地外部负效应。</p>
+</blockquote>
+<h3 id="116-关于收入再分配的戴雷科特定律"><a href="#116-关于收入再分配的戴雷科特定律" class="headerlink" title="116 关于收入再分配的戴雷科特定律"></a>116 关于收入再分配的戴雷科特定律</h3><p><a href="https://baike.baidu.com/item/%E4%BA%9A%E4%BC%A6%C2%B7%E6%88%B4%E9%9B%B7%E7%A7%91%E7%89%B9" target="_blank" rel="noopener">亚伦·戴雷科特(Araon Director)</a>是法律经济学的创始人，最早对反垄断法提出一些洞见。这位生于20世纪初，卒于21世纪末的大佬，在人间唠唠叨叨了一百零二年，不爱写文章，只爱在各种讨论会上阐述自己的观点，很早就提出关于公共收入再分配的定律，就是不愿意写出来，直到1970年，<a href="https://wiki.mbalib.com/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E6%96%AF%E8%92%82%E6%A0%BC%E5%8B%92" target="_blank" rel="noopener">乔治·斯蒂格勒(George Stigler)</a>将其写成<a href="https://www.journals.uchicago.edu/doi/pdfplus/10.1086/466680" target="_blank" rel="noopener">《关于公共收入再分配再分配的戴雷科特定律》(Director’s Law of Public Income Redistribution,1970)</a><code>找不到可以在线看的网站</code>。</p>
+<h4 id="对收入再分配的传统批评"><a href="#对收入再分配的传统批评" class="headerlink" title="对收入再分配的传统批评"></a>对收入再分配的<strong>传统批评</strong></h4><p>大多数人认为，政府承担者财富再分配、收入再分配的功能，能够把社会中有钱人的收入征收一部分，给社会中贫穷的人使用。让富人损失一点，然后提高社会整体幸福感。<strong>人与人之间的效用不可以进行横向的比较和加总</strong>。<br>通过计算社会总效用的办法来支持或者反对任何一种公共政策，都是<strong>缺乏合理依据</strong>的。</p>
+<h4 id="戴雷科特：收入再分配，真正得益的并不是穷人而是中等收入的人"><a href="#戴雷科特：收入再分配，真正得益的并不是穷人而是中等收入的人" class="headerlink" title="戴雷科特：收入再分配，真正得益的并不是穷人而是中等收入的人"></a>戴雷科特：收入再分配，真正得益的并不是穷人而是中等收入的人</h4><p>社会中穷人的时间、知识、精力致使他们对社会问题的参与往往不够，他们根本没有意识、没有能力、没有资源为自己说话；社会中的富人，他们不屑于多交一点税、不屑于过多替自己说话；社会中的中等收入者，他们有很大的积极性，他们有动机有能力，通过选举为自己说话，为自己办事。<strong>结果是社会上的富人和穷人共同补贴了社会上的中产阶级</strong>。</p>
+<blockquote>
+<p><strong>常见案例</strong>：公共教育、公共医疗服务、社会保险与养老金、免费高速公路、廉租房和廉价房</p>
+</blockquote>
+<h3 id="117-脱贫致富之路知易行难"><a href="#117-脱贫致富之路知易行难" class="headerlink" title="117 脱贫致富之路知易行难"></a>117 脱贫致富之路知易行难</h3><h4 id="让穷人发挥自己的能动性才是最重要的"><a href="#让穷人发挥自己的能动性才是最重要的" class="headerlink" title="让穷人发挥自己的能动性才是最重要的"></a>让穷人发挥自己的能动性才是最重要的</h4><p>在讲慈善失效时，提到[威廉·伊斯特利]的一本书<a href="https://book.douban.com/subject/3257745/" target="_blank" rel="noopener">《白人的负担》</a>，这里介绍另外一本书<a href="https://book.douban.com/subject/26869012/" target="_blank" rel="noopener">《威权政治》(The Tyranny of Experts，2014)</a>，在这本书中，他说，在给予技术支持、设备支持、资金支持时，一件重要的事情就是<strong>发挥穷人的能动性</strong>。<code>高中某位老师讲过一个故事，干部给某个贫困村带去了几只羊，之后干部再去的时候，问一个村民“羊怎么样”，那位村民说“挺好吃的”。</code></p>
+<p>美国修高速公路的资金，是政府通过收<strong>燃油税</strong>得到的，然后再分配给不同的地区修建当地的公路；而中国修高速公路是当地政府和当地企业修建，修好后，通过收<strong>过路费</strong>的方式把成本收回来，司机会盘算要不要走高速尤其是货车司机，而修路的人也会仔细考虑在那修如何修。<br><strong>局部的规律</strong>可以通过实验反复验证，但是对于更宏观的现象————某国长期落后的原因————作出<strong>一般性的概括</strong>，就是一件难事了</p>
+<p>在美国经济学家<a href="https://en.wikipedia.org/wiki/Daron_Acemoglu" target="_blank" rel="noopener">德隆·阿西莫格鲁(Deron Asimoglu)</a>和<a href="https://en.wikipedia.org/wiki/James_A._Robinson_(economist)" target="_blank" rel="noopener">詹姆斯·罗宾逊(James Robinson)</a>合著的<a href="https://book.douban.com/subject/26388427/" target="_blank" rel="noopener">《国家失败的原因:权力、繁荣和贫穷的起源》(Why Nations Fail: The Origins of Power, Prosperity, and Poverty,2012)</a>中，有这样的观点：有些国家采取了包容性的政策(inclusive policy)，有些国家采取了汲取性政策(extractive policy)<br><strong>包容性政策</strong>：惠及所有的人，在社会中保持公正、公平，使得发展能够持续、所有人和睦相处且发展自我的政策。<br><strong>汲取性政策</strong>：通过垄断、专卖、市场控制等方法，把社会资源集中在少数人手里。</p>
+<h4 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h4><p>一个国家穷富，经济制度只是众多原因中的一个，此外还有文化、地理、人群基因、自然条件等因素。<br><a href="https://baike.baidu.com/item/%E8%B4%BE%E9%9B%B7%E5%BE%B7%C2%B7%E6%88%B4%E8%92%99%E5%BE%B7" target="_blank" rel="noopener">贾雷德·戴蒙德(Jared Diamond)</a>在<a href="https://book.douban.com/subject/26743265/" target="_blank" rel="noopener">《枪炮、病菌与钢铁》</a>(Guns,Germs,and steel,1997)，作者认为欧亚和北非的文明能够存活甚至侵略其他文明，只是因为他们所处的地理环境，通过一系列的作用和反作用，他们的势力就超过了对手。</p>
+<p><strong>有时候，因果颠倒。</strong><code>中学的时候做证明题，会拿结论证明问题，哈哈哈</code></p>
+<h3 id="118-中国做对了什么"><a href="#118-中国做对了什么" class="headerlink" title="118 中国做对了什么"></a>118 中国做对了什么</h3><p><strong>知错&amp;知对</strong></p>
+<blockquote>
+<p>去的经济成就做对的四件事情<br>1&gt;给重要的资产确权<br>2&gt;引入了市场竞争机制<br>3&gt;鼓励民营企业发展<br>4&gt;加入世界贸易组织，让中国人民直接参与了国际化的大合作</p>
+</blockquote>
+<h4 id="界定产权：以土地和人力资本为例"><a href="#界定产权：以土地和人力资本为例" class="headerlink" title="界定产权：以土地和人力资本为例"></a>界定产权：以土地和人力资本为例</h4><p><strong>家庭联产承包责任制</strong>将土地的经营权、管理权、收入分配权从大集体转向家庭，使农民变成<strong>剩余索取者</strong><br>价格的三个作用：传递关于稀缺性的信息，指导生产，指导分配</p>
+<p>政府解除对<strong>人力资本</strong>的保护后，人力资本的投资积极性提高。</p>
+<h4 id="引入市场竞争：从认人的制度改为认钱的制度"><a href="#引入市场竞争：从认人的制度改为认钱的制度" class="headerlink" title="引入市场竞争：从认人的制度改为认钱的制度"></a>引入市场竞争：从认人的制度改为认钱的制度</h4><p>按出价的高低来做决定有一个特点，那就是因为这种竞争规则引发的<strong>无所谓损失</strong>、竞争的成本会降到最低，所以它是最有效的。</p>
+<h4 id="鼓励民营企业发展：充分利用企业家的优势"><a href="#鼓励民营企业发展：充分利用企业家的优势" class="headerlink" title="鼓励民营企业发展：充分利用企业家的优势"></a>鼓励民营企业发展：充分利用企业家的优势</h4><p>私营企业去冒险、去承担责任<br>政府只保驾护航，进行底线监管，同时发挥该发挥的作用</p>
+<h4 id="加入世界贸易组织：开放国门迎接竞争"><a href="#加入世界贸易组织：开放国门迎接竞争" class="headerlink" title="加入世界贸易组织：开放国门迎接竞争"></a>加入世界贸易组织：开放国门迎接竞争</h4><p>比较优势原理：“只有打开了国门，只有丢了成本较高的工作，才可能找到成本较低的工作。”</p>
+<p><strong>先实践，后解释。</strong></p>
+<h1 id="何为地道的经济学思维"><a href="#何为地道的经济学思维" class="headerlink" title="何为地道的经济学思维"></a>何为地道的经济学思维</h1><blockquote>
+<p>作为小白的我，拜读经济学方面的书，没敢有啥太大的想法，只是想单纯了解一些基础知识和培养经济学思维来看世界。```</p>
+</blockquote>
+<p>薛兆丰老师讲，地道的经济学思维是对包含人性的因果规律的探索。在这个过程中，数字、术语、结论不重要；重要的是想象力、视角、推理、权衡。经济学研究有人的世界，物理学研究无人的世界，经济学加入了对人和事的考量。原则总是容易明白但不容易践行，薛老师总结了八点地道的经济学思维心得作为这本书的后记。</p>
+<h4 id="1-可证伪的才是地道的"><a href="#1-可证伪的才是地道的" class="headerlink" title="1 可证伪的才是地道的"></a>1 可证伪的才是地道的</h4><p>20世纪的哲学家<a href="https://wiki.mbalib.com/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E6%B3%A2%E6%99%AE%E5%B0%94" target="_blank" rel="noopener">卡尔·波普尔爵士(Sir Karl Popper)</a>提出证伪主义理论，这对启发人们在科学主义理论和非科学主义理论之间画一条界限发挥了重大作用，有可能错的才是科学理论。物理学、化学、天文学、经济学都是<strong>科学</strong>，而文学、艺术还有逻辑和数学都是<strong>非科学</strong>。</p>
+<h4 id="2-与生活相关的才是地道的"><a href="#2-与生活相关的才是地道的" class="headerlink" title="2 与生活相关的才是地道的"></a>2 与生活相关的才是地道的</h4><p>经济学家<a href="https://en.wikipedia.org/wiki/Deirdre_McCloskey" target="_blank" rel="noopener">迪尔德丽·麦克罗斯基Deirdre McClosky</a>写过一本小书<a href="https://www.amazon.com/Vices-Economists-Virtues-Bourgeoisie/dp/9053562443" target="_blank" rel="noopener">《经济学家的邪恶和资本家的美德》(The Vices of Economists ；The Virtues of the Bourgeoisie，1997)</a>，她观点类似的著作有<a href="https://book.douban.com/subject/30182660/" target="_blank" rel="noopener">《企业家的尊严》</a>，她批评了<a href="https://wiki.mbalib.com/wiki/%E7%AE%80%C2%B7%E4%B8%81%E4%BC%AF%E6%A0%B9" target="_blank" rel="noopener">简·丁伯根(Jane Tinbergen)</a>创立社会改造工程学，她说这门学问把人类社会等同于物理世界；批评萨缪尔森的黑板经济学，说他的经济学远离真实世界；批评<a href="https://wiki.mbalib.com/wiki/%E5%8A%B3%E4%BC%A6%E6%96%AF%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0" target="_blank" rel="noopener">劳伦斯·克莱因(Lawrence Klein)</a>,说他创立的计量经济学，混淆了科学的显著性和人文的重要性，以致人们在做出决策时，没有把人文的价值考虑在内。她认为过去二百年经济的飞速增长不是因为剥削、不是因为单纯的投资，而是创新，但这个在经济学的教科书里找不到。<br>她主张我们要在经济分析中，加入不容易观察、刻画、衡量的因素，只有这样才能够理解我们正在经历的<a href="https://baike.baidu.com/item/%E9%95%BF%E8%B6%B3/183967" target="_blank" rel="noopener"><strong>长足进步</strong></a>。</p>
+<h4 id="3-看不见的才是地道的"><a href="#3-看不见的才是地道的" class="headerlink" title="3 看不见的才是地道的"></a>3 看不见的才是地道的</h4><p>看不见的其他维度的增益，看不见的未来，看不见的失败者，看不见的竞争者，看不到的供给和需求，看不到的政府支出和私人支出间的关系。</p>
+<h4 id="4-能分辨原因和结果的才是地道的"><a href="#4-能分辨原因和结果的才是地道的" class="headerlink" title="4 能分辨原因和结果的才是地道的"></a>4 能分辨原因和结果的才是地道的</h4><p>从经济学的角度看，往往是人们成功后，采取找理由的，这对因果是一个颠覆。比如在日本漫画<a href="https://baike.baidu.com/item/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85/8702" target="_blank" rel="noopener">《火影》</a>中，被视为村中“妖物”的漩涡鸣人一直想成为火影得到大家的认可，宇智波鼬告诉鸣人“得到大家认可的才会成为火影。”<br>经济学是一门研究人的行为规律的学科，要找出人的行为规律，就要找出各种事件之间的相关性、因果、显著性、代表性等。</p>
+<h4 id="5-能分辨事实和语言的才是地道的"><a href="#5-能分辨事实和语言的才是地道的" class="headerlink" title="5 能分辨事实和语言的才是地道的"></a>5 能分辨事实和语言的才是地道的</h4><p>根据产生错位甚至冲突等变化的事实，来修改我们使用的定义、概念、判断，而非强行修改我们要分析的客观世界。<code>《道德经》中有“道可道，非常道；名可名，非常名。”《金刚般若波罗密多经》中佛陀与须菩提的对话。</code><br>许多产品是一种综合服务，而不是一个简单的标准品。如，学区房案列。否认了学位的商品性，就只能把人们对学位的追逐改变为对住房的追逐。本来家庭间的区别是能不能付起学费的问题，结果成了能不能买得起学区房的问题；学生之间的区别本来是在于成绩，结果变成了攀比父母财力。把商品不当商品看，使问题越来难以解决。<br>不论提出什么样的口号、说法，语言都不重要，语言所包装的行为是否符合经济发展规律才是重要的。</p>
+<h4 id="6-能分辨愿望与结果才是地道的"><a href="#6-能分辨愿望与结果才是地道的" class="headerlink" title="6 能分辨愿望与结果才是地道的"></a>6 能分辨愿望与结果才是地道的</h4><p>经济学研究的是<strong>事与愿违</strong>的学问，好人做坏事，坏人做好事。<br>本来我进市场要买最便宜的苹果，结果我的到来，导致了苹果价格的上涨。<br>相对弹性较大的一方，承担额外成本的比例就比较低；相对弹性较小的一方，承担的比例比较高。买了结婚用的钻戒，并不是由风俗习惯、法律决定的，而是由暗中的交易双方或多方的<strong>相对弹性</strong>决定的。</p>
+<h4 id="7-能分辨个体和全体的才是地道的"><a href="#7-能分辨个体和全体的才是地道的" class="headerlink" title="7 能分辨个体和全体的才是地道的"></a>7 能分辨个体和全体的才是地道的</h4><p>逻辑学中有一个概念叫做<a href="https://wiki.mbalib.com/wiki/%E5%90%88%E6%88%90%E8%B0%AC%E8%AF%AF" target="_blank" rel="noopener"><strong>合成谬误</strong>(fallacy of composition)</a>，说适用于个体的并不一定适用于全局。<br>看剧的时候，前排一个人看不见然后站起来，后面的看不见也站起来，到最后，大家都别坐着了。</p>
+<h4 id="8-牢记基本事实才是地道的"><a href="#8-牢记基本事实才是地道的" class="headerlink" title="8 牢记基本事实才是地道的"></a>8 牢记基本事实才是地道的</h4><p>有些事实我们永远不能<strong>假设</strong>，不能假设信息是对称的，市场是均衡的等等，有些问题和条件，它们<strong>时刻在起作用</strong>，不能为了让一个定律成立假设某个要素不起作用。</p>
+<img src="/.io//12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/example.jpg" class title="This is an example image">
+
+
+
+<p>油画《放贷者和他的妻子》 Quentin Matsys于1514年所作  现藏于卢浮宫</p>
+<p><strong>利率管制</strong>过当的情况下，有可能出现<strong>有钱人不愿意借钱，黑社会放贷，迂回支付利息</strong>等情况。</p>
+<p>在某些地区，当地的政府会拨一种<strong>零利息小额贷款</strong>，如果审批不严格，会出现下面这种情况，钱被贷了，但是并不是由政策上希望用的人来使用，而是由有权钱有关系的人使用，那么制订之初的意愿就被违背了。</p>
+<h3 id="061利率变化支配资本现值-1"><a href="#061利率变化支配资本现值-1" class="headerlink" title="061利率变化支配资本现值"></a>061利率变化支配资本现值</h3><p><strong>贴现率</strong>:未来价值(期值)转换为当前价值(现值)的打折程度。<br><strong>贴现率影响个人自律程度</strong>:某些政商干部在早年没考虑到未来,只想到当下,造成一些”老寒腿问题”。<br><strong>贴现率公式</strong> pv现值 fv期值 r利率 n期数  pv = fv/(1+r)**n</p>
+<h2 id="有效市场假说-时间维度上的平衡消费-1"><a href="#有效市场假说-时间维度上的平衡消费-1" class="headerlink" title="有效市场假说 | 时间维度上的平衡消费"></a>有效市场假说 | 时间维度上的平衡消费</h2><h3 id="062投资就是时间维度上的平衡消费-1"><a href="#062投资就是时间维度上的平衡消费-1" class="headerlink" title="062投资就是时间维度上的平衡消费"></a>062投资就是时间维度上的平衡消费</h3><p>某石油老总打光石油，牺牲未来更高收益，没有考虑到机会成本。</p>
+<h3 id="063股价是否能预测-1"><a href="#063股价是否能预测-1" class="headerlink" title="063股价是否能预测"></a>063股价是否能预测</h3><p>两个分离世界：我们看得见，摸得着的<strong>物理世界</strong>；我们看不见，摸不着的<strong>观念世界</strong>，人们在那里时刻形成、比较、交换和修正对未来的预期。<br>1815年6月18日滑铁卢战役的胜败，1815年6月19日伦敦股票交易所里英国公债的买卖。罗斯柴尔德家族对战况的高效率情报左右了英国公债的价值。</p>
+<h3 id="064股市是否有泡沫-1"><a href="#064股市是否有泡沫-1" class="headerlink" title="064股市是否有泡沫"></a>064股市是否有泡沫</h3><p><a href="https://wiki.mbalib.com/wiki/%E5%B0%A4%E9%87%91%C2%B7%E6%B3%95%E7%8E%9B" target="_blank" rel="noopener">尤金·法玛(Eugene F. Fame)</a>提出<a href="https://wiki.mbalib.com/wiki/%E6%9C%89%E6%95%88%E5%B8%82%E5%9C%BA%E5%81%87%E8%AF%B4" target="_blank" rel="noopener">有效市场假说(efficient market hypothesis)</a>，核心内容即资产的价格已经反应了关于资产内在价值的所有可得信息，所以它们的价格就是最有效的价格。<br><a href="https://wiki.mbalib.com/wiki/%E7%BD%97%E4%BC%AF%E7%89%B9%C2%B7%E5%B8%8C%E5%8B%92" target="_blank" rel="noopener">罗伯特·席勒(Robert J.Shiller)</a>认为市场是存在泡沫的，在他的<a href="https://book.douban.com/subject/26803982/" target="_blank" rel="noopener">《非理性繁荣》(Irrational Exuberance,2000)</a>中，通过对一次又一次的股市泡沫的描述，他认为市场并不是十分有效，资产的定价有时过于高低不定，人的反应有时迟钝有时过敏。<br><a href="https://wiki.mbalib.com/wiki/%E5%87%AF%E6%81%A9%E6%96%AF" target="_blank" rel="noopener">凯恩斯·梅耶(John Maynard Keynes)</a>在<a href="https://book.douban.com/subject/1137246/" target="_blank" rel="noopener">《就业、利息和货币通论》(The General Theory of Employment、Interest and Money,1936)</a>提出下面的观点：一个模特最终能否赢得选美大赛，不是取决于她<strong>本身</strong>是否美丽，而是取决于<strong>别人</strong>觉得她是否能赢得选美大赛。</p>
+<p>自BTC之后，市场上出现了上千种数字货币，以BEAM为例，最高单价达到过￥20左右，最低单价达到过￥3左右，￥10入手的，想着有人炒起来后，￥20能卖出去，结果跌倒了￥3，割新韭菜一波，但没想到被老韭菜给割了。————<strong>博傻</strong></p>
+<h3 id="065所有资产的回报率都会趋向于相等-1"><a href="#065所有资产的回报率都会趋向于相等-1" class="headerlink" title="065所有资产的回报率都会趋向于相等"></a>065所有资产的回报率都会趋向于相等</h3><p>回报增加的同时，回报率不会增加。</p>
+<h2 id="预测未来-债券、保险与期货-1"><a href="#预测未来-债券、保险与期货-1" class="headerlink" title="预测未来 | 债券、保险与期货"></a>预测未来 | 债券、保险与期货</h2><h3 id="066未雨绸缪，储蓄？保险？-1"><a href="#066未雨绸缪，储蓄？保险？-1" class="headerlink" title="066未雨绸缪，储蓄？保险？"></a>066未雨绸缪，储蓄？保险？</h3><p>对待风险的三种态度：风险厌恶，风险偏好，风险中性<br>通过买保险使得未来生活的恶性变动不会大幅度影响生活，即花钱换取一种<strong>稳定性</strong><br>保险服务的三个前提条件：投保事项具有一定<strong>概率性</strong>，每一个投保人所具有的风险概率<strong>互不相关</strong>，概率事件<strong>独立</strong>于投保人意愿。</p>
+<h3 id="067保险的运作原理-1"><a href="#067保险的运作原理-1" class="headerlink" title="067保险的运作原理"></a>067保险的运作原理</h3><p>细分(segregation):把不同人的风险做精确的划分。<br>加总(aggregation):在每一个细分的组里，增加每一个细分组成员的人数。</p>
+<h3 id="068不是保险的保险-1"><a href="#068不是保险的保险-1" class="headerlink" title="068不是保险的保险"></a>068不是保险的保险</h3><p>失业保险是一种社会补贴。<br>失业保险金越高，失业率越高。<br>养老保险不是储值而是转移支付。</p>
+<h3 id="069当商品不被当作商品-1"><a href="#069当商品不被当作商品-1" class="headerlink" title="069当商品不被当作商品"></a>069当商品不被当作商品</h3><p>“我是市场经济的坚定支持者，但是医疗很特殊，不能用市场化的办法来解决”<br><strong>追求绝对</strong>公平不如实行双轨制。在<strong>时间和钱</strong>上作出选择。<br>政府提供廉价医疗，将产生庞大管制和管理费用。</p>
+<h3 id="070用期货合约来重新分配不可避免的风险-1"><a href="#070用期货合约来重新分配不可避免的风险-1" class="headerlink" title="070用期货合约来重新分配不可避免的风险"></a>070用期货合约来重新分配不可避免的风险</h3><p>期货市场满足人们对<strong>确定性</strong>的需求，其本质是为了<strong>分配风险</strong><br>期货市场鼓励人们对未来作出更精准的预测，如期货市场的相关当事人，对某些气候的了解比气象台要准，因为会影响其利益。<br><strong>零和，正和，负和</strong></p>
+<h1 id="C7供应-好钢用在刀刃上-1"><a href="#C7供应-好钢用在刀刃上-1" class="headerlink" title="C7供应 | 好钢用在刀刃上"></a>C7供应 | 好钢用在刀刃上</h1><h2 id="比较优势-天生我才必有用-1"><a href="#比较优势-天生我才必有用-1" class="headerlink" title="比较优势 | 天生我才必有用"></a>比较优势 | 天生我才必有用</h2><h3 id="071比较优势原理-1"><a href="#071比较优势原理-1" class="headerlink" title="071比较优势原理"></a>071比较优势原理</h3><p><a href="https://wiki.mbalib.com/wiki/%E6%9D%8E%E5%98%89%E5%9B%BE%E7%9A%84%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF%E7%90%86%E8%AE%BA" target="_blank" rel="noopener">比较优势原理(the principle of comparative advantage)</a>，最早是<a href="https://wiki.mbalib.com/wiki/%E5%A4%A7%E5%8D%AB%C2%B7%E6%9D%8E%E5%98%89%E5%9B%BE" target="_blank" rel="noopener">大卫·李嘉图(David Ricardo)</a>，在<a href="https://book.douban.com/subject/24745940/" target="_blank" rel="noopener">《政治经济学及赋税原理》(On the Principle of Political Economy and Taxation,1817)</a>中提出来的。<br>具体含义如下:在一个环境中，每个<strong>个体</strong>如果把<strong>有限的资源</strong>包括时间和精力，只用来生产对他们来说<strong>机会成本比较低</strong>的产品，然后跟别人<strong>交换</strong>，如此，整个社会产品的总价值就能达到最大，而且每个个体的境遇都会改变，而不论他们的绝对生产能力是高还是低。<br>比较优势原理的要点：个体(个人、国家、地区)，资源有限，比较优势来自个体内部比较，通过交换。</p>
+<p>类似的观点，在电影[《美丽心灵》]<br>(<a href="https://movie.douban.com/subject/1306029/)中，约翰·纳什也做出来类似的判断。" target="_blank" rel="noopener">https://movie.douban.com/subject/1306029/)中，约翰·纳什也做出来类似的判断。</a></p>
+<img src="/.io//12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/%E3%80%8A%E7%BE%8E%E4%B8%BD%E5%BF%83%E7%81%B5%E3%80%8B%E6%88%AA%E5%9B%BE.PNG" class="《美丽心灵》截图">
+<img src="/.io//12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/example.jpg" class title="This is an example image">
+
+<p>比较优势在两个人完全一样的情况，随机选择一种工作，只要全力以赴做下去，然后进行交换，也会比他们两种工作都做会更好。</p>
+<p>亚当·斯密对此的解释有三点：<strong>A</strong>分工可以减少工作间的往返成本 <strong>B</strong>分工促进“熟能生巧” <strong>C</strong> <strong>分工</strong>使机器替代成为可能</p>
+<h3 id="072顺差逆差，孰优孰劣-1"><a href="#072顺差逆差，孰优孰劣-1" class="headerlink" title="072顺差逆差，孰优孰劣"></a>072顺差逆差，孰优孰劣</h3><p>A国从B国进口的产品多于A国向B国出口的产品，货币<strong>净流出</strong>的A国会出现<strong>贸易逆差</strong>，货币<strong>净流入</strong>的B国会出现<strong>贸易顺差</strong>。<br>国际贸易涉及到四方人士：<strong>本国的消费者</strong>，<strong>本国的生产者</strong>，<strong>国外的生产者</strong>，<strong>国外的消费者</strong>。落后者抵制“攻玉之石”。</p>
+<h3 id="073贸易对等和贸易报复-1"><a href="#073贸易对等和贸易报复-1" class="headerlink" title="073贸易对等和贸易报复"></a>073贸易对等和贸易报复</h3><p><strong>贸易报复将伤害国内消费者</strong></p>
+<p><strong>解除贸易壁垒不是让步</strong>：贸易双方总是得益的，受损的只是落后的第三方。薛兆丰老师在中国加入<strong>世界贸易组织</strong>之前，写了一篇<a href="http://xuezhaofeng.com/blog/?p=126" target="_blank" rel="noopener">《愈让步，愈进步》</a><br><strong>中国加入WTO的好处</strong>是通过一个国际协议来逼迫国内的保守势力进行<strong>改革</strong>。比较优势原理理论很强，但打开国门进行自由贸易，一旦涉及具体行业，就会有侵犯该行业的既得利益者。<br>某些国际贸易组织，要求国家和国家之间有平等的交换条件，各国劳动者的工作条件必须相同，这些条件其实是限制条件。</p>
+<p><strong>反思</strong>在弱国时期，打开国门，会产生企业倒闭和工人失业，是要等到国家强盛吗？</p>
+<h3 id="074贸易保护里有辨析-1"><a href="#074贸易保护里有辨析-1" class="headerlink" title="074贸易保护里有辨析"></a>074贸易保护里有辨析</h3><p>一个清晰的理论在现实生活中，经常会遭遇各种挑战。<br><strong>国家安全</strong><br><strong>扶持幼年工业(infant industry )</strong><br><strong>把钱留在本地</strong><br><strong>长期不练会生疏</strong>  有些需要经验积累，有些上手极快<br><strong>工作流失</strong>   工作不是有形物资，是一种机会，人们只会选择有价值的。<br>在新的国际分工和合作的格局中，工人应找到自己的<strong>位置</strong>，不断<strong>学习</strong>，进一步突破劳动力市场的各种限制，这才是他们提高竞争力的正确方向。<br><strong>贫富分化</strong>   先进国家的资本与落后国家的廉价劳动力相结合。<br>唯有不断进步，活水不腐，而非陷入桎梏。</p>
+<h2 id="价格歧视-定价和竞争的策略-1"><a href="#价格歧视-定价和竞争的策略-1" class="headerlink" title="价格歧视 | 定价和竞争的策略"></a>价格歧视 | 定价和竞争的策略</h2><h3 id="075受价者和觅价者-1"><a href="#075受价者和觅价者-1" class="headerlink" title="075受价者和觅价者"></a>075受价者和觅价者</h3><p>关于定价：经济学里有两个概念————<a href="https://wiki.mbalib.com/wiki/%E5%AE%8C%E5%85%A8%E7%AB%9E%E4%BA%89" target="_blank" rel="noopener"><strong>完全竞争状态(perfect competition)</strong></a>和<a href="https://wiki.mbalib.com/wiki/%E4%B8%8D%E5%AE%8C%E5%85%A8%E7%AB%9E%E4%BA%89" target="_blank" rel="noopener"><strong>不完全竞争状态(imperfect competition)</strong></a>。</p>
+<p><strong>完全竞争状态与受价者</strong>:在现实生活中，小农经济体中的农产品市场。由于农产品市场市场上农民数量相当多，而农产品的质量差距非常小，农民自己的产量跟整个市场的产量相比微不足道，所以只能被动地接受市场的价格，此时，农民即为<a href="https://wiki.mbalib.com/wiki/%E5%8F%97%E4%BB%B7%E8%80%85" target="_blank" rel="noopener"><strong>受价者(price taker)</strong></a><br><strong>不完全竞争状态与觅价者</strong>:市场上每一位卖家卖的产品，在品质上都不一样，信息不完全流通，不完全对称，交易费用为证，存在讨价还价，尔虞我诈地情况。卖家调控价格，不会对买家数量产生巨大波动。在这种市场，卖家具备一个最重要的特征，就是他们对价格和产量具有操控权。觅价者(price searcher)不断摸索合适的价格和产量来选择利益最大化。</p>
+<p>12月下旬，老母亲给我说，咱家那边的鸡蛋一下子一斤跌了五毛钱。过去一年，鸡和鸡蛋的行情一直不错，导致很多<strong>散户入场</strong>，按照鸡的生产周期，最前面跟风的那几波散户的鸡，现在大概到了产蛋高峰期，后面的散户的鸡也能零星地见蛋了，这严重影响到当地大户的利益。几家拥有5万以上规模的大户，有能力造成短期的<strong>价格剧跌</strong>，吓跑要入场的、拖垮被套牢的、打击上下不能自已的，最后让当地市场中鸡的数量回归到一个符合自己最大利益的程度，甚至“善良地”为散户减负。我个人认为，在这个过程中，大户就是“觅价者”，而散户和消费者就是“受价者”。</p>
+<p><strong>不完全竞争才是市场常态</strong><br>理想的状态并不理想，在完全竞争状态中，所有的厂家生产同样的产品，是一个静止、僵化、落后的状态，阁下向往吗？<br>哈耶克在<a href="https://mises.org/library/meaning-competition-2" target="_blank" rel="noopener">《竞争的含义》(The Meaning of Competition,1948)</a>中有如下观点。</p>
+
+
+
+<h3 id="076价格歧视能给觅价者脱罪-1"><a href="#076价格歧视能给觅价者脱罪-1" class="headerlink" title="076价格歧视能给觅价者脱罪"></a>076价格歧视能给觅价者脱罪</h3><p><a href="https://wiki.mbalib.com/wiki/%E4%BB%B7%E6%A0%BC%E6%AD%A7%E8%A7%86" target="_blank" rel="noopener"><strong>价格歧视(Price Discrimination)</strong></a>，就是区别定价,卖家根据用户不同的身份、位置、购买量、购买时间等，收取不同的价格。<br>觅价者若是追求个人利益最大化，不惜使得产量降低，使价格变得过低，这个过程中，没有发挥出来的生产力即为<strong>无所谓损失(deadweight loss)</strong>。<br>举个例子：小偷偷了东西，造成财富的转移，而已，但换个角度看，为了东西不被偷，这就需要锁了，而经济学家责难小偷的地方，是在于，为造锁而消耗的<strong>真实资源</strong>，即<strong>无所谓损失</strong>，哈哈，这不还造成了就业嘛。</p>
+<p><strong>价格歧视可消除无谓损失</strong>：商家是知道有这部分损失的，然后区别收取价格，经济学家假定的“本来要被生产但并没被生产出来的产品”，即被生产出来，但这其中的产品，是被间接生产的。</p>
+<h3 id="077价格歧视的策略-1"><a href="#077价格歧视的策略-1" class="headerlink" title="077价格歧视的策略"></a>077价格歧视的策略</h3><p><strong>一级价格歧视</strong>：每一单位产品都有不同的价格，即垄断者知道每一个消费者对任何数量的产品所要支付的最大货币量，所确定的价格正好等于对产品的需求价格，因而获得每个消费者的全部消费剩余，换句话说，<strong>消费者一点便宜都占不到</strong>。</p>
+<p><strong>二级价格歧视</strong>：即垄断厂商了解消费者的需求曲线，把这种<strong>需求曲线分为不同段</strong>，根据不同购买量，确定不同价格，垄断者获得一部分而不是全部买主的消费剩余。公用事业中的差别价格就是典型的二级价格歧视。</p>
+<p><strong>三级价格歧视</strong>：垄断厂商对<strong>不同</strong>市场的不同消费者实行不同的价格，在实行高价格的市场上获得超额利润。</p>
+<p>要成功实施价格歧视，最重要的是防止消费者同样产品在消费者之间<strong>转售</strong>。比如用户在使用Windows系统时，需要用注册码激活，教育版、家庭版等不同的版本会有不同的价格，但是使用某些 Crack Tools，不花钱，尤其是在某些习惯使用免费产品的地区。</p>
+<p><strong>不同行业的价格歧视</strong>，如航空公司、教育机构、旅游景点、图书、演唱会，航空公司通过对乘客的细分，收取不同的价格，但大家都坐同一航班。</p>
+<h3 id="078行业竞争程度不看企业个数-1"><a href="#078行业竞争程度不看企业个数-1" class="headerlink" title="078行业竞争程度不看企业个数"></a>078行业竞争程度不看企业个数</h3><p>企业<strong>合并</strong>是为了应对更激烈的市场<strong>竞争</strong>，竞争激烈程度不在于企业<strong>数量</strong>，看看<strong>市场准入</strong>是否存在<strong>行政设置障碍</strong>。</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">开放市场(放开准入)</th>
+<th align="center">封闭市场(限制准入)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>受价者(面对几乎水平的需求曲线)</strong></td>
+<td align="center">完全竞争(如个体农产品销售者)</td>
+<td align="center">卡特尔</td>
+</tr>
+<tr>
+<td align="center"><strong>觅价者(面对倾斜的需求曲线)</strong></td>
+<td align="center">垄断者 不完全的竞争者 有市场支配地位的卖家(如苹果、微软)</td>
+<td align="center">受政府保护的专营者或垄断者(如中石油等) 专利权人   版权所有人</td>
+</tr>
+</tbody></table>
+<h1 id="C8-信息不对称-谁的话语权更大-1"><a href="#C8-信息不对称-谁的话语权更大-1" class="headerlink" title="C8 信息不对称 | 谁的话语权更大"></a>C8 信息不对称 | 谁的话语权更大</h1><h2 id="信任的建立-直面信息不对称-1"><a href="#信任的建立-直面信息不对称-1" class="headerlink" title="信任的建立 | 直面信息不对称"></a>信任的建立 | 直面信息不对称</h2><h3 id="079🍋市场的故事-1"><a href="#079🍋市场的故事-1" class="headerlink" title="079🍋市场的故事"></a>079🍋市场的故事</h3><p><strong>信息不对称的表现</strong>：欺骗(cheating)、偷懒(shirking)、逆向选择(adverse seletion)、道德风险(moral hazed)、敲竹杠(hold-up)</p>
+<p><a href="https://wiki.mbalib.com/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E9%98%BF%E5%85%8B%E5%B0%94%E6%B4%9B%E5%A4%AB" target="_blank" rel="noopener">经济学家乔治·阿克洛夫(George A. Akerlof)</a>在文章————<a href="https://wenku.baidu.com/view/3d7c1dd484254b35eefd3472.html" target="_blank" rel="noopener">《“柠檬”市场：质量不确定与市场机制》(The Market for “Lemons”:Quality Uncertainty and the Market Mechanism，1970)</a>有一个关于<a href="https://wiki.mbalib.com/wiki/%E6%9F%A0%E6%AA%AC%E5%B8%82%E5%9C%BA" target="_blank" rel="noopener">柠檬市场</a>的研究，柠檬在美国有个俚语，是指那些成交以后买家才发现有问题的汽车。<br>在市场中有低端产品不要紧，低端产品也有它的用户需要，市场奔溃的根本原因，在于买家<strong>不知道</strong>每一件商品的具体品质，买家降低自己的期望值，导致原本商品质量高于买家期望值的商品离开市场。短期来看，二手车卖家能获取巨大利益，但这是一种<strong>竭泽而渔</strong>的行为。</p>
+<p>阿克洛夫在发表这篇文章31年后的2001年，获得了诺贝尔经济学奖，在这篇文章中，他揭示了一个重要的道理：人和人之间本来是没有互信的，高品质的产品要把自己彰显出来，与低品质产品区分开来，选哟很大的成本。如果这个问题不解决，就会出现<strong>劣币驱逐良币</strong>的现象。当消费者无法判断那件产品品质高低的时候，他们就会离场，市场就会奔溃。</p>
+<p>因此，一个卖假冒伪劣产品的商人，不仅伤害了购买其产品的消费者，同时也伤害了原本在卖优质产品的商人，更严重的是破坏了社会的和谐以及群众对该行业的印象，如卖假稻种的、卖假疫苗的、卖假羊肉的等。因此在政府和民间组织<strong>打击假冒伪劣</strong>的同时，让消费者知晓如何<strong>判断商品本身的品质</strong>也十分重要，甚至这有可能才是解决信息不对称问题的核心。<br>民智不开，愚弄百姓，赚这样的钱是黑心商人留着死后给自己花吗？这岂是单单一个<strong>扫盲</strong>能解决的。</p>
+<h3 id="080何谓优质-1"><a href="#080何谓优质-1" class="headerlink" title="080何谓优质"></a>080何谓优质</h3><p><strong>品质稳定才是优质</strong><br>我们平时所认为的优质产品就是质量上乘的产品，拿手机来说，同一款手机，为适应不同层次的消费者会出若干版本，青春版、限量版、旗舰版、尊享版等，常规来想最贵的那个就是最好的那个。<br>在经济学里，优质的第一层含义是指<strong>匀质</strong>，即不是厂商把产品做到多好，而是说要把产品的品质维持在一个<strong>稳定</strong>的水平。同一批产品中，一件产品的品质跟另一件产品品质之间的差距不能大，而且差距距越小越好。<br>在我读中学的时候，学校不远处有个商城，在那里能体会到有一种感觉，用文艺点的话来讲，叫做“人间烟火气”。那里并不是吃饭的高档地方，但基本上很多店家这些年，无论原材料价格怎么起落，顾客吃到嘴里的味道一直<strong>没怎么变</strong>。拍一张火车站照片、一张高庙、一张在商城吃饭的照片，就知道快到家了。若说变化，那就是一个桌上吃饭的人换了又换。</p>
+<p><strong>性价比才是优质</strong><br>优质的第二层含义是指，为了<strong>提高产品的质量</strong>所要付出的<strong>边际成本</strong>应该跟它所得到的<strong>边际收益</strong>相等。换句话来说，这里指的是，这里指的是性价比越高越好，一分钱一分货对消费者来讲是划算的。<br>驾驶汽车时追求安全固然重要，但如果一昧地追求安全，马路上泡的都将是坦克，坦克的成本最终还是要由消费者来承担。<br>如果政府规定所有牛奶的蛋白质含量都必须达到一个最低标准，那么以前买低于最低标准牛奶的人，只能花更多的钱去购买更贵的标准牛奶，他们有能力花这笔钱吗？商家失去了这种群体的消费者，消费者失去了原本可以用来发展自己的一部分钱，消费者仍然想消费奶，自己养头奶牛，还是从违规的渠道购买，前者导致机会成本提高和后者导致安全保障降低。</p>
+<h2 id="制度的对策-缔约自由比自由更重要-1"><a href="#制度的对策-缔约自由比自由更重要-1" class="headerlink" title="制度的对策 | 缔约自由比自由更重要"></a>制度的对策 | 缔约自由比自由更重要</h2><h3 id="081重复交易与第三方背书-1"><a href="#081重复交易与第三方背书-1" class="headerlink" title="081重复交易与第三方背书"></a>081重复交易与第三方背书</h3><p><strong>重复交易</strong>:在古代中国，祖祖辈辈在没有重大变故的情况下 ，可能一直居住在同一个地方，周围的邻居也是如此，甚至可能是同一个宗族。重复交易的概率增加，一旦有人做了不诚信的事情，基本上很容易定位到是谁做的，同时不诚信的人在这块地也没法继续混下去。<br><strong>第三方背书</strong>:当我们打开外卖平台下单的时候，能把钱能那么放心地交给一个未曾谋面的人，是因为中间有一个类似于支付宝或微信之类的，大家均认可的第三方在作信用背书。没拿到外卖，第三方就把钱推给消费者，反之亦然。这一点与古人打赌时，找一位有声望不偏袒任何一方的公证人相似，只是今天这些公证人有高科技作支撑。<br><strong>通过增加附加成本发信号</strong><br>在需求第三定律————<strong>“好东西运到远方去定律”</strong><br>在某些直销见面会，老板们衣着高档，会餐也能看得过去，参加的销售员就信了，随后给钱，接着取货，最后货砸在自己手里。<br>之前听某位老师讲，美国医学院毕业生去医院面试，一身行头就要几万美元，这是在向HR发信号，我的能力配得上这身行头。</p>
+<h3 id="083担保、延保与共享合同-1"><a href="#083担保、延保与共享合同-1" class="headerlink" title="083担保、延保与共享合同"></a>083担保、延保与共享合同</h3><p><strong>以品质三包替代品质检验</strong>，通过质保，可以让消费者帮助发现质量题，有效降低质检成本；<br><strong>以延保合约甄别用户</strong>，通过延保，商家将对产品质量要求比较高的消费者甄别出来，让他们承担更高的费用，从而让产品得生产成本与收益更加接近；<br><strong>以共享合约保障品质</strong>，通过收入共享合同，鼓励合作各方尽力保证自己所提供产品或服务得质量。</p>
+<h3 id="083沉没成本、人质与抵押-1"><a href="#083沉没成本、人质与抵押-1" class="headerlink" title="083沉没成本、人质与抵押"></a>083沉没成本、人质与抵押</h3><p><strong>以<a href="https://wiki.mbalib.com/wiki/%E6%B2%89%E6%B2%A1%E6%88%90%E6%9C%AC" target="_blank" rel="noopener">沉没成本(sunk cost)</a>取信于人</strong><br>沉没成本是基本上不能够回收的成本。读中学的时候，有些同学为了表达对某个人的爱意之深，认为从此能与TA共度余生，就把那个同学的姓名或符号纹在身上，那么问题来了，如果这两位分手了，身上有与别人有关纹身的那位同学再和其他人谈恋爱，纹身的事情就比较难解释了。毕竟纹上时痛，洗掉时更痛。<br>三年前，在我的家乡出现了一些民间<a href="http://www.court.gov.cn/fabu-xiangqing-141312.html" target="_blank" rel="noopener">非法集资</a>组织，他们以高利息来诱骗储户将钱存到他们公司里。储户看上的民间非法集资组织画出的高额利息“大饼”，而“画饼的”看上的是储户的本金。这些组织的店面大多是在一个镇子的两头临时租的。</p>
+<h3 id="084广告代言与形象打扮-1"><a href="#084广告代言与形象打扮-1" class="headerlink" title="084广告代言与形象打扮"></a>084广告代言与形象打扮</h3><p><a href="http://gkml.samr.gov.cn/nsjg/fgs/201906/t20190625_302791.html" target="_blank" rel="noopener">《中华人民共和国广告法》</a>规定代言人需要承担一定的连带责任,而美国相关部门则要求代言人使用相关产品,但代言人并非专家无法迫于代言的责任，改进产品的质量。广告主花大价钱请代言人和投放广告，难道仅仅是为了通过大明星、大平台扩大知名度吗？厂商和消费者之间有着严重的信息不对称，如果消费者不能分辨哪家矿泉水,整个矿泉水市场就会萎缩。厂商敢花大价钱作广告，就是为了证明自己有不会欺骗消费者，会在未来把这些钱挣回来，至少是在回本的这段时间，但这钱还得消费者来还，但他们买来了厂商的信誉和厂商做好产品的积极性，买来了消费者的安心。同时，是利用公众人物和公共媒体的公信力,他们的公信力是日久天长积累起的，厂商用可计量的钱买来。<br>餐厅、学校、医院等各行各业都在使用着各种形式的技巧来<strong>取信</strong>自己的消费者，用自身的历史、用群体中个体的历史、向消费者示弱等等。</p>
+<h3 id="085特许经营合同中的强者和弱者-1"><a href="#085特许经营合同中的强者和弱者-1" class="headerlink" title="085特许经营合同中的强者和弱者"></a>085特许经营合同中的强者和弱者</h3><p>用经济学的术语讲，每一家违规的加盟店都对其他的加盟店具有很强的“负的外部性”。也就是说，这家加盟店作错事,其他的加盟店也要一起背这个锅，毕竟他们用的是同一个品牌。<br>总部通过“不平等合约”加强自己的地位，约束加盟店的行为：任何时候，只要总店不满意，总店就有权“随意终止合同”(termination at will)。<br>每当我们看到一种合约形式不公平，但是它却<strong>持续了很久</strong>，<strong>存在的很广</strong>，<strong>克制抱怨</strong>,尝试着思考一下，表面的不公平很可能是要去纠正现实社会中的另一种不公平。</p>
+<h3 id="086如何保障食品、药品和化妆品的质量-1"><a href="#086如何保障食品、药品和化妆品的质量-1" class="headerlink" title="086如何保障食品、药品和化妆品的质量"></a>086如何保障食品、药品和化妆品的质量</h3><p><strong>零部件产品</strong>：可以<strong>追溯</strong>产品生产的每一个环节，如Iphone、联想电脑、格力空调等，正因为生产的人知道自己会被追溯到，所以他们会尽力保证质量。<br><strong>管道产品</strong>：这类产品的生产具有<strong>不可追溯性</strong>，提高了<strong>质检</strong>的难度、降低了<strong>品质</strong>的可靠性。吃的猪肉和喝的牛奶，如果出现问题，比较难找到原因，是生产之初的问题，还是运输的问题、还是加工的问题、还是储藏的问题？<br><strong>管道产品质量控制的难度</strong><br>2008年的“三鹿奶粉含有三聚氰胺”事件，通过往奶制品里加三聚氰胺可以增加奶制品的蛋白质含量。单位牛奶中蛋白质的含量会提高奶农的收入。奶制品加工厂建立全封闭自动化生产的现代化工厂，这是个沉没成本。在运输过程中，开奶罐车的人会去非指定地点收集牛奶，奶厂甚至给奶罐车装上定位系统来跟踪车的行踪。常见的奶罐车可以装4吨到12吨牛奶，这一次能能装好几家的牛奶,出了问题，无法找到是那个奶农加的三聚氰胺。<br><strong>以垂直整合保障管道产品的品质</strong><br>工厂想出了一个克服信息不对称的方法，办托牛所，奶农把他们的牛送到统一的地方挤奶，每次挤完奶后，用试管留下样本，等待<strong>检验</strong>方检查通过后，试管清洗，以备后用。如果加工厂自己养奶牛，品质管理就更方便了。这种方法现在在我们的食堂饭菜监管上同样在使用。除此以外，饲料、饲养等均会影响牛奶的品质。如果整个饲养、加工等能形成<strong>闭环</strong>，中间环节越少，品质检验的成本就越低，品质就越有保障，这中间需要整个产品的<strong>垂直链条</strong>建立起来，这是一个很庞大的规模。<br>斯密和李嘉图都认为<strong>分工能够提高生产效率</strong>，那么问题来了，什么时候选择<strong>垂直管理</strong>？选择分工？在<strong>品质检验</strong>的成本比较低的时候，选择分工，反之亦然。<strong>生产链条</strong>的整合和拆分，不是没有原因的，背后包含了对解决<strong>信息不对称</strong>问题的解决和设计。<br><strong>以“多样性损失”换取“产品可靠性”</strong><br>货架上琳琅满目的商品，是由几家大企业提供的。只有大企业才有足够的财力和研发能力，他们的<strong>沉没成本</strong>足够大，万一真的出事了，他们也赔得起。<br>药品和化妆品品质比较高，药厂造一种新药得用十年左右的时间，商品<strong>质检成本</strong>的高，<strong>不确定性</strong>大，<strong>信息不确定性的障碍</strong>多，人们最会放弃<strong>厂家的多样性</strong>，而在为数不多的大企业生产的产品中作选择。损失掉一部分<strong>品牌的多样性</strong>，换来的是<strong>稳定性和可靠性</strong>，这么做，可能是<strong>现代社会产品质量可靠性</strong>的一种趋势。<br>有点像谈恋爱和结婚的不同。</p>
+<h3 id="087婚姻经济学-1"><a href="#087婚姻经济学-1" class="headerlink" title="087婚姻经济学"></a>087婚姻经济学</h3><p><strong>婚姻</strong>是人类一个非常古老的合约现象。<br>世界上两个唯一真爱的人相遇的的概率接近于<strong>零</strong>。<br>劳埃德·科恩(Lloyd Cohen)，他写了一篇有意思的文章<a href="https://www.journals.uchicago.edu/doi/pdfplus/10.1086/467831" target="_blank" rel="noopener">《我把最好的年华给了他》(“Marriage,Divorce,and Quasi Rents；Or,”I Gave Him the Best of My Life”,1987)</a>。科恩在这篇文章中解释说，男性跟女性的价值高峰不一样。我们称赞男性和女性所使用的形容词也不同，稳重的男人，美丽的女人，而这两种品质在不同性别的人身上，显现的时间不同，或早或晚。</p>
+<p>某个女同学两年换了三四个男朋友，有几个男同学为了某个女生打架甚至拔刀伤人，颇像森林、草原里的动物，这些事情在中学的时候并不罕见。某位中年富豪娶了一个比自己小很多的姑娘，搁在那个历史阶段和地区也不罕见。<br>然而，<a href="https://so.gushiwen.org/guwen/bookv_211.aspx" target="_blank" rel="noopener">“人貌荣名，岂有既乎”</a>。婚姻关系不是血缘关系，增加其中的<strong>稳定性</strong>显得很重要，现在男女双方的价值早就不再单靠生理条件来体现，教育、修养、见识等都是男人和女人越来越重要的<strong>品质</strong>。</p>
+<p><strong>一夫一妻制 一夫多妻制 一妻多夫制</strong><br>我个人认为这三种婚姻制度在一定程度上都是有考虑到保障当地<strong>生产力</strong>。</p>
+<p><a href="http://www.gov.cn/banshi/2005-05/25/content_847.htm" target="_blank" rel="noopener">《中华人民共和国婚姻法》</a>规定了一夫一妻的制度。<br>在一妻多夫制下，子女的<strong>产权不明确</strong>，只其母不知其父，抚养的义务很容易不落实，养育的效果就会大打折扣。我国未解放时，<a href="https://baike.baidu.com/item/%E8%B0%AD%E8%8B%B1%E5%8D%8E/9450400" target="_blank" rel="noopener">谭英华</a>教授在<a href="https://baike.baidu.com/item/%E5%BA%B7%E5%B7%B4%E8%97%8F%E5%8C%BA/7684783?fromtitle=%E5%BA%B7%E5%8C%BA&fromid=1637745" target="_blank" rel="noopener">康巴藏区</a>的<a href="https://baike.baidu.com/item/%E7%94%98%E5%AD%9C%E8%97%8F%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E/591673" target="_blank" rel="noopener">甘孜地区</a>调查45户一妻多夫家庭，兄弟共妻44户，平均每户2.3个丈夫。在西藏有句俗语“<strong>一家分开，乞丐一堆</strong>”，由于生存环境的恶劣，生产力低下，为使家产和劳动力不分散，形成了一妻多夫的婚姻现象。截至到现在，在印度南部等地区仍旧存在这种现象。<br>赞成一夫多妻制的普通男人，并不会成为一夫多妻制的受益者。但多数女性进入一夫多妻的范围，对剩下的女性来讲，她们的选择范围是增加了的。<br><a href="https://baike.baidu.com/item/%E7%90%86%E6%9F%A5%E5%BE%B7%C2%B7A%C2%B7%E6%B3%A2%E6%96%AF%E7%BA%B3/683722" target="_blank" rel="noopener">理查德·波斯纳法官(Richard Allen Posner)</a>在他的著作<a href="https://book.douban.com/subject/7154073/" target="_blank" rel="noopener">《法律的经济学分析》(Economic Analysis of Law,2014)</a>中指出，一夫一妻制度是一种对成功男人的<strong>限购</strong>，它的效果是财富转移，它让女人的选择范围减少，让成功的男人的选择减少，而让那些比较年轻、收入较低的男人处境变好。</p>
+<h2 id="责任的分担-让防范的成本最小-1"><a href="#责任的分担-让防范的成本最小-1" class="headerlink" title="责任的分担 | 让防范的成本最小"></a>责任的分担 | 让防范的成本最小</h2><h3 id="088汉德公式-1"><a href="#088汉德公式-1" class="headerlink" title="088汉德公式"></a>088汉德公式</h3><p><a href>勒尼德·汉德(Leamed Hand)</a>是美国一位著名的中级法院的法官，他在政府监管中提到了一个重要的公式————<a href="https://wiki.mbalib.com/wiki/%E6%B1%89%E5%BE%B7%E5%85%AC%E5%BC%8F" target="_blank" rel="noopener">汉德公式</a>，它来源于1947年的“美国诉卡罗尔拖船公司事件”(United States v. Carroll Towing Co.，1947)。</p>
+<p>避免意外的成本为B，产生意外的概率为P，意外产生的损失为L，那么当<code>B&lt;P*L</code>时，船主承担责任，诸位应为自己的财富负有一定的“<strong>注意义务</strong>”，不要觉得托付给别人了，自己就悠哉游哉了，要为避免潜在的损失采取适当的预防措施。<br>A同学丢了B同学的iPad，此种情况下，A赔给B一个iPad，但iPad里有B拍的要去参赛的照片，这块B并不知道，所以A需要对此负责任。</p>
+<h3 id="089-监管要看边际效应-1"><a href="#089-监管要看边际效应-1" class="headerlink" title="089 监管要看边际效应"></a>089 监管要看边际效应</h3><p><strong>协同/并存意见 concurring opinion</strong> ：指赞成某派意见，但对 形成该意见的理由有不同看法的意见。<br><strong><a href="https://wiki.mbalib.com/wiki/%E4%B8%A5%E6%A0%BC%E8%B4%A3%E4%BB%BB%E5%8E%9F%E5%88%99" target="_blank" rel="noopener">严格责任 strict liability</a></strong>：又称无过错责任，是指违约责任发生以后，确定违约当事人的责任，应主要考虑违约的结果是否因违约的行为造成，而不考虑违约方的故意和过失。<br>我们需要注na意的是边际收益和边际成本等多个指标之间的<strong>平衡</strong>，而非某一个指标的<strong>最大化</strong>，注意物极必反。<br>当法律分配给生产者一定责任后，他们会依次做如下事情：首先，根据他们的学识和才能，看能否避免意外，而且是否值得这么做；如果行不通，那就买保险；如果还不行，那就提着脑袋继续干或者退出市场。<br><strong>政府监管产品安全的理由与成本</strong><br>与销售利润没有任何牵连的审批官员，他们不会像商家那样追求<strong>利润</strong>，但他们追求产品的<strong>极致安全</strong>，而追求的过程本身就是有<strong>成本</strong>的，而且他们与病人的能<strong>治好就行</strong>的追求<strong>目标并非一致</strong>，由审批繁琐导致的<strong>药物滞后</strong>(drug lag)使某些患者错过了最佳治疗时间。不过的确存在一种新药在患者身上临床试验，并且会付给患者一部分钱，这对于没钱买质量已得到官方认定药品的患者来讲，也是一种机会。</p>
+<h3 id="090监管本身也要引入竞争机制-1"><a href="#090监管本身也要引入竞争机制-1" class="headerlink" title="090监管本身也要引入竞争机制"></a>090监管本身也要引入竞争机制</h3><p><strong>强制披露</strong>(mandated disclosure)：政府命令厂家把产品的所有副作用都列清楚，让消费者自己来做决定。<br>但是即使作出“强制披露令”，仍旧会产生很多问题：第一，<strong>对文字和数字的不敏感</strong>，对专业术语的不理解，如某些新闻稿，写的让受众看不懂，把受众带到一个不熟悉的语境里，“字都认识，就是不明白啥意思”；第二，<strong>信息负担过重</strong>，我们在使用某些软件时候，会出现几十页的密密麻麻的《用户须知》和《隐私条款》，制作的本意就没有想过要读者去看，而是在法庭上使用；<strong>决策厌恶症</strong>，面对过多的决策，决策者会产生懈怠。<br>芝加哥大学教授<a href>欧姆瑞·本·沙哈尔(Omri Ben Shahar)</a>与其他人合合著了一本书<a href="https://book.douban.com/subject/26657303/" target="_blank" rel="noopener">《过犹不及:强制披露的失败》(More Than You Wanted to Know:The Failure of Mandated Disclosure,2014)</a>，这本书列举了一些强制披露失败的例子。</p>
+<p>披露的信息过多会对消费者产生意想不到的误导作用，把自己的缺点说得越多却显得越可信。</p>
+<p>薛兆丰老师对此的看法是：垄断性的监管机构很难在信息高度复杂的社会里，为情况多样的消费者作出正确的选择。解决信息不对称的问题，不是要每一个人都能成为专家，而是通过分工、交易的办法，让那些专家提供信息收集、整理、分析服务。<br>解决的办法：<strong>为监管引入竞争</strong>。让“专业知识”和“选择自由”得到协调的好办法。</p>
+<h1 id="C9合作-为何同工不同酬-1"><a href="#C9合作-为何同工不同酬-1" class="headerlink" title="C9合作 | 为何同工不同酬"></a>C9合作 | 为何同工不同酬</h1><h2 id="决策权-谁来当老板-1"><a href="#决策权-谁来当老板-1" class="headerlink" title="决策权 | 谁来当老板"></a>决策权 | 谁来当老板</h2><h3 id="091企业的团队本质-1"><a href="#091企业的团队本质-1" class="headerlink" title="091企业的团队本质"></a>091企业的团队本质</h3><p><strong>解释一：企业存在是因为有交易费用</strong><br>经济学家<a href="https://wiki.mbalib.com/wiki/%E7%A7%91%E6%96%AF" target="_blank" rel="noopener">罗纳德·哈里·科斯（Ronald H. Coase）</a>在本科论文<a href="https://wiki.mbalib.com/wiki/%E3%80%8A%E4%BC%81%E4%B8%9A%E7%9A%84%E6%80%A7%E8%B4%A8%E3%80%8B" target="_blank" rel="noopener">《企业的本质》（The Nature of the Firm，1937）</a>中，提出了这个看似有些天真的问题，然后又给出了深刻的回答。员工单干市场<strong>交易费用</strong>高，需要和陌生人打交道，讨价还价，应对不靠谱行为，但进入企业这些成本将缩减，与熟悉的人工作，劳动力一次性批发给企业，不用时刻去议价，企业内部的经理协调内部矛盾并作出奖惩。放弃一部分的<strong>自由和权益</strong>来避免市场上存在的巨大交易费用，对某些不敏感的人来讲也是划算的。<br>企业没有选择无限做大，<strong>企业内部管理成本</strong>是一个原因，管理成本会随着企业内部员工人数的增加而急剧增加，管理不当就会出现一系列问题，如老总身边有坏人，把身边对企业有用的人才给排挤走。</p>
+<p><strong>解释二:企业存在是因为团队效应</strong><br>阿尔钦和德穆塞茨在《美国经济评论》上发表了一篇文章<a href="https://www.douban.com/note/11574601/?type=like" target="_blank" rel="noopener">《生产、信息成本和经济组织》(Production、Information Cost,and Economic Organization，1972)</a>，团队中的每个因素一起构成的影响大于，每个因素挨个构成的影响的和或每个因素自身构成的影响。某个男团或女团一起演出的效应或门票大于他们中的一个人演出。</p>
+<p><strong>边际贡献决定单个成员在团队中的贡献率</strong><br>同样是拍一部电影，黑泽明作导演和一个导演系刚毕业的拍同一部戏，看看票房就晓得了。企业中人力资源部的工作人员，通过各种线索来判断每一位员工对企业的<strong>边际贡献</strong>，从而给他们厘定工资。</p>
+<h3 id="092-谁来当老板：资本和劳动力-1"><a href="#092-谁来当老板：资本和劳动力-1" class="headerlink" title="092 谁来当老板：资本和劳动力"></a>092 谁来当老板：资本和劳动力</h3><p><strong>资本与劳力：孰强孰弱</strong><br>资本家把资金投入开工厂、铺管线，基本上就没了退路，但员工投入的是劳动，随时可以付出随时可以收回。<br><strong>企业管理的本质：防止劳动力滥用</strong><br>关于企业文化建设、企业管理的经验，目的就是让劳动力的利益向资本的利益看齐。</p>
+<h3 id="093-谁来当老板：专用资源和通用资源-1"><a href="#093-谁来当老板：专用资源和通用资源-1" class="headerlink" title="093 谁来当老板：专用资源和通用资源"></a>093 谁来当老板：专用资源和通用资源</h3><p>高度依赖所在企业平台的资源，称为<strong>企业的专用资源(firm specific assets)</strong>，如车辆工程师。<br>放在任何企业平台都发挥差不多的功能和收益的资源，成为<strong>企业的通用资源(firm independent assets)</strong>，如行政秘书。<br>让高度依赖企业的人即FSP更在乎企业的成败，他们就会成为<strong>更好的掌舵者</strong>。</p>
+<h3 id="094-谁来当老板：固定收入和剩余索取-1"><a href="#094-谁来当老板：固定收入和剩余索取-1" class="headerlink" title="094 谁来当老板：固定收入和剩余索取"></a>094 谁来当老板：固定收入和剩余索取</h3><p>A与B一起生产某个产品，两人负责两道不同的工序：A在阳光下工作，B在黑屋里工作。A做了什么，大家都能看到，但B做了什么，A监督不了。<br>张维迎老师讲了这样一个案例：产品最后卖了是10元，两人对半分，公平吗？A的行动大家都知道，但B是否偷懒没人知道，或许他只作了价值3元的事情呢。轮岗吗？专业分工不能改变。通过KPI的办法也不行，这个得知道他的最大工作能力度。<br>通过<strong>固定收入(fixed income)</strong>和<strong>剩余索取权(residual claimant)</strong>的区分来支付报酬。最后卖了8元，先付给A5元，这笔钱是固定工资，剩下的多少就给B了。剩余索取者的收入不根据他们的投入来计算，而根据企业的产出————剩余的利润，这样的话，B得监督自己了。</p>
+<p>以上三讲，在经济学里被统称为<a href="https://wiki.mbalib.com/wiki/%E6%96%B0%E5%88%B6%E5%BA%A6%E7%BB%8F%E6%B5%8E%E5%AD%A6" target="_blank" rel="noopener">“制度经济学”</a>。</p>
+<h2 id="收入分配-政府是否应该劫富济贫-1"><a href="#收入分配-政府是否应该劫富济贫-1" class="headerlink" title="收入分配 | 政府是否应该劫富济贫"></a>收入分配 | 政府是否应该劫富济贫</h2><h3 id="095-收入的高低和节奏由什么决定-1"><a href="#095-收入的高低和节奏由什么决定-1" class="headerlink" title="095 收入的高低和节奏由什么决定"></a>095 收入的高低和节奏由什么决定</h3><p><strong>员工的议价能力取决于他在别处的机会</strong>，一个某同学在小组里的待遇与他是否仍然受待见。<br><strong><a href="https://wiki.mbalib.com/wiki/%E8%BE%B9%E9%99%85%E8%B4%A1%E7%8C%AE" target="_blank" rel="noopener">边际贡献</a>决定团队成员的收入水平</strong><br><strong>出租车司机收入和份子钱高低无关</strong>，份子钱是由出租车的专营权决定的，它是垄断权带来的收入，硬性修改两者间的合同导致出租车的收入，会吸引其他行业的劳动力竞争出租车岗位。一个团队里谁拿多少，是由他们的<a href="https://wiki.mbalib.com/wiki/%E8%BE%B9%E9%99%85%E6%94%B6%E5%85%A5" target="_blank" rel="noopener">边际收入</a>决定的<br><strong>信息费用高低影响收入分配方式</strong>：固定收入和剩余索取者<br><strong>时薪、月薪、年薪的区别</strong>：外卖配送员和教授，见效快慢的反应<br><strong>以投入与产出划分收入节奏</strong>：收营员、歌手大赛的冠军<br><strong>工作品质鉴别难度决定收入节奏</strong>：用时间来见证，演员拍戏的收入，学者的论文<br><strong>产权保护需要觉得收入节奏</strong>：工匠中的师徒关系，多年媳妇熬成婆</p>
+<h3 id="096-事与愿违之同工同酬法-1"><a href="#096-事与愿违之同工同酬法-1" class="headerlink" title="096 事与愿违之同工同酬法"></a>096 事与愿违之同工同酬法</h3><p><strong>竞争之下同工不同酬的现象趋于消失</strong><br>哪里存在同工不同酬现象，哪里就存在优质的廉价员工。市场竞争的压力越大，雇主寻找廉价优质员工的积极性就越足，结果会使得不同工不同酬得现象趋于减少和消失。<br>男员工和女员工以同样的质量做同样的事情，但男员工比女员工多挣20元，这种现象在建筑工地、者农忙时的田里或在企业比较普遍，老板克制重男轻女思想的同时，为自己多赚了钱。</p>
+<p><strong>岗位相同不等于工作相同</strong><br>从持续工作的角度看，男性和女性提供的工作质量并不完全一样，他们不同工。<br>一个家庭里，妻子如果生了一个小孩，至少在一年内是很难正常工作的。工程师等高收入的工作放下容易捡起来难，相反秘书等低回报的工作再返回去做比较容易。出于家庭的原因，女性做出了巨大牺牲。但随着医学的进步、公共设施的完善，生育带来的干扰和风险也有所下降，加上现在精英女性推迟生育时间，这解释了这些年女性在职场中地位的提升。</p>
+<p><strong>同工同酬让弱者失去竞争武器</strong><br>绝对竞争能力较低的人（佣金80元的女性）要求一份合理的工资（80元），甚至要求一份比市场价低的工资（79元），是她与绝对竞争能力比较高的人（佣金100元的男性）展开竞争时的强有力武器，当女性说79元就可以时，那个男性基本就被秒杀了。<br>如果某个地区规定实施所谓“同工同酬法”，老板必须无论给男性还是女性都是100元，那么老板就会选用能力配得上这个工资的人。同工同酬法<strong>用意善良</strong>，但它<strong>剥夺</strong>了那些竞争力比较弱的人跟竞争力比较强的人展开竞争的强有力武器。</p>
+<p>薛兆丰老师对同工同酬法的三点评论：1.<strong>市场竞争</strong>能尽量消除由于性别歧视导致的同工不同酬现象 2.男女绩效是否相同，必须从多角度进行评估 3.硬性的同工同酬会剥夺弱者与强者展开竞争的最强武器，从而导致事与愿违的结果。</p>
+<h3 id="097-事与愿违之最低工资法-1"><a href="#097-事与愿违之最低工资法-1" class="headerlink" title="097 事与愿违之最低工资法"></a>097 事与愿违之最低工资法</h3><p><strong>最低工资法会导致失业</strong><br>在岗的人又通过最低工资，获得更高的收入，迫于法律的压力，资本家会付一段时间，但随后可能会增加机器的投入，减少对劳动力的需求，甚至资本家迁厂到海外导致当地失业人数增加。<br><strong>最低工资法被用来提高竞争对手的成本</strong><br>小工厂和小商城会受到冲击，他们的工人工资本身就比较低，为了达到新的法定最低工资，不得不加薪，而工资成本的上身可能会威胁到类似小工厂的机构和他们工人的生存。<br>南非由白人组成的工会里，章程中有一条纲领：致力于支持政府针对黑人的最低工资法，因为这是让工会会员保有工作的有效手段。这出自黑人经济学家<a href="https://en.wikipedia.org/wiki/Walter_E._Williams" target="_blank" rel="noopener">沃特·威廉姆斯(Walter Williams)</a>在《南非的反资本主义之战》一书中的介绍。<br><strong>最低工资法剥夺穷人自立自强的机会</strong><br>美国黑人由于积蓄少，家庭情况差，见到工作就做；而白人比较有钱、继续比较多、家境较好，失得起业。法定最低工资出现后，雇主更倾向于雇佣经验更丰富的工人，变挑剔了，黑人从而有可能失业增加，难以继续发展。</p>
+<h3 id="098-基尼系数与收入分配-1"><a href="#098-基尼系数与收入分配-1" class="headerlink" title="098 基尼系数与收入分配"></a>098 基尼系数与收入分配</h3><p><a href="https://wiki.mbalib.com/wiki/%E5%9F%BA%E5%B0%BC%E7%B3%BB%E6%95%B0" target="_blank" rel="noopener">基尼系数</a>的重要缺陷，它算的是<strong>瞬间</strong>人与人之间收入的差距，终身收入才是更好衡量人们收入差距的指标。<br><a href="https://wiki.mbalib.com/wiki/%E6%94%B6%E5%85%A5%E4%B8%8D%E5%85%AC" target="_blank" rel="noopener"><strong>收入不公</strong></a>与<strong>收入不平均</strong>不同，造成后者的原因由年龄、职业、天赋、贪腐等。如果看见基尼系数上升、人与人之间收入差距增大，就执行所谓的<strong>收入再分配政策</strong>，那就不仅不能准确打击不公的行为，反而会使得那些造成<strong>合理收入差距</strong>的因素，受到<strong>不正确的抑制</strong>。</p>
+<h2 id="脱贫致富-最富裕的穷人在今天-1"><a href="#脱贫致富-最富裕的穷人在今天-1" class="headerlink" title="脱贫致富 | 最富裕的穷人在今天"></a>脱贫致富 | 最富裕的穷人在今天</h2><h3 id="099-工人违约是否应该成为权力-1"><a href="#099-工人违约是否应该成为权力-1" class="headerlink" title="099 工人违约是否应该成为权力"></a>099 工人违约是否应该成为权力</h3><p>“春种一粒粟，秋收万颗子”。农业生产遵循严格的节气，一旦错过，就会造成农作物不能按时发育、抵抗力差，最终甚至导致当年收成减产。</p>
+<p>一户人家播种，通常要请另外一些人帮忙，否则就不能按时完工。雇工到田边坐地起价的事时有发生，雇主遇到这种敲竹杠的，妥协是一种办法，预留一支雇工队伍也是一种办法，或者在约定中“雇工保证不罢工，但多给一点钱”，这都是为了<strong>稳定的生产</strong>。除了上述办法，在我的家乡，人们还采用一种变工的方法避免违约，A给B今天栽了水稻，B给A过段时间摘枸杞，在一个熟人环境下，大家都是“<strong>人情来人情往</strong>”，破坏了约定，以后再合作就很难了，但这只适用于小<strong>农经济环境</strong>下。</p>
+<h3 id="100-罢工的性质-1"><a href="#100-罢工的性质-1" class="headerlink" title="100 罢工的性质"></a>100 罢工的性质</h3><p>罢工的<strong>特点</strong>：在关键时刻提出不干活；自己不干活的同时阻止别人不干活。<br><a href="https://www.econlib.org/cee/" target="_blank" rel="noopener">《简明经济学百科全书》(The Concise Encyclopedia of Economics)</a><code>大陆目前没有出版，但可以在此搜索相应词条</code>中，工会组织被描述称一种<a href="https://wiki.mbalib.com/wiki/%E5%8D%A1%E7%89%B9%E5%B0%94%E6%A8%A1%E5%9E%8B" target="_blank" rel="noopener"><strong>卡特尔</strong>(cartel)</a>即垄断组织，<a href="https://www.econlib.org/library/Enc/LaborUnions.html" target="_blank" rel="noopener">他们通过限制公司和企业的劳动力供给，来获得高于竞争市场的工资水平。</a></p>
+<h3 id="101-工作权力遇到的障碍-1"><a href="#101-工作权力遇到的障碍-1" class="headerlink" title="101 工作权力遇到的障碍"></a>101 工作权力遇到的障碍</h3><p><strong>竞争者利用法律提高对手的竞争成本</strong></p>
+<p>大面包作坊有条件保证三班倒或两班倒的做法，他们支持“每天工作低于十小时”，这会提高小作坊的人力<strong>竞争成本</strong>，对大作坊来讲有利。<br><strong>竞争者通过就业许可制度提高对手的进入门槛</strong><br>对就业者的身份，要求有正规学校的培训，执业许可通常要求有经验，考试内容<br>某些研究称，美国各州死于点击的人数与电工资格证难考的程度具有相关性。<br>电工证越难考，考过的人越少，市场中提供服务的人就越少，收费就越高，导致请得起电工维修的家庭更倾向于自己动手，结果触电身亡的人数也越多。但同时需要考虑电工证易考不代表电工从业者<strong>能力有水分</strong>，这会导致初级电工死亡人数上升。</p>
+<h3 id="102-最富裕的穷人在今天-1"><a href="#102-最富裕的穷人在今天-1" class="headerlink" title="102 最富裕的穷人在今天"></a>102 最富裕的穷人在今天</h3><p><strong>穷人怎么办：寻求个人进步</strong><br>通过<strong>比较优势</strong>原理，哪怕一个人在<strong>绝对优势</strong>上比所有人差，但自身所有能力中仍有脱颖而出的能力，他仍会在分工合作中改善自己的生活。<br><a href="https://baike.baidu.com/item/%E6%89%98%E9%A9%AC%E6%96%AF%C2%B7%E7%B4%A2%E7%BB%B4%E5%B0%94/14768256" target="_blank" rel="noopener">托马斯·索威尔(Thomas Sowell)</a>在<a href="https://book.douban.com/subject/6892579/" target="_blank" rel="noopener">《美国种族简史》(Ethnic America ：A History，1981)</a>,中提到，犹太人特别重视教育投资，他们喜欢学习与他们颠沛流离的命运有关，走到哪跟到哪的只有脑子里的知识，在纽约的犹太人白天不管有多忙，在晚上还会去听讲座。向身边的berg们学习。</p>
+<p>美国家庭收入指数(部分)<code>资料来源于托马斯·索威尔《美国种族简史》</code></p>
+<p>|种族群|收入指数|种族群|收入指数|<br>|:–:|:–:|:–:|:–:|:–:|<br>|犹太人|172|中国人|112|<br>|日本人|132|法国人|107|<br>|波兰人|115|菲律宾人|99|<br>黑人|62|<strong>全体美国人</strong>|<strong>100</strong>|</p>
+<p>前面提到黑人经济学家沃特·威廉姆斯写过一本书《种族与经济学：有多少可以归咎于歧视》(Race and Economics：How Much Can Be Blamed On Discrimination，2011)，他在这本书中提出一个观点：<strong>一个种族经济条件的改善，不需要以政治权利的提升为前提</strong>。</p>
+<p><strong>穷人怎么办：打社会的顺风车</strong><br>有人吃肉，有人喝汤</p>
+<p><strong>最富裕的穷人在今天</strong><br>只要整个社会在进步，科技不断创新，社会的蛋糕在做大，哪怕是穷人也能得到物志享受，虽说是过时的。<br>2018年诺贝尔经济学奖获得者<a href="https://wiki.mbalib.com/wiki/%E5%A8%81%E5%BB%89%C2%B7%E8%AF%BA%E5%BE%B7%E8%B1%AA%E6%96%AF" target="_blank" rel="noopener">威廉·诺德豪斯</a>在2004年做测算，发现发明家和企业家的收入，仅占他们的发明给社会带来总价值的2%左右。</p>
+<h1 id="10-协调-众人如何彼此影响-1"><a href="#10-协调-众人如何彼此影响-1" class="headerlink" title="10 协调 | 众人如何彼此影响"></a>10 协调 | 众人如何彼此影响</h1><h2 id="货币规律-货币像水又像蜜-1"><a href="#货币规律-货币像水又像蜜-1" class="headerlink" title="货币规律 | 货币像水又像蜜"></a>货币规律 | 货币像水又像蜜</h2><h3 id="103-货币的起源-1"><a href="#103-货币的起源-1" class="headerlink" title="103 货币的起源"></a>103 货币的起源</h3><p><strong>货币为什么有用</strong><br>奥地利学派的鼻祖<a href="https://wiki.mbalib.com/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E9%97%A8%E6%A0%BC%E5%B0%94" target="_blank" rel="noopener">卡尔·门格尔(Carl Menger)</a>写的<a href="http://monadnock.net/menger/money.html" target="_blank" rel="noopener">《货币的起源》(On the Origins of Money,1892)</a>是回答这个问题的经典文章。</p>
+<p><a href="https://wiki.mbalib.com/wiki/%E5%A5%A5%E5%9C%B0%E5%88%A9%E5%AD%A6%E6%B4%BE" target="_blank" rel="noopener">奥地利学派</a>的<a href="https://wiki.mbalib.com/wiki/%E5%93%88%E8%80%B6%E5%85%8B" target="_blank" rel="noopener">哈耶克</a>提出<a href="https://wiki.mbalib.com/wiki/%E8%87%AA%E5%8F%91%E7%A7%A9%E5%BA%8F%E5%8E%9F%E7%90%86" target="_blank" rel="noopener"><strong>自发秩序(spontaneous order</strong>)</a>：非某人或某个机构设计出来的，而是由无数人的行动汇合演化而成，如我们的语言。</p>
+<p><strong>货币作用一：避免交易中双重偶然性的要求</strong><br><strong>双重偶然性(double-coincidence)</strong>:德国社会传播家<a href="https://baike.baidu.com/item/%E5%B0%BC%E5%8F%A4%E6%8B%89%E6%96%AF%C2%B7%E5%8D%A2%E6%9B%BC/12587038" target="_blank" rel="noopener">尼可拉斯·鲁曼</a>提出，是指传播的双方都存在着不确定性，因此，通过传播作出的选择有受到拒绝的可能性。</p>
+<p><strong>货币作用二：降低质量检验成本</strong><br>不用检验所交换商品的品质，只需检验货币的真伪，货币数量体现着商品品质。</p>
+<p><strong>增加市场交易量</strong><br>有了货币，交易更加便捷，交易量上升，像今天信息的传递。</p>
+<h3 id="104-商业银行创造货币-1"><a href="#104-商业银行创造货币-1" class="headerlink" title="104 商业银行创造货币"></a>104 商业银行创造货币</h3><p><strong>劣币驱逐良币符合经济效率</strong><br>16世纪，英国的财政大臣托马斯·格雷欣(Thomas Gresham)提出“劣币驱逐良币(Good money is driven out by cheap money.)”，一旦一个社会确定了用某种商品作为货币，这种商品在流通当中的质量就会发生变化。质量较高的品种会被人们保存下来，较低的会留在流通当中，质量不高的货币会把质量较低的货币驱逐出流通领域。<br>货币之所以有用，就在于人们相信它有用；而只要人们相信它有用，就不会使用高质量的来充当。因此，劣币驱逐良币是对的，但应该补充一句“劣币就是有效货币(But cheap money is efficient money.)”</p>
+<p>商业银行如何创造货币<br>一个封闭的社会里有1000元钱在流通，社会里的商业银行系统，帮助人们把钱存起来再贷出去，从赚取利息差。</p>
+<table>
+<thead>
+<tr>
+<th align="center">时期</th>
+<th align="center">新通货存款</th>
+<th align="center">法定准备金(20%)</th>
+<th align="center">新增活期存款</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">第一天</td>
+<td align="center">1000</td>
+<td align="center">200</td>
+<td align="center">800</td>
+</tr>
+<tr>
+<td align="center">第二天</td>
+<td align="center">800</td>
+<td align="center">160</td>
+<td align="center">640</td>
+</tr>
+<tr>
+<td align="center">第三天</td>
+<td align="center">640</td>
+<td align="center">102.4</td>
+<td align="center">409.6</td>
+</tr>
+<tr>
+<td align="center">···</td>
+<td align="center">···</td>
+<td align="center">···</td>
+<td align="center">···</td>
+</tr>
+<tr>
+<td align="center">总计</td>
+<td align="center">5000</td>
+<td align="center">1000</td>
+<td align="center">4000</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>商业货币创造货币原理：每增加1元的基础货币，商业银行系统就能创造出超过1元的活期存款，造币能力与法定准备金率成反比，法定准备金率越高，它能够创造货币的倍数就越低。</p>
+</blockquote>
+<p>银行在20%的法定准备金限制下，只能创造4000元的新生货币，再加上称之为基础货币的1000元，就导致整个社会有5000元货币在流通。</p>
+<p>商业银行无法满足所有储户体现要求的现象，称之为<strong>流动性困难</strong>(convertibility problem)。<br>某些机构虽有<a href="https://wiki.mbalib.com/wiki/%E8%B5%84%E4%B8%8D%E6%8A%B5%E5%80%BA" target="_blank" rel="noopener">资不抵债困难(insolvency problem)</a>，但通过政府干预产生“大而不能倒”情况。</p>
+<h3 id="105通货膨胀的根源-1"><a href="#105通货膨胀的根源-1" class="headerlink" title="105通货膨胀的根源"></a>105通货膨胀的根源</h3><p><a href="https://wiki.mbalib.com/wiki/%E9%80%9A%E8%B4%A7%E8%86%A8%E8%83%80" target="_blank" rel="noopener">通货膨胀</a>是指<strong>总物价</strong>的<strong>持续增长</strong>。<br>衡量通货膨胀的指标之一，消费者物价指数(consumer price index,CPI)。<br><strong>恶性通货膨胀(hyperinflation)</strong>，是指每个月的通货膨胀率超过了50%的情况，如二战后的匈牙利经历过每天19%的恶性通货膨胀率，德国经历过每个月恶行通货膨胀率达到322%。<br><strong>理解通货膨胀的基本视角————货币数量论</strong></p>
+<blockquote>
+<p>MV = PV<br>M为货币流通量 V为货币流通的速度 P平均物价 Y社会的货物总量<br>由公式可得，货币的流通量和速度以及货物总量都会影响平均物价，但某些群体的直观感受就是在货币流通量。</p>
+</blockquote>
+<h3 id="106-通货膨胀的过程-1"><a href="#106-通货膨胀的过程-1" class="headerlink" title="106 通货膨胀的过程"></a>106 通货膨胀的过程</h3><p><strong>通货膨胀的坎蒂隆效应</strong><br>现实生活中，新增的货币总是通过某个出口逐渐流向社会，这个流动需要一定的时间，因此对整个经济生活的影响是不均匀的，有早晚轻重之分，这种现象被称为<a href="https://wiki.mbalib.com/wiki/%E5%9D%8E%E8%92%82%E9%9A%86%E6%95%88%E5%BA%94" target="_blank" rel="noopener">坎蒂隆效应(Cantillon Effect)</a>。周其仁老师曾写过<a href="http://zhouqiren.blog.sohu.com/119540223.html" target="_blank" rel="noopener">一篇文章</a>解释这种现象。我自身的感受是，小时候守在稻田边的埂上，水从埂的缺口处流入田里，在离缺口最近的水稻最先被滋润，反之亦然，但遇到下雨天，那片稻子基本上同时受到滋润。</p>
+<p><strong>通货膨胀让人做出错误决策</strong><br>在经济生活中，每个个体很难分辨物价的上涨是<strong>相对价格的变化</strong>还是<strong>物价整体水平的变化</strong>。<br>一家餐厅的客流量增加，顾客来了之后越来越愿意花钱。这有两种可能：这家餐厅的饭菜可口、服务好，它所提供的产品和服务具有更高的<a href="https://wiki.mbalib.com/wiki/%E7%9B%B8%E5%AF%B9%E4%BC%98%E5%8A%BF" target="_blank" rel="noopener">相对优势</a>；政府多发行了货币，整个社会都变得有钱了。<br>如果原因是前者，那就应该扩大生产；如果原因是后者，那就应该按兵不动。通货膨胀的发生、扩散、和人们采取的对策并<strong>不是瞬间完成</strong>的，它是一个<strong>渐进</strong>的过程，在这个过程中，有人相对得益，有人相对受损。</p>
+<p><strong>通货膨胀具有转移社会财富的效果</strong><br>通货膨胀的一个表现就是货币相对于物来说不值钱了。在这个过程中，财富以钱的形式保存的人会受损，而那些靠不断出售他们的资产兑现现金的人会得益。</p>
+<p><strong>通货膨胀与商家涨价无关</strong><br>一个错误的印象：急着提高工资的企业，把房价抬高的房地产商，争着买房的消费者，如果不是这些人，通货膨胀就不会发生。通货膨胀并不是这些人造成的，他们之时率先做出反应，但某些群众需要一个“泄压阀”要求惩罚这些人限制他们采取的行动，但这并不不能改变正在发生的事实。有句英文谚语“<strong>不要枪毙信使</strong>(Don’t shoot the messenger)。”</p>
+<p><strong>通货膨胀是一种无形的税收</strong><br>政府通过多印钞票，政府的购买力增加，而民众的购买力就会下降，这实际上是政府向民众征收的一种<strong>无形的税</strong>。</p>
+<h3 id="107通货膨胀与失业-1"><a href="#107通货膨胀与失业-1" class="headerlink" title="107通货膨胀与失业"></a>107通货膨胀与失业</h3><p><a href="https://wiki.mbalib.com/wiki/%E8%8F%B2%E5%88%A9%E6%99%AE%E6%96%AF%E6%9B%B2%E7%BA%BF" target="_blank" rel="noopener">菲利普斯曲线(Phillips Curve)</a>:<strong>货币工资变动率与失业率成反比</strong>。如果一个社会的货币工资变动率比较高，人们就愿意出来就业，失业率就比较低；相反，货币工资变动率比较低时，人们更愿意停下来寻找更好的工作机会，就业水平就比较低，换句话说就是失业率比较高。<br>如果人们对通货膨胀的预测能力在提高，如不会对自己的餐厅效益产生误判，那么通过制造通货膨胀来减少失业率的努力，就将不再不管用。</p>
+<p><strong>以通胀对付失业可能出现滞涨</strong><br>高中历史老师在讲到“美国经济的滞涨现象”，那天没有预习的同学哈哈大笑————“智障现象。”<br>政府反复使用通货膨胀来对付失业，失业率就降不下去了，到时候有可能会出现<strong>通货膨胀</strong>和<strong>高失业率</strong>一起出现，并存在<strong>经济停滞</strong>的现象。<br>1968年<a href="https://baike.baidu.com/item/%E7%B1%B3%E5%B0%94%E9%A1%BF%C2%B7%E5%BC%97%E9%87%8C%E5%BE%B7%E6%9B%BC/8665021?fromtitle=%E5%BC%97%E9%87%8C%E5%BE%B7%E6%9B%BC&fromid=3709895" target="_blank" rel="noopener">米尔顿·弗里德曼(Milton Friedman)</a>和<a href="https://baike.baidu.com/item/%E5%9F%83%E5%BE%B7%E8%92%99%E5%BE%B7%C2%B7%E8%8F%B2%E5%B0%94%E6%99%AE%E6%96%AF/4278033#2_3" target="_blank" rel="noopener">埃德蒙德·菲利普斯(Edmund S Phelps)</a>分别发表了论文，他们认为，从长期看，不存在通货膨胀率和失业率之间的反向关系。<br>目前，经济学家有一个共识，那就是从长期看，菲利普斯曲线是垂直的，也就是说，不论通货膨胀率多高多低，失业率或者就业率都是一个<strong>比较固定的常数</strong>。</p>
+<h2 id="经济周期-聪明人彼此不同意-1"><a href="#经济周期-聪明人彼此不同意-1" class="headerlink" title="经济周期 |聪明人彼此不同意"></a>经济周期 |聪明人彼此不同意</h2><h3 id="108-奥地利学派看经济周期-1"><a href="#108-奥地利学派看经济周期-1" class="headerlink" title="108 奥地利学派看经济周期"></a>108 奥地利学派看经济周期</h3><p>自从1929年美国的大萧条后，世界各国都经历了大大小小的经济周期。各种经济学派希望通过宏观经济调节达到以下几个目的：</p>
+<blockquote>
+<p>1&gt;消除经济周期，实现生产、就业、财富的稳步增长；<br>2&gt;实现低的或平稳的通货膨胀率；<br>3&gt;实现高的就业率，所有的资源，尤其是人力资源能被充分地调用起来；<br>4&gt;实现生产力和GDP的高速增长。</p>
+</blockquote>
+<p>对于实现这些目标，不同的学派提拆了不同的理论。</p>
+<p><strong>奥地利学派的兴起</strong><br>奥地利学派最早由经济学家门格尔和他的学生<a href="https://baike.baidu.com/item/%E6%AC%A7%E6%A0%B9%C2%B7%E5%86%AF%C2%B7%E5%BA%9E%E5%B7%B4%E7%BB%B4%E5%85%8B/9128001?fromtitle=%E5%BA%9E%E5%B7%B4%E7%BB%B4%E5%85%8B&fromid=10401631" target="_blank" rel="noopener">欧根·冯·庞巴维克(Eugen Bohm-Bawerk)</a>共同创立，而这个名称则是由他们的理论对手————当时德国的历史学派————嘲讽他们离开了德语世界的学术主流，事实上他们之后就没在奥地利继续发展。历史学派认为经济现象中不存在普世的规律，每一个经济事件都有它发生的<strong>历史独特环境</strong>。但门格尔和庞巴维克却认为，纷繁复杂的经济现象背后有<strong>一般性的规律</strong>，比如由门格尔总结的边际效用的概念，具有很强的普世性。<br>我们现在所提到的奥地利学派时所指的经济学家，不仅包括奥地利的哈耶克，米塞斯，还有英国的亚当·斯密，<a href="https://baike.baidu.com/item/%E5%A4%A7%E5%8D%AB%C2%B7%E4%BC%91%E8%B0%9F" target="_blank" rel="noopener">大卫·休谟(David Hume)</a>,美国的欧文·费雪，科斯等，奥地利学派不再单指学者的国籍，而是<strong>一种特有的研究方法和思路</strong>。<br><strong>奥地利学派的基本主张</strong></p>
+<blockquote>
+<p>1&gt;只有个人才能做出选择<br>2&gt;研究交易所在的市场是研究经济学的焦点所在<br>3&gt;研究经济现象要研究人的动机，要了解<strong>相应的人文背景</strong>。</p>
+</blockquote>
+<p><strong>奥地利学派关于经济周期的基本观点</strong></p>
+<blockquote>
+<p>1&gt;货币不是中性的<br>如果政府发行货币的数量和过程不得当，就会对人们的行为产生误导<br>2&gt;资本是异质的，不是同质的<br>错误的投资决策一旦做出，不能轻易地转换到别的用途上，要修改就得花费很大的工夫，就要付出代价<br>3&gt;各种社会机构和安排是人们共同行为的结果，而不是计划的结果</p>
+</blockquote>
+<p><strong>奥地利学派看经济周期的起源</strong><br>奥地利学派认为，经济周期的起源是<strong>政府过度发钞</strong>。<br>政府大量发钞导致利率暂时性降低，是名义上的，并不是真实的，但它会误导人们增加对未来的投资，当增发的货币像蜂蜜一样向整个经济体渗透后，人们开始感觉到<strong>物价在飞涨</strong>，钱即使挣到了，也买不到原来能买到的那么多东西，<strong>后知后觉</strong>，通货膨胀来了。<br>此时，政府的选择要么继续增发货币，对通货膨胀袖手旁观；要么顺应民意，放缓发币步伐，甚至停止增发。此时，长远规划找不到足够的资金来维持，资金链断裂、泡沫破灭。</p>
+<p>奥地利学派认为，要避免经济周期最根本的方法是<strong>政府抑制随意印刷钞票的冲动</strong>。如何抑制？他们提出了两个主张:第一<strong>回到金本位</strong>；第二<strong>实施自由发钞制度</strong>。<br>金本位不能解决问题的两个原因：经济体在发展，用金子所衡量的货物和服务本身在变化，因此物价不可能稳定；金子的数量也在变化，如果将黄金作为货币本位，将吸引人们发现、开采甚至人工成黄金。</p>
+<p>货币若由世界上唯一的一家银行发行，没有权力来制约它，那这家银行就会比较傲娇，滥用发币权力使得自己的利益达到最大化。<br>如果允许多家银行同时发行自己的钞票，那就会形成一种竞争关系，有的可能会贬值，有的可能会不被人接受，结果就是被淘汰。我国最早出现在北宋年间的<strong>银票</strong>就是自由银行的一种表现，如今的<strong>数字货币</strong>也是一种尝试。</p>
+<h3 id="109-凯恩斯主义学派看经济周期-1"><a href="#109-凯恩斯主义学派看经济周期-1" class="headerlink" title="109 凯恩斯主义学派看经济周期"></a>109 凯恩斯主义学派看经济周期</h3><p><strong>师出名门的凯恩斯</strong><br><a href="https://baike.baidu.com/item/%E7%BA%A6%E7%BF%B0%C2%B7%E6%A2%85%E7%BA%B3%E5%BE%B7%C2%B7%E5%87%AF%E6%81%A9%E6%96%AF/4525330?fromtitle=%E5%87%AF%E6%81%A9%E6%96%AF&fromid=811916" target="_blank" rel="noopener">凯恩斯</a>两位著名的老师，<a href="https://baike.baidu.com/item/%E9%98%BF%E5%B0%94%E5%BC%97%E9%9B%B7%E5%BE%B7%C2%B7%E9%A9%AC%E6%AD%87%E5%B0%94/49526" target="_blank" rel="noopener">阿尔弗雷德·马歇尔(Alfred Marshall)</a><code>确定需求曲线纵坐标是价格，横坐标是需求量</code>和<a href="https://baike.baidu.com/item/%E5%BA%87%E5%8F%A4" target="_blank" rel="noopener">阿瑟·塞西尔庇古(Arthur Cecil Pigou)</a><code>福利经济学提出者</code>。<br><strong>凯恩斯主义学派</strong>认为社会的<strong>总需求降低</strong>、<strong>总消费下降</strong>，对<strong>就业、产量和价格</strong>这三者的影响是不对等的。由于每当出现需求不足的冲击时，价格的调整总是迟钝和缓慢的，因此直接受到冲击的是产量和就业，这是经济周期产生的原因。</p>
+<p><strong>凯恩斯主义学派的基本主张：加大政府开支</strong><br>凯恩斯主义学派认为：政府应该逆经济周期而行，人们都在消费时政府就少采取动作，反之亦然。由此看出，凯恩斯是信市场可以自动调节的，当某种<strong>动物精神(animal spirit)</strong>消失后，政府应该停止干预。凯恩斯主义者关心的是解决短期内出现的问题，尤其是短期内出现的失业问题，这时创造需求、制造就业机会就是政府的责任。<br>做到这一点,有两个基本办法“货币政策”和“财政政策”。货币政策的做法在前面已经提到过，<strong>财政政策</strong>就是通过<strong>收税或者借债而非印钱</strong>的方式花钱办事业。这笔债务会让未来的年轻人去偿还。今天的责任推给后人，凯恩斯的经典回答是“从长远来看，我们都将一命呜呼。”意思是，情况特殊，这次不一样，管不了那么远的事。<strong>这次不一样</strong>成了人们随时违背原则的理由。</p>
+<h3 id="110-货币主义学派和理性预期学派-1"><a href="#110-货币主义学派和理性预期学派-1" class="headerlink" title="110 货币主义学派和理性预期学派"></a>110 货币主义学派和理性预期学派</h3><p><strong>货币主义学派见解一：通货膨胀就是因为货币超发</strong><br>米尔顿·弗里德曼和<a href="https://wiki.mbalib.com/wiki/%E5%AE%89%E5%A8%9C%C2%B7%E9%9B%85%E5%90%84%E5%B8%83%E6%A3%AE%C2%B7%E6%96%BD%E7%93%A6%E8%8C%A8" target="_blank" rel="noopener">安娜·施瓦茨(Anna Schwartz)</a>合作出版一部经典巨著《美国货币史》(A Monetary History of the United States，1963)，他们通过研究1867年到1960年长达93年的美国货币史，得出一个结论，那就是货币流通的速度这些年基本没变，年度经济增长总量也基本没变，因此造成物价水平上升的决定因素就是货币流通量。通货膨胀是多发钞票造成的。弗里德曼有句名言：“通货膨胀到哪以及永远都是一种货币现象。(Inflation is everywhere and always a monetary phenomenon.)”</p>
+<p><strong>货币主义学派见解二：货币长期中性</strong><br>奥地利学派认为<strong>货币短期内是蜜</strong>，但货币主义学派说<strong>货币长期内是水</strong>,新增的货币流动到社会的每一个角落，除了导致物价水平上涨，其他任何事情都不会改变，政府通过货币政策干预经济是无效的。</p>
+<p><strong>货币主义学派见解三：制造通货膨胀不能降低失业率</strong><br>他们认为<strong>长期的菲利普斯曲线</strong>应该是垂直的，制造通货膨胀最终不能降低失业率，由此他们也预言了滞涨这种现象的产生。</p>
+<p><strong>货币主义学派见解四：<a href="https://wiki.mbalib.com/wiki/%E6%8C%81%E4%B9%85%E6%94%B6%E5%85%A5%E5%81%87%E8%AF%B4" target="_blank" rel="noopener">永久收入假说(permanent income hypothesis)</a></strong><br>人会将钱放在<strong>时间维度</strong>上作<strong>平衡消费</strong>，如此提升幸福感，而非一下花光。<br><strong>弗里德曼主张将货币增长比例写入宪法</strong>，如此，人们就能有一个明确的预期。</p>
+<p><strong>理性预期学派：政府管得越多，经济波动越大</strong><br>上有政策下有对策，群众会对政策进行进行解读。“当看到社会上消费不足时，政府发钱让人们消费，人们会知道这钱不是白给的，会通过增加税收的形式收上去，所以拿了也不能乱花。”这时，政策就失效了，不是政策制订的不好，而是它被人们得预期抵消了。<br>经济模型相对于群众预期的改变还是有些滞后。</p>
+<h3 id="111-真是经济周期理论-1"><a href="#111-真是经济周期理论-1" class="headerlink" title="111 真是经济周期理论"></a>111 真是经济周期理论</h3><p>两位2004年的诺贝尔经济学奖获得者<a href="https://wiki.mbalib.com/wiki/%E8%8A%AC%E6%81%A9%C2%B7%E5%9F%BA%E5%BE%B7%E5%85%B0%E5%BE%B7" target="_blank" rel="noopener">芬恩·基德兰德(Finn E.Kydland)</a>和<a href="https://wiki.mbalib.com/wiki/%E7%88%B1%E5%BE%B7%E5%8D%8E%C2%B7%E6%99%AE%E9%9B%B7%E6%96%AF%E7%A7%91%E7%89%B9" target="_blank" rel="noopener">爱德华·普雷斯科特(Edward Prescott)</a>提出<a href="https://wiki.mbalib.com/wiki/%E7%9C%9F%E5%AE%9E%E7%BB%8F%E6%B5%8E%E5%91%A8%E6%9C%9F%E7%90%86%E8%AE%BA" target="_blank" rel="noopener">真实经济周期理论(Real Business Cycle Theory)</a>，认为</p>
+<blockquote>
+<p>1&gt;冲击无处不在，经济周期是很自然的事<br>2&gt;市场出现一定程度的库存，积压是合理现象<br>3&gt;有些失业现象是生产力提高的结果<br>4&gt;错误的商业决策也是经济衰退的成因</p>
+</blockquote>
+<h3 id="112-聪明人为什么会彼此不同意-1"><a href="#112-聪明人为什么会彼此不同意-1" class="headerlink" title="112 聪明人为什么会彼此不同意"></a>112 聪明人为什么会彼此不同意</h3><p>那些各个学派的代表人物无论先后，都获得过诺贝尔经济学奖。<br><strong>宏观经济学家争论不休的四大原因</strong></p>
+<blockquote>
+<p>1&gt;宏观经济涉及的变量太多，而研究宏观经济现象本身，数量又是有限的<br>2&gt;宏观变量本身是一些加总的变量，这些变量之间未必具有必然的因果关系<br>3&gt;人们会形成预期，会产生对策<br>4&gt;人类无法用科学的方法来应对不确定性</p>
+</blockquote>
+<p>凯恩斯并不是职业经济学家，他在1936年出版的<a href="https://book.douban.com/subject/1137246/" target="_blank" rel="noopener">《就业、利息和货币通论》</a>，从此开创了宏观经济学这个学术分支。<br>世界上不仅存在风险(risk)还存在<strong>不确定性</strong>(uncertainty)。当人们面对不确定性的冲击，当他们发现用精准的数学根本无力招架、无法应对的时候，他们只能诉诸直觉、比喻、经验、自信以及勇气。这是宏观经济学真正深不可测的原因。</p>
+<p><strong>不同学派对宏观经济学问题的看法</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">学派</th>
+<th align="center">震动来源</th>
+<th align="center">预期</th>
+<th align="center">价格调整</th>
+<th align="center">市场调整</th>
+<th align="center">均衡观</th>
+<th align="center">影响时长</th>
+<th align="center">规则/相机</th>
+<th align="center">收入政策</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">正统凯恩斯主义</td>
+<td align="center">消费需求独立波动</td>
+<td align="center">自适应的</td>
+<td align="center">相对僵化</td>
+<td align="center">能力弱</td>
+<td align="center">无法达到充分就业</td>
+<td align="center">短期</td>
+<td align="center">相机</td>
+<td align="center">局部赞成</td>
+</tr>
+<tr>
+<td align="center">正统货币主义学派</td>
+<td align="center">货币供给的干扰</td>
+<td align="center">自适应的</td>
+<td align="center">灵活的</td>
+<td align="center">能力强</td>
+<td align="center">总能达到自然失业率</td>
+<td align="center">有时短期、有时长期</td>
+<td align="center">规则</td>
+<td align="center">无关且骚扰、会扭曲复苏进程</td>
+</tr>
+<tr>
+<td align="center">新古典学派</td>
+<td align="center">货币供给的干扰</td>
+<td align="center">理性的</td>
+<td align="center">极端灵活的</td>
+<td align="center">非常强的</td>
+<td align="center">总能达到自然失业率</td>
+<td align="center">长期与短期无区别</td>
+<td align="center">规则</td>
+<td align="center">无关且骚扰、会扭曲复苏进程</td>
+</tr>
+<tr>
+<td align="center">真实经济周期</td>
+<td align="center">来自供应方(技术层面)的冲击</td>
+<td align="center">理性的</td>
+<td align="center">极端灵活的</td>
+<td align="center">非常强的</td>
+<td align="center">总能达到动态的自然失业率</td>
+<td align="center">长期与短期无区别</td>
+<td align="center">规则</td>
+<td align="center">无关且骚扰、会扭曲复苏进程</td>
+</tr>
+<tr>
+<td align="center">新凯恩斯主义学派</td>
+<td align="center">在供给和需求中间折中</td>
+<td align="center">理性的</td>
+<td align="center">强调价格刚性(如菜单成本)</td>
+<td align="center">缓慢</td>
+<td align="center">存在非自愿失业</td>
+<td align="center">总的来说是短期的</td>
+<td align="center">众说纷纭</td>
+<td align="center">总体而言是持否定态度的</td>
+</tr>
+<tr>
+<td align="center">奥地利学派</td>
+<td align="center">货币供给的干扰系统</td>
+<td align="center">理性的</td>
+<td align="center">灵活的</td>
+<td align="center">能力强</td>
+<td align="center">趋于均衡</td>
+<td align="center">有时短期、有时长期</td>
+<td align="center">规则</td>
+<td align="center">有害且会扭曲复苏进程</td>
+</tr>
+<tr>
+<td align="center">后凯恩斯主义学派</td>
+<td align="center">消费需求独立波动</td>
+<td align="center">理性的</td>
+<td align="center">黏性的</td>
+<td align="center">非常弱</td>
+<td align="center">无法达到的充分就业</td>
+<td align="center">短期</td>
+<td align="center">相机</td>
+<td align="center">必需且是有益的</td>
+</tr>
+<tr>
+<td align="center"><strong>宏观经济学家的六大共识</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>1经济增长的长期趋势主要依靠供应方面的因素，长期发展还得看生产力<br>2短期的经济波动，往往来自需求方面<br>3长期来讲不能通过制造通货膨胀来降低失业率<br>4长期来讲货币增长决定了通货膨胀率<br>5政府微调经济周期是做不到的<br>6大家普遍接受“人是有对策”这一观点</p>
+</blockquote>
+<h2 id="公共选择-选举未必反应大多数人的意愿-1"><a href="#公共选择-选举未必反应大多数人的意愿-1" class="headerlink" title="公共选择 选举未必反应大多数人的意愿"></a>公共选择 选举未必反应大多数人的意愿</h2><h3 id="113-选举由中间派说了算-1"><a href="#113-选举由中间派说了算-1" class="headerlink" title="113 选举由中间派说了算"></a>113 选举由中间派说了算</h3><p><strong>市场与投票在公共选择中的区别</strong><br>每一个人都有一个所谓的<a href="https://wiki.mbalib.com/wiki/%E5%8D%95%E5%B3%B0%E5%81%8F%E5%A5%BD%E7%90%86%E8%AE%BA" target="_blank" rel="noopener">单峰偏好(Singer Peak Preference Theory)</a>,也就是一个理想的点，公共选择的结果越是接近这个点，他就越满意，无论高低，越远离他就越不满意。<br>在<strong>投票的情况</strong>下，公共选择的结果相当于<strong>中位数</strong>，由中位数决定；而<strong>在市场里</strong>，公共选择的结果由<strong>平均数</strong>的位置决定。<br>A、B、C三人一起吃饭，A想吃5块钱的煎饼果子，B想吃10块钱的螺狮粉，C想吃50块钱的烤鱼，不能偏离这个喜好点，低了不愿意吃，高了有些贵。在讲科斯定理的时候，提到过<strong>谁使用的价值最高权力归谁</strong>，C的烤鱼最贵，他可以把吃饭的权利买下来。</p>
+<p><strong>赢得中间投票人的支持，就能获得选举成功</strong><br>经济学家<a href="https://en.wikipedia.org/wiki/Duncan_Black" target="_blank" rel="noopener">邓肯·布莱克(Duncan Black)</a>在1948年重新发现“中位数人投票原理”，因为16世界法国有数学家就已经发现这个原理，1957年，经济学者<a href="https://en.wikipedia.org/wiki/Anthony_Downs" target="_blank" rel="noopener">安东尼·唐斯(Anthony Downs)</a>把它写到了对民主进行经济分析的经典著作<a href="https://book.douban.com/subject/4909255/" target="_blank" rel="noopener">《民主的经济理论》(An Economics Theory of Democracy，1957)</a>。在这本书以前，人们相信政治家攀比的是他们的政治理想。过去人们以为，政治家为了实现他们的远大理想而参加竞选；现在人们明白，政治家为了赢得选举刻意裁剪他们的理想。</p>
+<h3 id="114-阿罗不可能定律-1"><a href="#114-阿罗不可能定律-1" class="headerlink" title="114 阿罗不可能定律"></a>114 阿罗不可能定律</h3><p><strong>选举不一定反映大多数人的意愿</strong><br><a href="https://baike.baidu.com/item/%E8%82%AF%E5%B0%BC%E6%96%AF%C2%B7%E7%BA%A6%E7%91%9F%E5%A4%AB%C2%B7%E9%98%BF%E7%BD%97" target="_blank" rel="noopener">肯尼斯·阿罗(Kenneth Arrow)</a>重新提出提出<a href="https://wiki.mbalib.com/wiki/%E9%98%BF%E7%BD%97%E7%9A%84%E4%B8%8D%E5%8F%AF%E8%83%BD%E5%AE%9A%E7%90%86" target="_blank" rel="noopener"><strong>阿罗不可能定律</strong></a><code>18世纪的数学家孔多塞和波尔达曾经提出过，但著作被湮没了</code>，指在人们有多种不同选择的情况下，选举不一定能反映出大多人的意愿。<br>在现实生活中，“<strong>选举反映了大多数人的意愿</strong>”本身就有可能是个<strong>谬误</strong>。阿罗不可能定律指出，在特定的情况下，要选择真正能够代表大多数人意愿的选项是不可能的，选择的结果其实是循环的。实际上不同的问法就决定了不同的答案，并不存在什么大多数人的意愿这一说。</p>
+<p><strong>已经被暗中决定了的投票结果</strong><br><a href="https://wiki.mbalib.com/wiki/%E5%85%AC%E5%85%B1%E9%80%89%E6%8B%A9%E5%AD%A6%E6%B4%BE" target="_blank" rel="noopener">公共选择学派</a>的创始人<a href="https://wiki.mbalib.com/wiki/%E6%88%88%E7%99%BB%C2%B7%E5%A1%94%E6%B4%9B%E5%85%8B" target="_blank" rel="noopener">戈登·图洛克(Gordon Tullock)</a><code>熟悉的寻租理论就是他提出来的</code>，写过一篇文章<a href="https://link.springer.com/article/10.1007/BF00138239" target="_blank" rel="noopener">《为什么这么稳定》(Why So Much Stability，1981)</a>。它的意思是说阿罗不可能定律预测的是一个动态结果，但现实中没有这样的结果，是在于每次人们投票决定一件事时，都有一个会议召集人或<strong>议程设计者</strong>，他设计了怎么问别人，甚至在起主导作用，其他人所代表的那个可能只是个<strong>橡皮图章</strong>。</p>
+<p><strong>投钞票可对偏好轻重作出排序</strong><br>用选票投，只能反映出对不同选项的<strong>偏好顺序</strong>，却没法反映出<strong>偏好之间的轻重</strong>，而投钞票或豆子可以体现。</p>
+<h3 id="115-民主为何会产生不良经济效应-1"><a href="#115-民主为何会产生不良经济效应-1" class="headerlink" title="115 民主为何会产生不良经济效应"></a>115 民主为何会产生不良经济效应</h3><p>那么问题来了：既然这么多经济政策都是低效或者无效的，甚至是在起反作用，那为什么这些经济政策还反复被采纳、被执行？而且执行者往往还是某些民主国家？</p>
+<h4 id="传统公共选择学派的理由-1"><a href="#传统公共选择学派的理由-1" class="headerlink" title="传统公共选择学派的理由"></a>传统公共选择学派的理由</h4><p>对于民主为何会产生不良经济政策这个问题，他们提出两个可能的理由：<strong>选民是无知的</strong>，<strong>选举机制有问题</strong>。</p>
+<p>人们对民主的基本信念：<strong>大多数人在大多数时候是正确的</strong>。为了让大众尽快地接近真理，那些掌握了更多信、更多社会运行规律地人应该尽量给大众<strong>普及教育</strong>。<br>首位诺贝尔经济学奖获得者保罗·萨缪尔森，有这样一句名言“只要由我来写经济学教科书，我就不在乎谁来制定国家法律，谁来起草缜密的条约。”<br>弥尔顿·弗里德曼1976年获得诺贝尔经济学奖，此后在公众媒体上做节目、写专栏，用简洁的语言、生动的例子向大众普及经济学地基本原理，直到2006年去世。弗里德曼晚年反思，与三十年前相比，人们只是在口头上更接受市场，在实际政策上并没有什么改进。<code>想起来《道德经》中的一句话“天之道，损有余，补不足；人之道，损不足，补有余。”在《圣经》中也有类似的语句。</code></p>
+<p>假设：我每月可以从每张手机卡偷1角钱，几十亿张手机卡，一个月到手几个亿。那些丢了这些钱的人会对对我群起而攻之吗？不会，很多举动，打个电话、寄一份举报信成本就已经大于1角钱了，除非是为了所谓的<strong>公正</strong>。<strong>(工业和信息化部电信投诉电话：12300)</strong><br>利益团体相对于群众而言，人数较少，互相可见，得益很高，他们利用公共政策赚到的钱是全体公民付出的。而群众，高度分散，互相不可见，一个人受到的损失也很小，联合起来反抗的成本也非常高。在这种格局下，那些有巨大利益的少数派就会有积极性去操纵选举的结果，让大部分分散的选民来承担代价。</p>
+<h4 id="唐纳德·魏特曼的反驳-1"><a href="#唐纳德·魏特曼的反驳-1" class="headerlink" title="唐纳德·魏特曼的反驳"></a>唐纳德·魏特曼的反驳</h4><p><a href="https://campusdirectory.ucsc.edu/cd_detail?uid=wittman" target="_blank" rel="noopener">唐纳德·魏特曼(Donal Wittman)</a>认为，市场机制能帮助人们做出明智的选择，政治竞赛至少和市场竞争一样有力，民主制产生的经济政策就是选民想要的。</p>
+<h4 id="布莱恩·卡普兰的“理性胡闹-rational-irrationality-”理论-1"><a href="#布莱恩·卡普兰的“理性胡闹-rational-irrationality-”理论-1" class="headerlink" title="布莱恩·卡普兰的“理性胡闹(rational irrationality)”理论"></a>布莱恩·卡普兰的“理性胡闹(rational irrationality)”理论</h4><p><a href="https://en.wikipedia.org/wiki/Bryan_Caplan" target="_blank" rel="noopener">布莱恩·卡普兰(Bryan Caplan)</a>认为：</p>
+<blockquote>
+<p>1&gt;大众的经济学认识有<strong>系统性偏差</strong>，大众容易产生排外偏见、职位偏见、反市场偏见、悲观偏见；<br>2&gt;任何个人的选票都无法改变选举的结果，参选人赢得之间赢得大选的概率与成为中间选民的概率成正相关；而基本上一面倒的选举，谁都不大可能通过自己的一票力挽狂澜；美联邦最高法的九位大法官成为中间投票人的概率远大于上亿人成为中间选民的概率。在一个巨大的分母上，放那个“1”其结果都是接近于“0”；<br>3&gt;市场决策与民主决策的根本区别，是否需要为自己的主张<strong>负直接的责任</strong>，比如在市场中买车和为免费医疗投票。<br>幸亏人的生命只有一次，不想在游戏里，死了投个币重开就行，即使这样大部分才能理性对待事物，而非放纵自己的感情和偏见，从而产生巨大地外部负效应。</p>
+</blockquote>
+<h3 id="116-关于收入再分配的戴雷科特定律-1"><a href="#116-关于收入再分配的戴雷科特定律-1" class="headerlink" title="116 关于收入再分配的戴雷科特定律"></a>116 关于收入再分配的戴雷科特定律</h3><p><a href="https://baike.baidu.com/item/%E4%BA%9A%E4%BC%A6%C2%B7%E6%88%B4%E9%9B%B7%E7%A7%91%E7%89%B9" target="_blank" rel="noopener">亚伦·戴雷科特(Araon Director)</a>是法律经济学的创始人，最早对反垄断法提出一些洞见。这位生于20世纪初，卒于21世纪末的大佬，在人间唠唠叨叨了一百零二年，不爱写文章，只爱在各种讨论会上阐述自己的观点，很早就提出关于公共收入再分配的定律，就是不愿意写出来，直到1970年，<a href="https://wiki.mbalib.com/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E6%96%AF%E8%92%82%E6%A0%BC%E5%8B%92" target="_blank" rel="noopener">乔治·斯蒂格勒(George Stigler)</a>将其写成<a href="https://www.journals.uchicago.edu/doi/pdfplus/10.1086/466680" target="_blank" rel="noopener">《关于公共收入再分配再分配的戴雷科特定律》(Director’s Law of Public Income Redistribution,1970)</a><code>找不到可以在线看的网站</code>。</p>
+<h4 id="对收入再分配的传统批评-1"><a href="#对收入再分配的传统批评-1" class="headerlink" title="对收入再分配的传统批评"></a>对收入再分配的<strong>传统批评</strong></h4><p>大多数人认为，政府承担者财富再分配、收入再分配的功能，能够把社会中有钱人的收入征收一部分，给社会中贫穷的人使用。让富人损失一点，然后提高社会整体幸福感。<strong>人与人之间的效用不可以进行横向的比较和加总</strong>。<br>通过计算社会总效用的办法来支持或者反对任何一种公共政策，都是<strong>缺乏合理依据</strong>的。</p>
+<h4 id="戴雷科特：收入再分配，真正得益的并不是穷人而是中等收入的人-1"><a href="#戴雷科特：收入再分配，真正得益的并不是穷人而是中等收入的人-1" class="headerlink" title="戴雷科特：收入再分配，真正得益的并不是穷人而是中等收入的人"></a>戴雷科特：收入再分配，真正得益的并不是穷人而是中等收入的人</h4><p>社会中穷人的时间、知识、精力致使他们对社会问题的参与往往不够，他们根本没有意识、没有能力、没有资源为自己说话；社会中的富人，他们不屑于多交一点税、不屑于过多替自己说话；社会中的中等收入者，他们有很大的积极性，他们有动机有能力，通过选举为自己说话，为自己办事。<strong>结果是社会上的富人和穷人共同补贴了社会上的中产阶级</strong>。</p>
+<blockquote>
+<p><strong>常见案例</strong>：公共教育、公共医疗服务、社会保险与养老金、免费高速公路、廉租房和廉价房</p>
+</blockquote>
+<h3 id="117-脱贫致富之路知易行难-1"><a href="#117-脱贫致富之路知易行难-1" class="headerlink" title="117 脱贫致富之路知易行难"></a>117 脱贫致富之路知易行难</h3><h4 id="让穷人发挥自己的能动性才是最重要的-1"><a href="#让穷人发挥自己的能动性才是最重要的-1" class="headerlink" title="让穷人发挥自己的能动性才是最重要的"></a>让穷人发挥自己的能动性才是最重要的</h4><p>在讲慈善失效时，提到[威廉·伊斯特利]的一本书<a href="https://book.douban.com/subject/3257745/" target="_blank" rel="noopener">《白人的负担》</a>，这里介绍另外一本书<a href="https://book.douban.com/subject/26869012/" target="_blank" rel="noopener">《威权政治》(The Tyranny of Experts，2014)</a>，在这本书中，他说，在给予技术支持、设备支持、资金支持时，一件重要的事情就是<strong>发挥穷人的能动性</strong>。<code>高中某位老师讲过一个故事，干部给某个贫困村带去了几只羊，之后干部再去的时候，问一个村民“羊怎么样”，那位村民说“挺好吃的”。</code></p>
+<p>美国修高速公路的资金，是政府通过收<strong>燃油税</strong>得到的，然后再分配给不同的地区修建当地的公路；而中国修高速公路是当地政府和当地企业修建，修好后，通过收<strong>过路费</strong>的方式把成本收回来，司机会盘算要不要走高速尤其是货车司机，而修路的人也会仔细考虑在那修如何修。<br><strong>局部的规律</strong>可以通过实验反复验证，但是对于更宏观的现象————某国长期落后的原因————作出<strong>一般性的概括</strong>，就是一件难事了</p>
+<p>在美国经济学家<a href="https://en.wikipedia.org/wiki/Daron_Acemoglu" target="_blank" rel="noopener">德隆·阿西莫格鲁(Deron Asimoglu)</a>和<a href="https://en.wikipedia.org/wiki/James_A._Robinson_(economist)" target="_blank" rel="noopener">詹姆斯·罗宾逊(James Robinson)</a>合著的<a href="https://book.douban.com/subject/26388427/" target="_blank" rel="noopener">《国家失败的原因:权力、繁荣和贫穷的起源》(Why Nations Fail: The Origins of Power, Prosperity, and Poverty,2012)</a>中，有这样的观点：有些国家采取了包容性的政策(inclusive policy)，有些国家采取了汲取性政策(extractive policy)<br><strong>包容性政策</strong>：惠及所有的人，在社会中保持公正、公平，使得发展能够持续、所有人和睦相处且发展自我的政策。<br><strong>汲取性政策</strong>：通过垄断、专卖、市场控制等方法，把社会资源集中在少数人手里。</p>
+<h4 id="反思-1"><a href="#反思-1" class="headerlink" title="反思"></a>反思</h4><p>一个国家穷富，经济制度只是众多原因中的一个，此外还有文化、地理、人群基因、自然条件等因素。<br><a href="https://baike.baidu.com/item/%E8%B4%BE%E9%9B%B7%E5%BE%B7%C2%B7%E6%88%B4%E8%92%99%E5%BE%B7" target="_blank" rel="noopener">贾雷德·戴蒙德(Jared Diamond)</a>在<a href="https://book.douban.com/subject/26743265/" target="_blank" rel="noopener">《枪炮、病菌与钢铁》</a>(Guns,Germs,and steel,1997)，作者认为欧亚和北非的文明能够存活甚至侵略其他文明，只是因为他们所处的地理环境，通过一系列的作用和反作用，他们的势力就超过了对手。</p>
+<p><strong>有时候，因果颠倒。</strong><code>中学的时候做证明题，会拿结论证明问题，哈哈哈</code></p>
+<h3 id="118-中国做对了什么-1"><a href="#118-中国做对了什么-1" class="headerlink" title="118 中国做对了什么"></a>118 中国做对了什么</h3><p><strong>知错&amp;知对</strong></p>
+<blockquote>
+<p>去的经济成就做对的四件事情<br>1&gt;给重要的资产确权<br>2&gt;引入了市场竞争机制<br>3&gt;鼓励民营企业发展<br>4&gt;加入世界贸易组织，让中国人民直接参与了国际化的大合作</p>
+</blockquote>
+<h4 id="界定产权：以土地和人力资本为例-1"><a href="#界定产权：以土地和人力资本为例-1" class="headerlink" title="界定产权：以土地和人力资本为例"></a>界定产权：以土地和人力资本为例</h4><p><strong>家庭联产承包责任制</strong>将土地的经营权、管理权、收入分配权从大集体转向家庭，使农民变成<strong>剩余索取者</strong><br>价格的三个作用：传递关于稀缺性的信息，指导生产，指导分配</p>
+<p>政府解除对<strong>人力资本</strong>的保护后，人力资本的投资积极性提高。</p>
+<h4 id="引入市场竞争：从认人的制度改为认钱的制度-1"><a href="#引入市场竞争：从认人的制度改为认钱的制度-1" class="headerlink" title="引入市场竞争：从认人的制度改为认钱的制度"></a>引入市场竞争：从认人的制度改为认钱的制度</h4><p>按出价的高低来做决定有一个特点，那就是因为这种竞争规则引发的<strong>无所谓损失</strong>、竞争的成本会降到最低，所以它是最有效的。</p>
+<h4 id="鼓励民营企业发展：充分利用企业家的优势-1"><a href="#鼓励民营企业发展：充分利用企业家的优势-1" class="headerlink" title="鼓励民营企业发展：充分利用企业家的优势"></a>鼓励民营企业发展：充分利用企业家的优势</h4><p>私营企业去冒险、去承担责任<br>政府只保驾护航，进行底线监管，同时发挥该发挥的作用</p>
+<h4 id="加入世界贸易组织：开放国门迎接竞争-1"><a href="#加入世界贸易组织：开放国门迎接竞争-1" class="headerlink" title="加入世界贸易组织：开放国门迎接竞争"></a>加入世界贸易组织：开放国门迎接竞争</h4><p>比较优势原理：“只有打开了国门，只有丢了成本较高的工作，才可能找到成本较低的工作。”</p>
+<p><strong>先实践，后解释。</strong></p>
+<h1 id="何为地道的经济学思维-1"><a href="#何为地道的经济学思维-1" class="headerlink" title="何为地道的经济学思维"></a>何为地道的经济学思维</h1><blockquote>
+<p>作为小白的我，拜读经济学方面的书，没敢有啥太大的想法，只是想单纯了解一些基础知识和培养经济学思维来看世界。```</p>
+</blockquote>
+<p>薛兆丰老师讲，地道的经济学思维是对包含人性的因果规律的探索。在这个过程中，数字、术语、结论不重要；重要的是想象力、视角、推理、权衡。经济学研究有人的世界，物理学研究无人的世界，经济学加入了对人和事的考量。原则总是容易明白但不容易践行，薛老师总结了八点地道的经济学思维心得作为这本书的后记。</p>
+<h4 id="1-可证伪的才是地道的-1"><a href="#1-可证伪的才是地道的-1" class="headerlink" title="1 可证伪的才是地道的"></a>1 可证伪的才是地道的</h4><p>20世纪的哲学家<a href="https://wiki.mbalib.com/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E6%B3%A2%E6%99%AE%E5%B0%94" target="_blank" rel="noopener">卡尔·波普尔爵士(Sir Karl Popper)</a>提出证伪主义理论，这对启发人们在科学主义理论和非科学主义理论之间画一条界限发挥了重大作用，有可能错的才是科学理论。物理学、化学、天文学、经济学都是<strong>科学</strong>，而文学、艺术还有逻辑和数学都是<strong>非科学</strong>。</p>
+<h4 id="2-与生活相关的才是地道的-1"><a href="#2-与生活相关的才是地道的-1" class="headerlink" title="2 与生活相关的才是地道的"></a>2 与生活相关的才是地道的</h4><p>经济学家<a href="https://en.wikipedia.org/wiki/Deirdre_McCloskey" target="_blank" rel="noopener">迪尔德丽·麦克罗斯基Deirdre McClosky</a>写过一本小书<a href="https://www.amazon.com/Vices-Economists-Virtues-Bourgeoisie/dp/9053562443" target="_blank" rel="noopener">《经济学家的邪恶和资本家的美德》(The Vices of Economists ；The Virtues of the Bourgeoisie，1997)</a>，她观点类似的著作有<a href="https://book.douban.com/subject/30182660/" target="_blank" rel="noopener">《企业家的尊严》</a>，她批评了<a href="https://wiki.mbalib.com/wiki/%E7%AE%80%C2%B7%E4%B8%81%E4%BC%AF%E6%A0%B9" target="_blank" rel="noopener">简·丁伯根(Jane Tinbergen)</a>创立社会改造工程学，她说这门学问把人类社会等同于物理世界；批评萨缪尔森的黑板经济学，说他的经济学远离真实世界；批评<a href="https://wiki.mbalib.com/wiki/%E5%8A%B3%E4%BC%A6%E6%96%AF%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0" target="_blank" rel="noopener">劳伦斯·克莱因(Lawrence Klein)</a>,说他创立的计量经济学，混淆了科学的显著性和人文的重要性，以致人们在做出决策时，没有把人文的价值考虑在内。她认为过去二百年经济的飞速增长不是因为剥削、不是因为单纯的投资，而是创新，但这个在经济学的教科书里找不到。<br>她主张我们要在经济分析中，加入不容易观察、刻画、衡量的因素，只有这样才能够理解我们正在经历的<a href="https://baike.baidu.com/item/%E9%95%BF%E8%B6%B3/183967" target="_blank" rel="noopener"><strong>长足进步</strong></a>。</p>
+<h4 id="3-看不见的才是地道的-1"><a href="#3-看不见的才是地道的-1" class="headerlink" title="3 看不见的才是地道的"></a>3 看不见的才是地道的</h4><p>看不见的其他维度的增益，看不见的未来，看不见的失败者，看不见的竞争者，看不到的供给和需求，看不到的政府支出和私人支出间的关系。</p>
+<h4 id="4-能分辨原因和结果的才是地道的-1"><a href="#4-能分辨原因和结果的才是地道的-1" class="headerlink" title="4 能分辨原因和结果的才是地道的"></a>4 能分辨原因和结果的才是地道的</h4><p>从经济学的角度看，往往是人们成功后，采取找理由的，这对因果是一个颠覆。比如在日本漫画<a href="https://baike.baidu.com/item/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85/8702" target="_blank" rel="noopener">《火影》</a>中，被视为村中“妖物”的漩涡鸣人一直想成为火影得到大家的认可，宇智波鼬告诉鸣人“得到大家认可的才会成为火影。”<br>经济学是一门研究人的行为规律的学科，要找出人的行为规律，就要找出各种事件之间的相关性、因果、显著性、代表性等。</p>
+<h4 id="5-能分辨事实和语言的才是地道的-1"><a href="#5-能分辨事实和语言的才是地道的-1" class="headerlink" title="5 能分辨事实和语言的才是地道的"></a>5 能分辨事实和语言的才是地道的</h4><p>根据产生错位甚至冲突等变化的事实，来修改我们使用的定义、概念、判断，而非强行修改我们要分析的客观世界。<code>《道德经》中有“道可道，非常道；名可名，非常名。”《金刚般若波罗密多经》中佛陀与须菩提的对话。</code><br>许多产品是一种综合服务，而不是一个简单的标准品。如，学区房案列。否认了学位的商品性，就只能把人们对学位的追逐改变为对住房的追逐。本来家庭间的区别是能不能付起学费的问题，结果成了能不能买得起学区房的问题；学生之间的区别本来是在于成绩，结果变成了攀比父母财力。把商品不当商品看，使问题越来难以解决。<br>不论提出什么样的口号、说法，语言都不重要，语言所包装的行为是否符合经济发展规律才是重要的。</p>
+<h4 id="6-能分辨愿望与结果才是地道的-1"><a href="#6-能分辨愿望与结果才是地道的-1" class="headerlink" title="6 能分辨愿望与结果才是地道的"></a>6 能分辨愿望与结果才是地道的</h4><p>经济学研究的是<strong>事与愿违</strong>的学问，好人做坏事，坏人做好事。<br>本来我进市场要买最便宜的苹果，结果我的到来，导致了苹果价格的上涨。<br>相对弹性较大的一方，承担额外成本的比例就比较低；相对弹性较小的一方，承担的比例比较高。买了结婚用的钻戒，并不是由风俗习惯、法律决定的，而是由暗中的交易双方或多方的<strong>相对弹性</strong>决定的。</p>
+<h4 id="7-能分辨个体和全体的才是地道的-1"><a href="#7-能分辨个体和全体的才是地道的-1" class="headerlink" title="7 能分辨个体和全体的才是地道的"></a>7 能分辨个体和全体的才是地道的</h4><p>逻辑学中有一个概念叫做<a href="https://wiki.mbalib.com/wiki/%E5%90%88%E6%88%90%E8%B0%AC%E8%AF%AF" target="_blank" rel="noopener"><strong>合成谬误</strong>(fallacy of composition)</a>，说适用于个体的并不一定适用于全局。<br>看剧的时候，前排一个人看不见然后站起来，后面的看不见也站起来，到最后，大家都别坐着了。</p>
+<h4 id="8-牢记基本事实才是地道的-1"><a href="#8-牢记基本事实才是地道的-1" class="headerlink" title="8 牢记基本事实才是地道的"></a>8 牢记基本事实才是地道的</h4><p>有些事实我们永远不能<strong>假设</strong>，不能假设信息是对称的，市场是均衡的等等，有些问题和条件，它们<strong>时刻在起作用</strong>，不能为了让一个定律成立假设某个要素不起作用。</p>
+<img src="/.io//12/25/%E8%96%9B%E5%85%86%E4%B8%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%AE%B2%E4%B9%89_%E7%AC%94%E8%AE%B0/example.jpg" class title="This is an example image">
+
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2019/12/25/code/" rel="next" title="code">
+      code <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#C6-耐心-想象力决定生产力"><span class="nav-number">1.</span> <span class="nav-text">C6 耐心 | 想象力决定生产力</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#不确定性-时间偏好带来的回报"><span class="nav-number">1.1.</span> <span class="nav-text">不确定性 | 时间偏好带来的回报</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#058-易耗品与耐用品"><span class="nav-number">1.1.1.</span> <span class="nav-text">058 易耗品与耐用品</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#059-不耐产生交易"><span class="nav-number">1.1.2.</span> <span class="nav-text">059 不耐产生交易</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#060-利率管制及其后果"><span class="nav-number">1.1.3.</span> <span class="nav-text">060 利率管制及其后果</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#C6-耐心-想象力决定生产力-1"><span class="nav-number">2.</span> <span class="nav-text">C6 耐心 | 想象力决定生产力</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#不确定性-时间偏好带来的回报-1"><span class="nav-number">2.1.</span> <span class="nav-text">不确定性 | 时间偏好带来的回报</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#058-易耗品与耐用品-1"><span class="nav-number">2.1.1.</span> <span class="nav-text">058 易耗品与耐用品</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#059-不耐产生交易-1"><span class="nav-number">2.1.2.</span> <span class="nav-text">059 不耐产生交易</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#060-利率管制及其后果-1"><span class="nav-number">2.1.3.</span> <span class="nav-text">060 利率管制及其后果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#061利率变化支配资本现值"><span class="nav-number">2.1.4.</span> <span class="nav-text">061利率变化支配资本现值</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#有效市场假说-时间维度上的平衡消费"><span class="nav-number">2.2.</span> <span class="nav-text">有效市场假说 | 时间维度上的平衡消费</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#062投资就是时间维度上的平衡消费"><span class="nav-number">2.2.1.</span> <span class="nav-text">062投资就是时间维度上的平衡消费</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#063股价是否能预测"><span class="nav-number">2.2.2.</span> <span class="nav-text">063股价是否能预测</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#064股市是否有泡沫"><span class="nav-number">2.2.3.</span> <span class="nav-text">064股市是否有泡沫</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#065所有资产的回报率都会趋向于相等"><span class="nav-number">2.2.4.</span> <span class="nav-text">065所有资产的回报率都会趋向于相等</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#预测未来-债券、保险与期货"><span class="nav-number">2.3.</span> <span class="nav-text">预测未来 | 债券、保险与期货</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#066未雨绸缪，储蓄？保险？"><span class="nav-number">2.3.1.</span> <span class="nav-text">066未雨绸缪，储蓄？保险？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#067保险的运作原理"><span class="nav-number">2.3.2.</span> <span class="nav-text">067保险的运作原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#068不是保险的保险"><span class="nav-number">2.3.3.</span> <span class="nav-text">068不是保险的保险</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#069当商品不被当作商品"><span class="nav-number">2.3.4.</span> <span class="nav-text">069当商品不被当作商品</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#070用期货合约来重新分配不可避免的风险"><span class="nav-number">2.3.5.</span> <span class="nav-text">070用期货合约来重新分配不可避免的风险</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#C7供应-好钢用在刀刃上"><span class="nav-number">3.</span> <span class="nav-text">C7供应 | 好钢用在刀刃上</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#比较优势-天生我才必有用"><span class="nav-number">3.1.</span> <span class="nav-text">比较优势 | 天生我才必有用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#071比较优势原理"><span class="nav-number">3.1.1.</span> <span class="nav-text">071比较优势原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#072顺差逆差，孰优孰劣"><span class="nav-number">3.1.2.</span> <span class="nav-text">072顺差逆差，孰优孰劣</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#073贸易对等和贸易报复"><span class="nav-number">3.1.3.</span> <span class="nav-text">073贸易对等和贸易报复</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#074贸易保护里有辨析"><span class="nav-number">3.1.4.</span> <span class="nav-text">074贸易保护里有辨析</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#价格歧视-定价和竞争的策略"><span class="nav-number">3.2.</span> <span class="nav-text">价格歧视 | 定价和竞争的策略</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#075受价者和觅价者"><span class="nav-number">3.2.1.</span> <span class="nav-text">075受价者和觅价者</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#076价格歧视能给觅价者脱罪"><span class="nav-number">3.2.2.</span> <span class="nav-text">076价格歧视能给觅价者脱罪</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#077价格歧视的策略"><span class="nav-number">3.2.3.</span> <span class="nav-text">077价格歧视的策略</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#078行业竞争程度不看企业个数"><span class="nav-number">3.2.4.</span> <span class="nav-text">078行业竞争程度不看企业个数</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#C8-信息不对称-谁的话语权更大"><span class="nav-number">4.</span> <span class="nav-text">C8 信息不对称 | 谁的话语权更大</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#信任的建立-直面信息不对称"><span class="nav-number">4.1.</span> <span class="nav-text">信任的建立 | 直面信息不对称</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#079🍋市场的故事"><span class="nav-number">4.1.1.</span> <span class="nav-text">079🍋市场的故事</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#080何谓优质"><span class="nav-number">4.1.2.</span> <span class="nav-text">080何谓优质</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#制度的对策-缔约自由比自由更重要"><span class="nav-number">4.2.</span> <span class="nav-text">制度的对策 | 缔约自由比自由更重要</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#081重复交易与第三方背书"><span class="nav-number">4.2.1.</span> <span class="nav-text">081重复交易与第三方背书</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#083担保、延保与共享合同"><span class="nav-number">4.2.2.</span> <span class="nav-text">083担保、延保与共享合同</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#083沉没成本、人质与抵押"><span class="nav-number">4.2.3.</span> <span class="nav-text">083沉没成本、人质与抵押</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#084广告代言与形象打扮"><span class="nav-number">4.2.4.</span> <span class="nav-text">084广告代言与形象打扮</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#085特许经营合同中的强者和弱者"><span class="nav-number">4.2.5.</span> <span class="nav-text">085特许经营合同中的强者和弱者</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#086如何保障食品、药品和化妆品的质量"><span class="nav-number">4.2.6.</span> <span class="nav-text">086如何保障食品、药品和化妆品的质量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#087婚姻经济学"><span class="nav-number">4.2.7.</span> <span class="nav-text">087婚姻经济学</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#责任的分担-让防范的成本最小"><span class="nav-number">4.3.</span> <span class="nav-text">责任的分担 | 让防范的成本最小</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#088汉德公式"><span class="nav-number">4.3.1.</span> <span class="nav-text">088汉德公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#089-监管要看边际效应"><span class="nav-number">4.3.2.</span> <span class="nav-text">089 监管要看边际效应</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#090监管本身也要引入竞争机制"><span class="nav-number">4.3.3.</span> <span class="nav-text">090监管本身也要引入竞争机制</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#C9合作-为何同工不同酬"><span class="nav-number">5.</span> <span class="nav-text">C9合作 | 为何同工不同酬</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#决策权-谁来当老板"><span class="nav-number">5.1.</span> <span class="nav-text">决策权 | 谁来当老板</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#091企业的团队本质"><span class="nav-number">5.1.1.</span> <span class="nav-text">091企业的团队本质</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#092-谁来当老板：资本和劳动力"><span class="nav-number">5.1.2.</span> <span class="nav-text">092 谁来当老板：资本和劳动力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#093-谁来当老板：专用资源和通用资源"><span class="nav-number">5.1.3.</span> <span class="nav-text">093 谁来当老板：专用资源和通用资源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#094-谁来当老板：固定收入和剩余索取"><span class="nav-number">5.1.4.</span> <span class="nav-text">094 谁来当老板：固定收入和剩余索取</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#收入分配-政府是否应该劫富济贫"><span class="nav-number">5.2.</span> <span class="nav-text">收入分配 | 政府是否应该劫富济贫</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#095-收入的高低和节奏由什么决定"><span class="nav-number">5.2.1.</span> <span class="nav-text">095 收入的高低和节奏由什么决定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#096-事与愿违之同工同酬法"><span class="nav-number">5.2.2.</span> <span class="nav-text">096 事与愿违之同工同酬法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#097-事与愿违之最低工资法"><span class="nav-number">5.2.3.</span> <span class="nav-text">097 事与愿违之最低工资法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#098-基尼系数与收入分配"><span class="nav-number">5.2.4.</span> <span class="nav-text">098 基尼系数与收入分配</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#脱贫致富-最富裕的穷人在今天"><span class="nav-number">5.3.</span> <span class="nav-text">脱贫致富 | 最富裕的穷人在今天</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#099-工人违约是否应该成为权力"><span class="nav-number">5.3.1.</span> <span class="nav-text">099 工人违约是否应该成为权力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#100-罢工的性质"><span class="nav-number">5.3.2.</span> <span class="nav-text">100 罢工的性质</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#101-工作权力遇到的障碍"><span class="nav-number">5.3.3.</span> <span class="nav-text">101 工作权力遇到的障碍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#102-最富裕的穷人在今天"><span class="nav-number">5.3.4.</span> <span class="nav-text">102 最富裕的穷人在今天</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#10-协调-众人如何彼此影响"><span class="nav-number">6.</span> <span class="nav-text">10 协调 | 众人如何彼此影响</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#货币规律-货币像水又像蜜"><span class="nav-number">6.1.</span> <span class="nav-text">货币规律 | 货币像水又像蜜</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#103-货币的起源"><span class="nav-number">6.1.1.</span> <span class="nav-text">103 货币的起源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#104-商业银行创造货币"><span class="nav-number">6.1.2.</span> <span class="nav-text">104 商业银行创造货币</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#105通货膨胀的根源"><span class="nav-number">6.1.3.</span> <span class="nav-text">105通货膨胀的根源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#106-通货膨胀的过程"><span class="nav-number">6.1.4.</span> <span class="nav-text">106 通货膨胀的过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#107通货膨胀与失业"><span class="nav-number">6.1.5.</span> <span class="nav-text">107通货膨胀与失业</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#经济周期-聪明人彼此不同意"><span class="nav-number">6.2.</span> <span class="nav-text">经济周期 |聪明人彼此不同意</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#108-奥地利学派看经济周期"><span class="nav-number">6.2.1.</span> <span class="nav-text">108 奥地利学派看经济周期</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#109-凯恩斯主义学派看经济周期"><span class="nav-number">6.2.2.</span> <span class="nav-text">109 凯恩斯主义学派看经济周期</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#110-货币主义学派和理性预期学派"><span class="nav-number">6.2.3.</span> <span class="nav-text">110 货币主义学派和理性预期学派</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#111-真是经济周期理论"><span class="nav-number">6.2.4.</span> <span class="nav-text">111 真是经济周期理论</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#112-聪明人为什么会彼此不同意"><span class="nav-number">6.2.5.</span> <span class="nav-text">112 聪明人为什么会彼此不同意</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#公共选择-选举未必反应大多数人的意愿"><span class="nav-number">6.3.</span> <span class="nav-text">公共选择 选举未必反应大多数人的意愿</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#113-选举由中间派说了算"><span class="nav-number">6.3.1.</span> <span class="nav-text">113 选举由中间派说了算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#114-阿罗不可能定律"><span class="nav-number">6.3.2.</span> <span class="nav-text">114 阿罗不可能定律</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#115-民主为何会产生不良经济效应"><span class="nav-number">6.3.3.</span> <span class="nav-text">115 民主为何会产生不良经济效应</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#传统公共选择学派的理由"><span class="nav-number">6.3.3.1.</span> <span class="nav-text">传统公共选择学派的理由</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#唐纳德·魏特曼的反驳"><span class="nav-number">6.3.3.2.</span> <span class="nav-text">唐纳德·魏特曼的反驳</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#布莱恩·卡普兰的“理性胡闹-rational-irrationality-”理论"><span class="nav-number">6.3.3.3.</span> <span class="nav-text">布莱恩·卡普兰的“理性胡闹(rational irrationality)”理论</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#116-关于收入再分配的戴雷科特定律"><span class="nav-number">6.3.4.</span> <span class="nav-text">116 关于收入再分配的戴雷科特定律</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#对收入再分配的传统批评"><span class="nav-number">6.3.4.1.</span> <span class="nav-text">对收入再分配的传统批评</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#戴雷科特：收入再分配，真正得益的并不是穷人而是中等收入的人"><span class="nav-number">6.3.4.2.</span> <span class="nav-text">戴雷科特：收入再分配，真正得益的并不是穷人而是中等收入的人</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#117-脱贫致富之路知易行难"><span class="nav-number">6.3.5.</span> <span class="nav-text">117 脱贫致富之路知易行难</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#让穷人发挥自己的能动性才是最重要的"><span class="nav-number">6.3.5.1.</span> <span class="nav-text">让穷人发挥自己的能动性才是最重要的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#反思"><span class="nav-number">6.3.5.2.</span> <span class="nav-text">反思</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#118-中国做对了什么"><span class="nav-number">6.3.6.</span> <span class="nav-text">118 中国做对了什么</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#界定产权：以土地和人力资本为例"><span class="nav-number">6.3.6.1.</span> <span class="nav-text">界定产权：以土地和人力资本为例</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#引入市场竞争：从认人的制度改为认钱的制度"><span class="nav-number">6.3.6.2.</span> <span class="nav-text">引入市场竞争：从认人的制度改为认钱的制度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#鼓励民营企业发展：充分利用企业家的优势"><span class="nav-number">6.3.6.3.</span> <span class="nav-text">鼓励民营企业发展：充分利用企业家的优势</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#加入世界贸易组织：开放国门迎接竞争"><span class="nav-number">6.3.6.4.</span> <span class="nav-text">加入世界贸易组织：开放国门迎接竞争</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#何为地道的经济学思维"><span class="nav-number">7.</span> <span class="nav-text">何为地道的经济学思维</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-可证伪的才是地道的"><span class="nav-number">7.0.0.1.</span> <span class="nav-text">1 可证伪的才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-与生活相关的才是地道的"><span class="nav-number">7.0.0.2.</span> <span class="nav-text">2 与生活相关的才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-看不见的才是地道的"><span class="nav-number">7.0.0.3.</span> <span class="nav-text">3 看不见的才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-能分辨原因和结果的才是地道的"><span class="nav-number">7.0.0.4.</span> <span class="nav-text">4 能分辨原因和结果的才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-能分辨事实和语言的才是地道的"><span class="nav-number">7.0.0.5.</span> <span class="nav-text">5 能分辨事实和语言的才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-能分辨愿望与结果才是地道的"><span class="nav-number">7.0.0.6.</span> <span class="nav-text">6 能分辨愿望与结果才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-能分辨个体和全体的才是地道的"><span class="nav-number">7.0.0.7.</span> <span class="nav-text">7 能分辨个体和全体的才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-牢记基本事实才是地道的"><span class="nav-number">7.0.0.8.</span> <span class="nav-text">8 牢记基本事实才是地道的</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#061利率变化支配资本现值-1"><span class="nav-number">7.0.1.</span> <span class="nav-text">061利率变化支配资本现值</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#有效市场假说-时间维度上的平衡消费-1"><span class="nav-number">7.1.</span> <span class="nav-text">有效市场假说 | 时间维度上的平衡消费</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#062投资就是时间维度上的平衡消费-1"><span class="nav-number">7.1.1.</span> <span class="nav-text">062投资就是时间维度上的平衡消费</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#063股价是否能预测-1"><span class="nav-number">7.1.2.</span> <span class="nav-text">063股价是否能预测</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#064股市是否有泡沫-1"><span class="nav-number">7.1.3.</span> <span class="nav-text">064股市是否有泡沫</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#065所有资产的回报率都会趋向于相等-1"><span class="nav-number">7.1.4.</span> <span class="nav-text">065所有资产的回报率都会趋向于相等</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#预测未来-债券、保险与期货-1"><span class="nav-number">7.2.</span> <span class="nav-text">预测未来 | 债券、保险与期货</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#066未雨绸缪，储蓄？保险？-1"><span class="nav-number">7.2.1.</span> <span class="nav-text">066未雨绸缪，储蓄？保险？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#067保险的运作原理-1"><span class="nav-number">7.2.2.</span> <span class="nav-text">067保险的运作原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#068不是保险的保险-1"><span class="nav-number">7.2.3.</span> <span class="nav-text">068不是保险的保险</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#069当商品不被当作商品-1"><span class="nav-number">7.2.4.</span> <span class="nav-text">069当商品不被当作商品</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#070用期货合约来重新分配不可避免的风险-1"><span class="nav-number">7.2.5.</span> <span class="nav-text">070用期货合约来重新分配不可避免的风险</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#C7供应-好钢用在刀刃上-1"><span class="nav-number">8.</span> <span class="nav-text">C7供应 | 好钢用在刀刃上</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#比较优势-天生我才必有用-1"><span class="nav-number">8.1.</span> <span class="nav-text">比较优势 | 天生我才必有用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#071比较优势原理-1"><span class="nav-number">8.1.1.</span> <span class="nav-text">071比较优势原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#072顺差逆差，孰优孰劣-1"><span class="nav-number">8.1.2.</span> <span class="nav-text">072顺差逆差，孰优孰劣</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#073贸易对等和贸易报复-1"><span class="nav-number">8.1.3.</span> <span class="nav-text">073贸易对等和贸易报复</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#074贸易保护里有辨析-1"><span class="nav-number">8.1.4.</span> <span class="nav-text">074贸易保护里有辨析</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#价格歧视-定价和竞争的策略-1"><span class="nav-number">8.2.</span> <span class="nav-text">价格歧视 | 定价和竞争的策略</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#075受价者和觅价者-1"><span class="nav-number">8.2.1.</span> <span class="nav-text">075受价者和觅价者</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#076价格歧视能给觅价者脱罪-1"><span class="nav-number">8.2.2.</span> <span class="nav-text">076价格歧视能给觅价者脱罪</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#077价格歧视的策略-1"><span class="nav-number">8.2.3.</span> <span class="nav-text">077价格歧视的策略</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#078行业竞争程度不看企业个数-1"><span class="nav-number">8.2.4.</span> <span class="nav-text">078行业竞争程度不看企业个数</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#C8-信息不对称-谁的话语权更大-1"><span class="nav-number">9.</span> <span class="nav-text">C8 信息不对称 | 谁的话语权更大</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#信任的建立-直面信息不对称-1"><span class="nav-number">9.1.</span> <span class="nav-text">信任的建立 | 直面信息不对称</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#079🍋市场的故事-1"><span class="nav-number">9.1.1.</span> <span class="nav-text">079🍋市场的故事</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#080何谓优质-1"><span class="nav-number">9.1.2.</span> <span class="nav-text">080何谓优质</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#制度的对策-缔约自由比自由更重要-1"><span class="nav-number">9.2.</span> <span class="nav-text">制度的对策 | 缔约自由比自由更重要</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#081重复交易与第三方背书-1"><span class="nav-number">9.2.1.</span> <span class="nav-text">081重复交易与第三方背书</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#083担保、延保与共享合同-1"><span class="nav-number">9.2.2.</span> <span class="nav-text">083担保、延保与共享合同</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#083沉没成本、人质与抵押-1"><span class="nav-number">9.2.3.</span> <span class="nav-text">083沉没成本、人质与抵押</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#084广告代言与形象打扮-1"><span class="nav-number">9.2.4.</span> <span class="nav-text">084广告代言与形象打扮</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#085特许经营合同中的强者和弱者-1"><span class="nav-number">9.2.5.</span> <span class="nav-text">085特许经营合同中的强者和弱者</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#086如何保障食品、药品和化妆品的质量-1"><span class="nav-number">9.2.6.</span> <span class="nav-text">086如何保障食品、药品和化妆品的质量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#087婚姻经济学-1"><span class="nav-number">9.2.7.</span> <span class="nav-text">087婚姻经济学</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#责任的分担-让防范的成本最小-1"><span class="nav-number">9.3.</span> <span class="nav-text">责任的分担 | 让防范的成本最小</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#088汉德公式-1"><span class="nav-number">9.3.1.</span> <span class="nav-text">088汉德公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#089-监管要看边际效应-1"><span class="nav-number">9.3.2.</span> <span class="nav-text">089 监管要看边际效应</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#090监管本身也要引入竞争机制-1"><span class="nav-number">9.3.3.</span> <span class="nav-text">090监管本身也要引入竞争机制</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#C9合作-为何同工不同酬-1"><span class="nav-number">10.</span> <span class="nav-text">C9合作 | 为何同工不同酬</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#决策权-谁来当老板-1"><span class="nav-number">10.1.</span> <span class="nav-text">决策权 | 谁来当老板</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#091企业的团队本质-1"><span class="nav-number">10.1.1.</span> <span class="nav-text">091企业的团队本质</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#092-谁来当老板：资本和劳动力-1"><span class="nav-number">10.1.2.</span> <span class="nav-text">092 谁来当老板：资本和劳动力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#093-谁来当老板：专用资源和通用资源-1"><span class="nav-number">10.1.3.</span> <span class="nav-text">093 谁来当老板：专用资源和通用资源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#094-谁来当老板：固定收入和剩余索取-1"><span class="nav-number">10.1.4.</span> <span class="nav-text">094 谁来当老板：固定收入和剩余索取</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#收入分配-政府是否应该劫富济贫-1"><span class="nav-number">10.2.</span> <span class="nav-text">收入分配 | 政府是否应该劫富济贫</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#095-收入的高低和节奏由什么决定-1"><span class="nav-number">10.2.1.</span> <span class="nav-text">095 收入的高低和节奏由什么决定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#096-事与愿违之同工同酬法-1"><span class="nav-number">10.2.2.</span> <span class="nav-text">096 事与愿违之同工同酬法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#097-事与愿违之最低工资法-1"><span class="nav-number">10.2.3.</span> <span class="nav-text">097 事与愿违之最低工资法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#098-基尼系数与收入分配-1"><span class="nav-number">10.2.4.</span> <span class="nav-text">098 基尼系数与收入分配</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#脱贫致富-最富裕的穷人在今天-1"><span class="nav-number">10.3.</span> <span class="nav-text">脱贫致富 | 最富裕的穷人在今天</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#099-工人违约是否应该成为权力-1"><span class="nav-number">10.3.1.</span> <span class="nav-text">099 工人违约是否应该成为权力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#100-罢工的性质-1"><span class="nav-number">10.3.2.</span> <span class="nav-text">100 罢工的性质</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#101-工作权力遇到的障碍-1"><span class="nav-number">10.3.3.</span> <span class="nav-text">101 工作权力遇到的障碍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#102-最富裕的穷人在今天-1"><span class="nav-number">10.3.4.</span> <span class="nav-text">102 最富裕的穷人在今天</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#10-协调-众人如何彼此影响-1"><span class="nav-number">11.</span> <span class="nav-text">10 协调 | 众人如何彼此影响</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#货币规律-货币像水又像蜜-1"><span class="nav-number">11.1.</span> <span class="nav-text">货币规律 | 货币像水又像蜜</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#103-货币的起源-1"><span class="nav-number">11.1.1.</span> <span class="nav-text">103 货币的起源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#104-商业银行创造货币-1"><span class="nav-number">11.1.2.</span> <span class="nav-text">104 商业银行创造货币</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#105通货膨胀的根源-1"><span class="nav-number">11.1.3.</span> <span class="nav-text">105通货膨胀的根源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#106-通货膨胀的过程-1"><span class="nav-number">11.1.4.</span> <span class="nav-text">106 通货膨胀的过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#107通货膨胀与失业-1"><span class="nav-number">11.1.5.</span> <span class="nav-text">107通货膨胀与失业</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#经济周期-聪明人彼此不同意-1"><span class="nav-number">11.2.</span> <span class="nav-text">经济周期 |聪明人彼此不同意</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#108-奥地利学派看经济周期-1"><span class="nav-number">11.2.1.</span> <span class="nav-text">108 奥地利学派看经济周期</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#109-凯恩斯主义学派看经济周期-1"><span class="nav-number">11.2.2.</span> <span class="nav-text">109 凯恩斯主义学派看经济周期</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#110-货币主义学派和理性预期学派-1"><span class="nav-number">11.2.3.</span> <span class="nav-text">110 货币主义学派和理性预期学派</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#111-真是经济周期理论-1"><span class="nav-number">11.2.4.</span> <span class="nav-text">111 真是经济周期理论</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#112-聪明人为什么会彼此不同意-1"><span class="nav-number">11.2.5.</span> <span class="nav-text">112 聪明人为什么会彼此不同意</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#公共选择-选举未必反应大多数人的意愿-1"><span class="nav-number">11.3.</span> <span class="nav-text">公共选择 选举未必反应大多数人的意愿</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#113-选举由中间派说了算-1"><span class="nav-number">11.3.1.</span> <span class="nav-text">113 选举由中间派说了算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#114-阿罗不可能定律-1"><span class="nav-number">11.3.2.</span> <span class="nav-text">114 阿罗不可能定律</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#115-民主为何会产生不良经济效应-1"><span class="nav-number">11.3.3.</span> <span class="nav-text">115 民主为何会产生不良经济效应</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#传统公共选择学派的理由-1"><span class="nav-number">11.3.3.1.</span> <span class="nav-text">传统公共选择学派的理由</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#唐纳德·魏特曼的反驳-1"><span class="nav-number">11.3.3.2.</span> <span class="nav-text">唐纳德·魏特曼的反驳</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#布莱恩·卡普兰的“理性胡闹-rational-irrationality-”理论-1"><span class="nav-number">11.3.3.3.</span> <span class="nav-text">布莱恩·卡普兰的“理性胡闹(rational irrationality)”理论</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#116-关于收入再分配的戴雷科特定律-1"><span class="nav-number">11.3.4.</span> <span class="nav-text">116 关于收入再分配的戴雷科特定律</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#对收入再分配的传统批评-1"><span class="nav-number">11.3.4.1.</span> <span class="nav-text">对收入再分配的传统批评</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#戴雷科特：收入再分配，真正得益的并不是穷人而是中等收入的人-1"><span class="nav-number">11.3.4.2.</span> <span class="nav-text">戴雷科特：收入再分配，真正得益的并不是穷人而是中等收入的人</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#117-脱贫致富之路知易行难-1"><span class="nav-number">11.3.5.</span> <span class="nav-text">117 脱贫致富之路知易行难</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#让穷人发挥自己的能动性才是最重要的-1"><span class="nav-number">11.3.5.1.</span> <span class="nav-text">让穷人发挥自己的能动性才是最重要的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#反思-1"><span class="nav-number">11.3.5.2.</span> <span class="nav-text">反思</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#118-中国做对了什么-1"><span class="nav-number">11.3.6.</span> <span class="nav-text">118 中国做对了什么</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#界定产权：以土地和人力资本为例-1"><span class="nav-number">11.3.6.1.</span> <span class="nav-text">界定产权：以土地和人力资本为例</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#引入市场竞争：从认人的制度改为认钱的制度-1"><span class="nav-number">11.3.6.2.</span> <span class="nav-text">引入市场竞争：从认人的制度改为认钱的制度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#鼓励民营企业发展：充分利用企业家的优势-1"><span class="nav-number">11.3.6.3.</span> <span class="nav-text">鼓励民营企业发展：充分利用企业家的优势</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#加入世界贸易组织：开放国门迎接竞争-1"><span class="nav-number">11.3.6.4.</span> <span class="nav-text">加入世界贸易组织：开放国门迎接竞争</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#何为地道的经济学思维-1"><span class="nav-number">12.</span> <span class="nav-text">何为地道的经济学思维</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-可证伪的才是地道的-1"><span class="nav-number">12.0.0.1.</span> <span class="nav-text">1 可证伪的才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-与生活相关的才是地道的-1"><span class="nav-number">12.0.0.2.</span> <span class="nav-text">2 与生活相关的才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-看不见的才是地道的-1"><span class="nav-number">12.0.0.3.</span> <span class="nav-text">3 看不见的才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-能分辨原因和结果的才是地道的-1"><span class="nav-number">12.0.0.4.</span> <span class="nav-text">4 能分辨原因和结果的才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-能分辨事实和语言的才是地道的-1"><span class="nav-number">12.0.0.5.</span> <span class="nav-text">5 能分辨事实和语言的才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-能分辨愿望与结果才是地道的-1"><span class="nav-number">12.0.0.6.</span> <span class="nav-text">6 能分辨愿望与结果才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-能分辨个体和全体的才是地道的-1"><span class="nav-number">12.0.0.7.</span> <span class="nav-text">7 能分辨个体和全体的才是地道的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-牢记基本事实才是地道的-1"><span class="nav-number">12.0.0.8.</span> <span class="nav-text">8 牢记基本事实才是地道的</span></a></li></ol></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">？</p>
+  <div class="site-description" itemprop="description">一个集知识与经历的博客</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">？</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.6.0
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
